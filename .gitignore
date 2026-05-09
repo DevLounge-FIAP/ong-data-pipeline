@@ -1,0 +1,18 @@
+# Ambientes Virtuais
+venv/
+env/
+
+# Credenciais e Variáveis de Ambiente (CRÍTICO)
+.env
+credenciais.json
+*-secret.json
+
+# Arquivos temporários do Python e do SO
+__pycache__/
+*.pyc
+.DS_Store
+
+# Dados locais (para não subir CSV com dados reais da ONG)
+data/*.csv
+data/*.xlsx
+!data/.gitkeep
