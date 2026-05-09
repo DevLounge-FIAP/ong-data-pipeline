@@ -17,6 +17,12 @@ def extrair_dados_bronze():
     caminho_credenciais = os.getenv("GOOGLE_CREDENTIALS_PATH")
     id_planilha = os.getenv("GOOGLE_SHEET_ID")
     
+    # Validar que as variáveis de ambiente estão configuradas
+    if not caminho_credenciais:
+        raise ValueError("Variável de ambiente GOOGLE_CREDENTIALS_PATH não configurada. Verifique o arquivo .env")
+    if not id_planilha:
+        raise ValueError("Variável de ambiente GOOGLE_SHEET_ID não configurada. Verifique o arquivo .env")
+    
     # Autenticação
     client = gspread.service_account(filename=caminho_credenciais)
     
@@ -25,7 +31,7 @@ def extrair_dados_bronze():
     
     # Extrair as abas para DataFrames
     df_doacoes = pd.DataFrame(planilha.worksheet("Controle de Doações").get_all_records())
-    df_saidas = pd.DataFrame(planilha.worksheet("Registro de Adoção / Saída").get_all_records())
+    df_saidas = pd.DataFrame(planilha.worksheet("Registro de Adoção / Saída").get_all_records()) 
     df_prontuario = pd.DataFrame(planilha.worksheet("Prontuário Médico e Rotina").get_all_records())
     df_entradas = pd.DataFrame(planilha.worksheet("Entrada / Novo Resgate").get_all_records())
     
