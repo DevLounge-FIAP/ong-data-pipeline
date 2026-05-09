@@ -6,6 +6,7 @@ env/
 .env
 credenciais.json
 *-secret.json
+pipeline-ong-4893044cb891.json
 
 # Arquivos temporários do Python e do SO
 __pycache__/
