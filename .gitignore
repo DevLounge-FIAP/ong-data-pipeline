@@ -4,9 +4,7 @@ env/
 
 # Credenciais e Variáveis de Ambiente (CRÍTICO)
 .env
-credenciais.json
-*-secret.json
-pipeline-ong-4893044cb891.json
+*.json
 
 # Arquivos temporários do Python e do SO
 __pycache__/
