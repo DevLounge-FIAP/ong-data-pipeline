@@ -78,7 +78,7 @@ def _ler_aba(planilha: gspread.Spreadsheet, chave: str) -> pd.DataFrame:
     """
     nome_aba = ABAS[chave]
     try:
-        aba = planilha.worksheet(nome_aba)
+        aba = planilha.worksheet(nome_aba) # retorna o nome da aba
     except gspread.exceptions.WorksheetNotFound:
         raise ValueError(
             f"Aba '{nome_aba}' não encontrada na planilha.\n"
