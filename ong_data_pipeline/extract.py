@@ -9,6 +9,7 @@ load_dotenv()
 log = logging.getLogger(__name__)
 
 # Nome exato das abas na planilha centralizado aqui para facilitar manutenção
+#Guarda as abas dentro de um dicionario.
 ABAS = {
     "doacoes":     "Controle de Doações",
     "saidas":      "Registro de Adoção / Saída",
@@ -16,9 +17,13 @@ ABAS = {
     "entradas":    "Entrada / Novo Resgate",
 }
 
-
+#Autenticação do Google
 def _autenticar() -> gspread.Client:
-    credentials_json = os.getenv("GOOGLE_CREDENTIALS_JSON")
+
+    '''ARGS:
+        Função retorna gspread.service_account, ou seja a autenticação
+    '''
+    credentials_json = os.getenv("GOOGLE_CREDENTIALS_JSON")  #Basicamente procura a credencial do google no env para não ficar exposta
 
     if credentials_json:
         log.info("Autenticando via GOOGLE_CREDENTIALS_JSON (GitHub Actions)")
@@ -75,7 +80,7 @@ def extrair_dados_bronze() -> dict[str, pd.DataFrame]:
     client = _autenticar()
 
     try:
-        planilha = client.open_by_key(id_planilha)
+        planilha = client.open_by_key(id_planilha) #Abre por chave da planilha
     except gspread.exceptions.SpreadsheetNotFound:
         raise ValueError(f"Planilha com ID '{id_planilha}' não encontrada.")
 
