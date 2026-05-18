@@ -1,10 +1,6 @@
 import logging
 import pandas as pd
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s"
-)
 log = logging.getLogger(__name__)
 
 
@@ -524,3 +520,25 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
 
     log.info(f"[SILVER] Saídas: {len(df)} registros transformados")
     return df
+
+
+def transformar_dados(bronze: dict[str, pd.DataFrame]) -> dict[str, pd.DataFrame]:
+    """Wrapper que transforma todas as abas do bronze para silver.
+
+    Recebe um dicionário com as abas (chaves: 'doacoes','saidas','prontuarios','entradas')
+    e retorna um dicionário com os DataFrames transformados.
+    """
+    log.info("[SILVER] Iniciando transformação de todas as abas")
+    silver: dict[str, pd.DataFrame] = {}
+
+    if "entradas" in bronze:
+        silver["entradas"] = transformar_entradas(bronze["entradas"])
+    if "doacoes" in bronze:
+        silver["doacoes"] = transformar_doacoes(bronze["doacoes"])
+    if "prontuarios" in bronze:
+        silver["prontuarios"] = transformar_prontuarios(bronze["prontuarios"])
+    if "saidas" in bronze:
+        silver["saidas"] = transformar_saidas(bronze["saidas"])
+
+    log.info(f"[SILVER] Transformação completa — {len(silver)} abas processadas")
+    return silver

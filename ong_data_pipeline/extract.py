@@ -6,11 +6,6 @@ import pandas as pd
 from dotenv import load_dotenv
 
 load_dotenv()
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s"
-)
 log = logging.getLogger(__name__)
 
 # Nome exato das abas na planilha centralizado aqui para facilitar manutenção

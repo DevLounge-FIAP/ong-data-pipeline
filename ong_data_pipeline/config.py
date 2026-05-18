@@ -5,27 +5,27 @@ from sqlalchemy import create_engine
 load_dotenv()
 
 def get_database_url() -> str | None:
-    """Return a SQLAlchemy-compatible database URL from env vars.
-
-    Priority:
-      - AIVEN_DB_URL
-      - SQLALCHEMY_DATABASE_URL / DATABASE_URL
-      - DB_USER/DB_PASS/DB_HOST/DB_NAME
-    """
-    return (
+    url = (
         os.getenv("AIVEN_DB_URL")
         or os.getenv("SQLALCHEMY_DATABASE_URL")
         or os.getenv("DATABASE_URL")
-        or (
-            os.getenv("DB_USER")
-            and os.getenv("DB_PASS")
-            and os.getenv("DB_HOST")
-            and os.getenv("DB_NAME")
-            and (
-                f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PASS')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT','3306')}/{os.getenv('DB_NAME')}"
-            )
-        )
     )
+    # SQLAlchemy 2.x não aceita postgres://, só postgresql://
+    if url and url.startswith("postgres://"):
+        url = url.replace("postgres://", "postgresql://", 1)
+
+    if url:
+        return url
+
+    # Fallback por partes — só monta se TODAS as variáveis existirem
+    required = ["DB_USER", "DB_PASS", "DB_HOST", "DB_NAME"]
+    if all(os.getenv(v) for v in required):
+        return (
+            f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PASS')}"
+            f"@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT', '3306')}/{os.getenv('DB_NAME')}"
+        )
+
+    return None
 
 
 def get_engine(echo: bool = False):

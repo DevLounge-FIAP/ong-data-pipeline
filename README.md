@@ -6,6 +6,10 @@ Resumo
 ------
 Pipeline ETL que extrai 4 abas de um Google Sheet (alimentado por Google Forms), aplica transformações (arquitetura medalhão: Bronze → Silver → Gold) e carrega para um MySQL (Aiven) para consumo no Looker.
 
+Requisitos
+---------
+- Python 3.10 ou superior
+
 Quickstart (local)
 -------------------
 1. Crie um arquivo `.env` com as variáveis necessárias:
