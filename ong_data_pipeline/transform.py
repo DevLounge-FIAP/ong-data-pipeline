@@ -99,10 +99,10 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
     })
 
     # 3. Carimbo — datetime do Sheets, remover microssegundos
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce").dt.floor("s")
+    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
     # 4. Data de Entrada — [REQ], manter só a data sem hora
-    df["data_entrada"] = pd.to_datetime(df["data_entrada"], errors="coerce").dt.date
+    df["data_entrada"] = pd.to_datetime(df["data_entrada"], dayfirst=True, errors="coerce").dt.date
 
     nulos = df["data_entrada"].isna().sum()
     if nulos > 0:
@@ -203,7 +203,7 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Data da Doação",
         "Tipo de Doação",
         "Categoria do Medicamento",
-        "Nome específico",
+        "Nome específico do Medicamento",
         "Valor Doado (R$)",
         "Tipo de Doador",
         "Nome do Doador",
@@ -215,17 +215,17 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Data da Doação":         "data_doacao",
         "Tipo de Doação":         "tipo_doacao",
         "Categoria do Medicamento": "categoria_medicamento",
-        "Nome específico":        "nome_medicamento",
+        "Nome específico do Medicamento": "nome_medicamento",
         "Valor Doado (R$)":       "valor_doado",
         "Tipo de Doador":         "tipo_doador",
         "Nome do Doador":         "nome_doador",
     })
 
     # 3. Carimbo
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce").dt.floor("s")
+    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
     # 4. Data da Doação — [REQ]
-    df["data_doacao"] = pd.to_datetime(df["data_doacao"], errors="coerce").dt.date
+    df["data_doacao"] = pd.to_datetime(df["data_doacao"], dayfirst=True, errors="coerce").dt.date
 
     nulos_data = df["data_doacao"].isna().sum()
     if nulos_data > 0:
@@ -331,7 +331,7 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Categoria do Medicamento",
         "Nome específico Medicamento",
         "Categoria da Vacina",
-        "Nome específico",
+        "Nome específico Vacina",
         "Nome da Cirurgia realizada",
     ]].copy()
 
@@ -344,12 +344,12 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Categoria do Medicamento":    "categoria_medicamento",
         "Nome específico Medicamento": "nome_medicamento",
         "Categoria da Vacina":         "categoria_vacina",
-        "Nome específico":             "nome_vacina",
+        "Nome específico Vacina":      "nome_vacina",
         "Nome da Cirurgia realizada":  "nome_cirurgia",
     })
 
     # 3. Carimbo
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce").dt.floor("s")
+    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
     # 4. Data do Procedimento — [REQ]
     df["data_procedimento"] = pd.to_datetime(
@@ -477,10 +477,10 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
     })
 
     # 3. Carimbo
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce").dt.floor("s")
+    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
     # 4. Data da Saída — [REQ]
-    df["data_saida"] = pd.to_datetime(df["data_saida"], errors="coerce").dt.date
+    df["data_saida"] = pd.to_datetime(df["data_saida"], dayfirst=True, errors="coerce").dt.date
 
     nulos_data = df["data_saida"].isna().sum()
     if nulos_data > 0:
