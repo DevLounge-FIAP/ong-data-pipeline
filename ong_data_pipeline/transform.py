@@ -3,30 +3,8 @@ import pandas as pd
 
 log = logging.getLogger(__name__)
 
-
-def _strip_texto(df: pd.DataFrame, colunas: list) -> pd.DataFrame:
-    for col in colunas:
-        df[col] = df[col].astype(str).str.strip().str.title()
-    return df
-
-
-def _opcional_para_string(df: pd.DataFrame, colunas: list) -> pd.DataFrame:
-    for col in colunas:
-        df[col] = df[col].fillna("").astype(str).str.strip().str.title()
-    return df
-
-
-def _id_para_string(df: pd.DataFrame, colunas: list) -> pd.DataFrame:
-    for col in colunas:
-        df[col] = df[col].apply(
-            lambda x: str(int(x)) if pd.notna(x) and str(x).strip() != "" else ""
-        )
-    return df
-
-
-
 # ---------------------------------------------------------------------------
-#   Constantes — Formulário 1
+#   Constantes — Formulário Entrada / Novo Resgate
 # ---------------------------------------------------------------------------
 
 # Multi-choice: valores exatos que o Forms entrega
@@ -39,12 +17,12 @@ def _normalizar_condicao(valor: str) -> str:
     Valida cada parte individualmente contra os valores do Forms.
     Usa comparação case-insensitive para proteger contra variações de entrega do Sheets.
     """
-    mapa = {v.lower(): v for v in CONDICAO_VALIDA}
-    partes    = [p.strip() for p in valor.split(",")]
-    validas   = [mapa[p.lower()] for p in partes if p.lower() in mapa]
-    invalidas = [p for p in partes if p.lower() not in mapa]
+    mapa = {v.lower(): v for v in CONDICAO_VALIDA} #Pega cada condição e coloca em lowercase
+    partes    = [p.strip() for p in valor.split(",")] #Pega o valor passado e tira espaços
+    validas   = [mapa[p.lower()] for p in partes if p.lower() in mapa] # Armazena na variavel validas só oque estiver em mapa(CONDICAO_VALIDA)
+    invalidas = [p for p in partes if p.lower() not in mapa] #Armazena na variavel invalidas qualquer coisas que não estiver definido no mapa(CONDICAO_VALIDA)
 
-    if invalidas:
+    if invalidas: #Se a variavel invalidas tiver algo faz isso
         log.warning(f"[SILVER] Condição de saúde não reconhecida: {invalidas} → ignorada")
 
     return ", ".join(validas) if validas else "Desconhecido"
@@ -66,7 +44,7 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
     """
     log.info("[SILVER] Iniciando transformação: Entrada / Novo Resgate")
 
-    df = df_raw.copy()
+    df = df_raw.copy() #Cria uma copia do dataframe original vindo do extract.py
 
     # 1. Limpar espaços dos nomes de colunas — artefato do Sheets
     df.columns = df.columns.str.strip()
