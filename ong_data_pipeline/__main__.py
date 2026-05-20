@@ -1,3 +1,4 @@
+import argparse
 import logging
 
 from .extract import extrair_dados_bronze
@@ -11,12 +12,44 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
+#Função para visualar os df no terminal --Só teste
+def _preview(bronze: dict, silver: dict, rows: int = 5) -> None:
+    log.info(f"Preview das primeiras {rows} linhas por aba — Bronze")
+    for nome, df in bronze.items():
+        print("\n" + "=" * 60)
+        print(f"BRONZE — {nome} ({len(df)} linhas, {len(df.columns)} colunas)")
+        try:
+            print(df.head(rows).to_string(index=False))
+        except Exception:
+            print(df.head(rows))
 
-def main():
+    log.info(f"Preview das primeiras {rows} linhas por aba — Silver")
+    for nome, df in silver.items():
+        print("\n" + "=" * 60)
+        print(f"SILVER — {nome} ({len(df)} linhas, {len(df.columns)} colunas)")
+        try:
+            print(df.head(rows).to_string(index=False))
+        except Exception:
+            print(df.head(rows))
+
+
+def main(argv: list | None = None) -> None:
+    parser = argparse.ArgumentParser(description="Runner do pipeline ONG Data Pipeline")
+    parser.add_argument("--preview", action="store_true",
+                        help="Mostra as primeiras linhas de cada aba (bronze/silver) no terminal")
+    parser.add_argument("--rows", type=int, default=5,
+                        help="Número de linhas a mostrar em --preview (padrão: 5)")
+    args = parser.parse_args(argv)
+
     log.info("Iniciando pipeline ETL")
 
     bronze = extrair_dados_bronze()
     silver = transformar_dados(bronze)
+
+    if args.preview:
+        _preview(bronze, silver, rows=args.rows)
+        log.info("Preview concluído")
+        return
 
     engine = get_engine()
     carregar_para_dw(silver, engine=engine)
