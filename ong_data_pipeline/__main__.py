@@ -4,6 +4,7 @@ import logging
 from .extract import extrair_dados_bronze
 from .transform import transformar_dados
 from .load import carregar_para_dw
+from .config import get_bq_config
 
 logging.basicConfig(
     level=logging.INFO,
@@ -50,8 +51,10 @@ def main(argv: list | None = None) -> None:
         log.info("Preview concluído")
         return
 
-    carregar_para_dw(silver,...)
 
+    project_id, dataset_id = get_bq_config()
+    carregar_para_dw(silver, project_id, dataset_id)
+    
     log.info("Pipeline concluído")
 
 

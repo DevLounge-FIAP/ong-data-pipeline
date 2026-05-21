@@ -218,7 +218,7 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
 
     # 7. Valor Doado — condicional: só existe quando tipo_doacao == "Dinheiro"
     #    NaN para outros tipos é ESPERADO — não preencher com 0.0
-    #    Converter para float garante tipagem correta para o MySQL
+    #    Converter para float garante tipagem correta para o BigQuery
     df["valor_doado"] = pd.to_numeric(df["valor_doado"], errors="coerce").astype("Float64")
 
     # 8. Campos condicionais de Medicamentos

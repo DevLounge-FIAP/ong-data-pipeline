@@ -26,6 +26,7 @@ jobs:
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-          AIVEN_DB_URL: ${{ secrets.AIVEN_DB_URL }}
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          BQ_DATASET_ID: ${{ secrets.BQ_DATASET_ID }}
         run: |
           python -m ong_data_pipeline
