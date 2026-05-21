@@ -3,7 +3,6 @@ import logging
 
 from .extract import extrair_dados_bronze
 from .transform import transformar_dados
-from .config import get_engine
 from .load import carregar_para_dw
 
 logging.basicConfig(
@@ -51,8 +50,7 @@ def main(argv: list | None = None) -> None:
         log.info("Preview concluído")
         return
 
-    engine = get_engine()
-    carregar_para_dw(silver, engine=engine)
+    carregar_para_dw(silver,...)
 
     log.info("Pipeline concluído")
 
