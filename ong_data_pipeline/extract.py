@@ -1,12 +1,14 @@
 import os
 import json
 import logging
+import time
 import gspread
 import pandas as pd
 from dotenv import load_dotenv
 
 load_dotenv()
 log = logging.getLogger(__name__)
+RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 
 # Nome exato das abas na planilha centralizado aqui para facilitar manutenção
 #Guarda as abas dentro de um dicionario.
@@ -49,14 +51,44 @@ def _autenticar() -> gspread.Client:
     )
 
 
+def _is_retryable_api_error(error: gspread.exceptions.APIError) -> bool:
+    response = getattr(error, "response", None)
+    status_code = getattr(response, "status_code", None)
+    return status_code in RETRYABLE_STATUS_CODES
+
+
+def _executar_com_retentativas(descricao: str, operacao, max_tentativas: int = 4, base_delay: float = 1.0):
+    for tentativa in range(1, max_tentativas + 1):
+        try:
+            return operacao()
+        except gspread.exceptions.APIError as error:
+            if tentativa >= max_tentativas or not _is_retryable_api_error(error):
+                raise
+
+            response = getattr(error, "response", None)
+            status_code = getattr(response, "status_code", "desconhecido")
+            delay = base_delay * (2 ** (tentativa - 1))
+            log.warning(
+                f"{descricao} falhou com status {status_code}; "
+                f"retentativa {tentativa}/{max_tentativas} em {delay:.1f}s"
+            )
+            time.sleep(delay)
+
+
 def _ler_aba(planilha: gspread.Spreadsheet, chave: str) -> pd.DataFrame:
     nome_aba = ABAS[chave]
     try:
-        aba = planilha.worksheet(nome_aba)
+        aba = _executar_com_retentativas(
+            f"Abertura da aba '{nome_aba}'",
+            lambda: planilha.worksheet(nome_aba),
+        )
     except gspread.exceptions.WorksheetNotFound:
         raise ValueError(f"Aba '{nome_aba}' não encontrada na planilha.")
 
-    valores = aba.get_all_values()
+    valores = _executar_com_retentativas(
+        f"Leitura da aba '{nome_aba}'",
+        lambda: aba.get_all_values(),
+    )
 
     if not valores or len(valores) < 2:
         log.warning(f"Aba '{nome_aba}' está vazia ou só tem cabeçalho — retornando DataFrame vazio")
@@ -90,7 +122,7 @@ def extrair_dados_bronze() -> dict[str, pd.DataFrame]:
     for chave in ABAS:
         try:
             dados[chave] = _ler_aba(planilha, chave)
-        except Exception as e:
+        except ValueError as e:
             log.error(f"Falha ao extrair aba '{ABAS[chave]}': {e}")
             falhas.append(chave)
 

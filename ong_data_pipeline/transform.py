@@ -79,8 +79,10 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
     # 3. Carimbo — datetime do Sheets, remover microssegundos
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
-    # 4. Data de Entrada — [REQ], manter só a data sem hora
-    df["data_entrada"] = pd.to_datetime(df["data_entrada"], dayfirst=True, errors="coerce").dt.date
+    # 4. Data de Entrada — [REQ], manter dtype datetime64 para carga no BigQuery
+    df["data_entrada"] = pd.to_datetime(
+        df["data_entrada"], dayfirst=True, errors="coerce"
+    ).dt.normalize()
 
     nulos = df["data_entrada"].isna().sum()
     if nulos > 0:
@@ -202,8 +204,10 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
     # 3. Carimbo
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
-    # 4. Data da Doação — [REQ]
-    df["data_doacao"] = pd.to_datetime(df["data_doacao"], dayfirst=True, errors="coerce").dt.date
+    # 4. Data da Doação — [REQ], manter dtype datetime64 para carga no BigQuery
+    df["data_doacao"] = pd.to_datetime(
+        df["data_doacao"], dayfirst=True, errors="coerce"
+    ).dt.normalize()
 
     nulos_data = df["data_doacao"].isna().sum()
     if nulos_data > 0:
@@ -329,10 +333,10 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
     # 3. Carimbo
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
-    # 4. Data do Procedimento — [REQ]
+    # 4. Data do Procedimento — [REQ], manter dtype datetime64 para carga no BigQuery
     df["data_procedimento"] = pd.to_datetime(
         df["data_procedimento"], dayfirst=True, errors="coerce"
-    ).dt.date
+    ).dt.normalize()
 
     nulos_data = df["data_procedimento"].isna().sum()
     if nulos_data > 0:
@@ -457,8 +461,10 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
     # 3. Carimbo
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
-    # 4. Data da Saída — [REQ]
-    df["data_saida"] = pd.to_datetime(df["data_saida"], dayfirst=True, errors="coerce").dt.date
+    # 4. Data da Saída — [REQ], manter dtype datetime64 para carga no BigQuery
+    df["data_saida"] = pd.to_datetime(
+        df["data_saida"], dayfirst=True, errors="coerce"
+    ).dt.normalize()
 
     nulos_data = df["data_saida"].isna().sum()
     if nulos_data > 0:

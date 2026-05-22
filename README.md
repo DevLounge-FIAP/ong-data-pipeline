@@ -1,10 +1,11 @@
-(The file `c:\Dev\Projetos\ong-data-pipeline\README.md` exists, but is empty)
 ONG Data Pipeline
 =================
 
 Resumo
 ------
-Pipeline ETL que extrai 4 abas de um Google Sheet (alimentado por Google Forms), aplica transformações na camada Silver e carrega os dados no BigQuery para consumo analítico.
+Pipeline ETL que extrai 4 abas de um Google Sheet (alimentado por Google Forms), aplica transformações na camada Silver e carrega os dados no BigQuery para consumo analítico atraves do Looker.
+
+O carregamento no BigQuery usa full refresh por tabela (`replace`) e o acesso ao Google Sheets possui retentativas para erros transitórios como `429`.
 
 Requisitos
 ---------
