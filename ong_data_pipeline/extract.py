@@ -19,7 +19,7 @@ ABAS = {
     "entradas":    "Entrada / Novo Resgate",
 }
 
-#Autenticação do Google
+#Autenticação do Google Spread Sheet
 def _autenticar() -> gspread.Client:
 
     '''ARGS:

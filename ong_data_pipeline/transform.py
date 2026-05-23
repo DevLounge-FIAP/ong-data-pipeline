@@ -105,7 +105,7 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
 
     # 8. Condição de Saúde — multi-choice, validar cada valor individualmente
     df["condicao_saude"]         = df["condicao_saude"].astype(str).str.strip().apply(_normalizar_condicao)
-    df["flag_multiplas_condicoes"] = df["condicao_saude"].str.contains(",").astype(int)
+    df["flag_multiplas_condicoes"] = df["condicao_saude"].str.contains(",").astype(str)
 
     # 9. Histórico — único campo não obrigatório
     #    fillna("") antes do astype(str) evita que NaN vire a string "nan"

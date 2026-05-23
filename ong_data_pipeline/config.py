@@ -6,7 +6,7 @@ load_dotenv()
 def get_bq_config() -> tuple[str, str]:
     project_id = os.getenv("GCP_PROJECT_ID")
     dataset_id = os.getenv("BQ_DATASET_ID")
-
+    
     missing = [
         nome
         for nome, valor in (
