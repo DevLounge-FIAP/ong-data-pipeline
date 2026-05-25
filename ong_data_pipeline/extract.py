@@ -12,6 +12,7 @@ RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 
 # Nome exato das abas na planilha centralizado aqui para facilitar manutenção
 #Guarda as abas dentro de um dicionario.
+#É o contrato do projeto
 ABAS = {
     "doacoes":     "Controle de Doações",
     "saidas":      "Registro de Adoção / Saída",
@@ -103,6 +104,9 @@ def _ler_aba(planilha: gspread.Spreadsheet, chave: str) -> pd.DataFrame:
 
 
 def extrair_dados_bronze() -> dict[str, pd.DataFrame]:
+    """
+    Retorna um dicionario de dataframes para cada aba
+    """
     log.info("Iniciando extração da Camada Bronze...")
 
     id_planilha = os.getenv("GOOGLE_SHEET_ID")
