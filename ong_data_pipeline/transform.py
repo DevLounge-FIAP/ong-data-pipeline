@@ -108,9 +108,17 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
     df["condicao_saude"]         = df["condicao_saude"].astype(str).str.strip().apply(_normalizar_condicao)
     df["flag_multiplas_condicoes"] = df["condicao_saude"].str.contains(",").astype(str)
     for condicao in CONDICAO_VALIDA:
-        col_name = f"is_{condicao.lower().replace(' ', '_')}"
+        sufixo = condicao.lower().replace(' ', '_').replace('á', 'a')
+        col_name = f"is_{sufixo}"
         df[col_name] = df["condicao_saude"].str.contains(condicao, case= False, na= False)
-    
+    if "flag_multiplas_condicoes" in df.columns:
+        df["flag_multiplas_condicoes"] = df["flag_multiplas_condicoes"].replace({
+            "True": 1, "False": 0,
+            "true": 1, "false": 0,
+            True: 1, False: 0
+        }).astype("Int64")
+    colunas_is = [col for col in df.columns if col.startswith("is_")]
+    df[colunas_is] = df[colunas_is].astype("boolean")
     # 9. Histórico — único campo não obrigatório
     #    fillna("") antes do astype(str) evita que NaN vire a string "nan"
     df["historico"] = (

@@ -18,6 +18,12 @@ BIGQUERY_SCHEMAS: dict[str, list[dict[str, str]]] = {
         {"name": "historico", "type": "STRING", "mode": "NULLABLE"},
         {"name": "nome_completo", "type": "STRING", "mode": "NULLABLE"},
         {"name": "flag_multiplas_condicoes", "type": "INTEGER", "mode": "NULLABLE"},
+        {"name": "is_doente", "type": "BOOL", "mode": "NULLABLE"},
+        {"name": "is_saudavel", "type": "BOOL", "mode": "NULLABLE"},
+        {"name": "is_ferido", "type": "BOOL", "mode": "NULLABLE"},
+        {"name": "is_desconhecido", "type": "BOOL", "mode": "NULLABLE"},
+        {"name": "is_desnutrido", "type": "BOOL", "mode": "NULLABLE"},
+        {"name": "id_animal", "type": "STRING", "mode": "REQUIRED"},
     ],
     "silver_doacoes": [
         {"name": "carimbo_ts", "type": "TIMESTAMP", "mode": "REQUIRED"},
