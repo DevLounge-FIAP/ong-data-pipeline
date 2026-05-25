@@ -1,5 +1,6 @@
 import logging
 import pandas as pd
+import hashlib
 
 log = logging.getLogger(__name__)
 
@@ -106,7 +107,10 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
     # 8. Condição de Saúde — multi-choice, validar cada valor individualmente
     df["condicao_saude"]         = df["condicao_saude"].astype(str).str.strip().apply(_normalizar_condicao)
     df["flag_multiplas_condicoes"] = df["condicao_saude"].str.contains(",").astype(str)
-
+    for condicao in CONDICAO_VALIDA:
+        col_name = f"is_{condicao.lower().replace(' ', '_')}"
+        df[col_name] = df["condicao_saude"].str.contains(condicao, case= False, na= False)
+    
     # 9. Histórico — único campo não obrigatório
     #    fillna("") antes do astype(str) evita que NaN vire a string "nan"
     df["historico"] = (
@@ -118,7 +122,10 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
         .str.replace(r"\s+", " ", regex=True)    # múltiplos espaços
         .str.strip()
     )
-
+    def gerar_id(row):
+        string_base = f"{row['carimbo_ts']}_{row['nome_responsavel']}_{row['especie']}]"
+        return "ANI-" + hashlib.md5(string_base.encode()).hexdigest()[:6].upper()
+    df['id_animal'] = df.apply(gerar_id, axis=1)
     log.info(f"[SILVER] Entradas: {len(df)} registros transformados")
     return df
 
