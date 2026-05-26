@@ -1,10 +1,10 @@
 import argparse
 import logging
 
-from .extract import extrair_dados_bronze
-from .transform import transformar_dados
-from .load import carregar_para_dw
-from .config import get_bq_config
+from .extract.extract import extrair_dados_bronze
+from .transform.silver import transformar_dados
+from .load.bigquery import carregar_para_dw
+from .core.config import get_bq_config
 
 logging.basicConfig(
     level=logging.INFO,
