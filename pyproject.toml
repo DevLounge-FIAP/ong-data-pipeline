@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ong-data-pipeline"
+version = "0.1.0"
+description = "ONG pipeline"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ong_data_pipeline*"]

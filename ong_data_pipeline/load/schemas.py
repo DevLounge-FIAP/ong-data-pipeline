@@ -1,5 +1,5 @@
-def schemas():
-    BIGQUERY_SCHEMAS: dict[str, list[dict[str, str]]] = {
+def schemas_silver():
+    BIGQUERY_SCHEMAS_SILVER: dict[str, list[dict[str, str]]] = {
         "silver_entradas": [
             {"name": "carimbo_ts", "type": "TIMESTAMP", "mode": "REQUIRED"},
             {"name": "data_entrada", "type": "DATE", "mode": "REQUIRED"},
@@ -56,4 +56,10 @@ def schemas():
             {"name": "tipo_imovel", "type": "STRING", "mode": "NULLABLE"},
         ],
     }
-    return BIGQUERY_SCHEMAS
+    return BIGQUERY_SCHEMAS_SILVER
+
+def schemas_gold():
+    BIGQUERY_SCHEMAS_GOLD: dict[str, list[dict[str, str]]] = {
+        
+    }
+    return BIGQUERY_SCHEMAS_GOLD
