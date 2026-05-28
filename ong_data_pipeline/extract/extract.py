@@ -2,8 +2,7 @@ import os
 import logging
 import gspread
 import pandas as pd
-from dotenv import load_dotenv
-from ..core.config import _executar_com_retentativas, _autenticar
+from ..core.config import obter_planilha_autenticada, ler_aba_com_retentativas
 
 log = logging.getLogger(__name__)
 
@@ -21,18 +20,7 @@ ABAS = {
 
 def _ler_aba(planilha: gspread.Spreadsheet, chave: str) -> pd.DataFrame:
     nome_aba = ABAS[chave]
-    try:
-        aba = _executar_com_retentativas(
-            f"Abertura da aba '{nome_aba}'",
-            lambda: planilha.worksheet(nome_aba),
-        )
-    except gspread.exceptions.WorksheetNotFound:
-        raise ValueError(f"Aba '{nome_aba}' não encontrada na planilha.")
-
-    valores = _executar_com_retentativas(
-        f"Leitura da aba '{nome_aba}'",
-        lambda: aba.get_all_values(),
-    )
+    valores = ler_aba_com_retentativas(planilha, nome_aba)
 
     if not valores or len(valores) < 2:
         log.warning(f"Aba '{nome_aba}' está vazia ou só tem cabeçalho — retornando DataFrame vazio")
@@ -56,12 +44,7 @@ def extrair_dados_bronze() -> dict[str, pd.DataFrame]:
     if not id_planilha:
         raise ValueError("Variável de ambiente GOOGLE_SHEET_ID não configurada.")
 
-    client = _autenticar()
-
-    try:
-        planilha = client.open_by_key(id_planilha) #Abre por chave da planilha
-    except gspread.exceptions.SpreadsheetNotFound:
-        raise ValueError(f"Planilha com ID '{id_planilha}' não encontrada.")
+    planilha = obter_planilha_autenticada(id_planilha)
 
     dados = {}
     falhas = []

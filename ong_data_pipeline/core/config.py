@@ -4,6 +4,7 @@ import logging
 import gspread
 import json
 import time
+from typing import Callable, TypeVar
 
 load_dotenv()
 
@@ -31,6 +32,7 @@ def get_bq_config() -> tuple[str, str]:
 
 log = logging.getLogger(__name__)
 RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+T = TypeVar("T")
 
 
 #Autenticação do Google Spread Sheet
@@ -71,7 +73,12 @@ def _is_retryable_api_error(error: gspread.exceptions.APIError) -> bool:
     return status_code in RETRYABLE_STATUS_CODES
 
 
-def _executar_com_retentativas(descricao: str, operacao, max_tentativas: int = 4, base_delay: float = 1.0):
+def _executar_com_retentativas(
+    descricao: str,
+    operacao: Callable[[], T],
+    max_tentativas: int = 4,
+    base_delay: float = 1.0,
+) -> T:
     for tentativa in range(1, max_tentativas + 1):
         try:
             return operacao()
@@ -87,3 +94,34 @@ def _executar_com_retentativas(descricao: str, operacao, max_tentativas: int = 4
                 f"retentativa {tentativa}/{max_tentativas} em {delay:.1f}s"
             )
             time.sleep(delay)
+
+    raise RuntimeError(f"{descricao} falhou após {max_tentativas} tentativas.")
+
+
+def obter_planilha_autenticada(id_planilha: str) -> gspread.Spreadsheet:
+    """Autentica no Google Sheets e abre a planilha informada por ID."""
+    client = _autenticar()
+
+    try:
+        return _executar_com_retentativas(
+            f"Abertura da planilha '{id_planilha}'",
+            lambda: client.open_by_key(id_planilha),
+        )
+    except gspread.exceptions.SpreadsheetNotFound as error:
+        raise ValueError(f"Planilha com ID '{id_planilha}' não encontrada.") from error
+
+
+def ler_aba_com_retentativas(planilha: gspread.Spreadsheet, nome_aba: str) -> list[list[str]]:
+    """Lê todos os valores de uma aba com retentativas para erros transitórios."""
+    try:
+        aba = _executar_com_retentativas(
+            f"Abertura da aba '{nome_aba}'",
+            lambda: planilha.worksheet(nome_aba),
+        )
+    except gspread.exceptions.WorksheetNotFound as error:
+        raise ValueError(f"Aba '{nome_aba}' não encontrada na planilha.") from error
+
+    return _executar_com_retentativas(
+        f"Leitura da aba '{nome_aba}'",
+        lambda: aba.get_all_values(),
+    )
