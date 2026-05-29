@@ -297,6 +297,7 @@ def _validar_condicionais_prontuario(df: pd.DataFrame) -> None:
                     f"sem '{campo}' → campo [REQ] para esse evento, revisar na origem"
                 )
                 erros_encontrados.append(nulos)
+                raise ValueError()
 
 
 def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
