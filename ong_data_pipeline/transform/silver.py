@@ -282,6 +282,8 @@ def _validar_condicionais_prontuario(df: pd.DataFrame) -> None:
     NaN é esperado quando o campo não pertence ao evento da linha.
     NaN é anomalia quando o campo é [REQ] para o evento da linha.
     """
+    erros_encontrados = []
+
     for tipo_evento, campos in CAMPOS_OBRIGATORIOS_POR_EVENTO.items():
         mask = df["tipo_evento"] == tipo_evento
         if not mask.any():
@@ -294,6 +296,8 @@ def _validar_condicionais_prontuario(df: pd.DataFrame) -> None:
                     f"[SILVER] {nulos} registro(s) com tipo_evento='{tipo_evento}' "
                     f"sem '{campo}' → campo [REQ] para esse evento, revisar na origem"
                 )
+                erros_encontrados.append(nulos)
+                raise ValueError()
 
 
 def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
