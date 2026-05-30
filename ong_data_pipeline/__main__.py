@@ -11,7 +11,6 @@ Fluxo:
 Fail‑fast: qualquer exceção interrompe o processo, sem cargas parciais.
 """
 
-import os
 import logging
 import sys
 
