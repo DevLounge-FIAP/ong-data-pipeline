@@ -26,9 +26,11 @@ def _normalizar_condicao(valor: str, erros: list[str]) -> str:
 #   Função de hash reutilizável para criar chaves únicas
 # ---------------------------------------------------------------------------
 
-def _gerar_hash(prefixo: str, texto_base: str) -> str:
+def _gerar_hash(prefixo: str, texto_base: any) -> str:
     """Gera um identificador único no formato PREFIXO-XXXXXX."""
-    return f"{prefixo}-" + hashlib.md5(texto_base.encode()).hexdigest()[:6].upper()
+    # Garantir que o texto_base seja string mesmo que venha como pd.NA, float, etc.
+    texto_str = str(texto_base) if pd.notna(texto_base) else ""
+    return f"{prefixo}-" + hashlib.md5(texto_str.encode()).hexdigest()[:6].upper()
 
 
 # ---------------------------------------------------------------------------
@@ -125,8 +127,8 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
     # Ponto 3 - ID Animal (chave única)
     string_temp = (
         df["carimbo_ts"].astype(str) + "_"
-        + df["nome_responsavel"].astype(str) + "_"
-        + df["especie"].astype(str)
+        + df["nome_responsavel"].fillna("").astype(str) + "_"
+        + df["especie"].fillna("").astype(str)
     )
     df["id_animal"] = string_temp.apply(lambda s: _gerar_hash("ANI", s))
     df.drop(columns=["string_temporaria"], inplace=True, errors="ignore")
@@ -244,8 +246,8 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
     # ID de Doação (chave única)
     string_temp = (
         df["carimbo_ts"].astype(str) + "_"
-        + df["tipo_doacao"].astype(str) + "_"
-        + df["valor_doado"].astype(str)
+        + df["tipo_doacao"].fillna("").astype(str) + "_"
+        + df["valor_doado"].fillna("").astype(str)
     )
     df["id_doacao"] = string_temp.apply(lambda s: _gerar_hash("DOA", s))
 
@@ -353,8 +355,8 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
     # ID de Procedimento (chave única)
     string_temp = (
         df["carimbo_ts"].astype(str) + "_"
-        + df["tipo_evento"].astype(str) + "_"
-        + df["nome_profissional"].astype(str)
+        + df["tipo_evento"].fillna("").astype(str) + "_"
+        + df["nome_profissional"].fillna("").astype(str)
     )
     df["id_procedimento"] = string_temp.apply(lambda s: _gerar_hash("PROC", s))
 
@@ -470,8 +472,8 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
     # ID de Saída (chave única)
     string_temp = (
         df["carimbo_ts"].astype(str) + "_"
-        + df["nome_animal"].astype(str) + "_"
-        + df["motivo_saida"].astype(str)
+        + df["nome_animal"].fillna("").astype(str) + "_"
+        + df["motivo_saida"].fillna("").astype(str)
     )
     df["id_saida"] = string_temp.apply(lambda s: _gerar_hash("SAI", s))
 
