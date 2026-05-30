@@ -7,15 +7,14 @@ from ..core.config import obter_planilha_autenticada, ler_aba_com_retentativas
 log = logging.getLogger(__name__)
 
 # Nome exato das abas na planilha centralizado aqui para facilitar manutenção
-#Guarda as abas dentro de um dicionario.
-#É o contrato do projeto
+# Guarda as abas dentro de um dicionário.
+# É o contrato do projeto
 ABAS = {
     "doacoes":     "Controle de Doações",
     "saidas":      "Registro de Adoção / Saída",
     "prontuarios": "Prontuário Médico e Rotina",
     "entradas":    "Entrada / Novo Resgate",
 }
-
 
 
 def _ler_aba(planilha: gspread.Spreadsheet, chave: str) -> pd.DataFrame:
@@ -36,13 +35,14 @@ def _ler_aba(planilha: gspread.Spreadsheet, chave: str) -> pd.DataFrame:
 
 def extrair_dados_bronze() -> dict[str, pd.DataFrame]:
     """
-    Retorna um dicionario de dataframes para cada aba
+    Retorna um dicionário de DataFrames para cada aba da planilha.
     """
     log.info("Iniciando extração da Camada Bronze...")
 
-    id_planilha = os.getenv("GOOGLE_SHEET_ID")
+    # Agora usa GOOGLE_SHEETS_ID (plural) para padronizar com o restante do projeto
+    id_planilha = os.getenv("GOOGLE_SHEETS_ID")
     if not id_planilha:
-        raise ValueError("Variável de ambiente GOOGLE_SHEET_ID não configurada.")
+        raise ValueError("Variável de ambiente GOOGLE_SHEETS_ID não configurada.")
 
     planilha = obter_planilha_autenticada(id_planilha)
 

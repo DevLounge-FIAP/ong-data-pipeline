@@ -61,7 +61,12 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Histórico/Observações do Resgate": "historico",
     })
 
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
+    #UTC explícito
+    df["carimbo_ts"] = (
+        pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce")
+        .dt.floor("s")
+        .dt.tz_localize("UTC")
+    )
 
     df["data_entrada"] = pd.to_datetime(
         df["data_entrada"], dayfirst=True, errors="coerce"
@@ -200,7 +205,12 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Nome do Doador":         "nome_doador",
     })
 
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
+    #UTC explícito
+    df["carimbo_ts"] = (
+        pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce")
+        .dt.floor("s")
+        .dt.tz_localize("UTC")
+    )
 
     df["data_doacao"] = pd.to_datetime(
         df["data_doacao"], dayfirst=True, errors="coerce"
@@ -298,7 +308,12 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Nome da Cirurgia realizada":  "nome_cirurgia",
     })
 
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
+    #UTC explícito
+    df["carimbo_ts"] = (
+        pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce")
+        .dt.floor("s")
+        .dt.tz_localize("UTC")
+    )
 
     df["data_procedimento"] = pd.to_datetime(
         df["data_procedimento"], dayfirst=True, errors="coerce"
@@ -401,7 +416,12 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Tipo do Imovél":             "tipo_imovel",
     })
 
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
+    #UTC explícito
+    df["carimbo_ts"] = (
+        pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce")
+        .dt.floor("s")
+        .dt.tz_localize("UTC")
+    )
 
     df["data_saida"] = pd.to_datetime(
         df["data_saida"], dayfirst=True, errors="coerce"
