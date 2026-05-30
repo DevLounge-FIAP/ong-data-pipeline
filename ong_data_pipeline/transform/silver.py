@@ -247,7 +247,7 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
     string_temp = (
         df["carimbo_ts"].astype(str) + "_"
         + df["tipo_doacao"].fillna("").astype(str) + "_"
-        + df["valor_doado"].fillna("").astype(str)
+        + df["valor_doado"].astype(object).fillna("").astype(str)
     )
     df["id_doacao"] = string_temp.apply(lambda s: _gerar_hash("DOA", s))
 
