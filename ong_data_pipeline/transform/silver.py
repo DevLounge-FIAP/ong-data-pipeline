@@ -8,23 +8,16 @@ log = logging.getLogger(__name__)
 #   Constantes — Formulário Entrada / Novo Resgate
 # ---------------------------------------------------------------------------
 
-# Multi-choice: valores exatos que o Forms entrega
 CONDICAO_VALIDA = {"Saudável", "Ferido", "Doente", "Desnutrido", "Desconhecido"}
 
+def _normalizar_condicao(valor: str, erros: list[str]) -> str:
+    mapa = {v.lower(): v for v in CONDICAO_VALIDA}
+    partes    = [p.strip() for p in valor.split(",")]
+    validas   = [mapa[p.lower()] for p in partes if p.lower() in mapa]
+    invalidas = [p for p in partes if p.lower() not in mapa]
 
-def _normalizar_condicao(valor: str) -> str:
-    """
-    Condição de Saúde é multi-choice — pode chegar como "Ferido, Doente".
-    Valida cada parte individualmente contra os valores do Forms.
-    Usa comparação case-insensitive para proteger contra variações de entrega do Sheets.
-    """
-    mapa = {v.lower(): v for v in CONDICAO_VALIDA} #Pega cada condição e coloca em lowercase
-    partes    = [p.strip() for p in valor.split(",")] #Pega o valor passado e tira espaços
-    validas   = [mapa[p.lower()] for p in partes if p.lower() in mapa] # Armazena na variavel validas só oque estiver em mapa(CONDICAO_VALIDA)
-    invalidas = [p for p in partes if p.lower() not in mapa] #Armazena na variavel invalidas qualquer coisas que não estiver definido no mapa(CONDICAO_VALIDA)
-
-    if invalidas: #Se a variavel invalidas tiver algo faz isso
-        log.warning(f"[SILVER] Condição de saúde não reconhecida: {invalidas} → ignorada")
+    if invalidas:
+        erros.append(f"Condição de saúde não reconhecida: {', '.join(invalidas)} → ignorada")
 
     return ", ".join(validas) if validas else "Desconhecido"
 
@@ -34,24 +27,14 @@ def _normalizar_condicao(valor: str) -> str:
 # ---------------------------------------------------------------------------
 
 def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
-    """
-    Bronze → Silver: Entrada / Novo Resgate
-
-    O Forms garante: valores de dropdown válidos, regex em campos de texto,
-    data em formato consistente, todos os campos [REQ] preenchidos.
-
-    Responsabilidade do pandas: strip de espaços, tipagem de datas,
-    split do campo multi-choice, sanitização do texto livre.
-    """
     log.info("[SILVER] Iniciando transformação: Entrada / Novo Resgate")
+    df = df_raw.copy()
+    erros_da_aba = []
 
-    df = df_raw.copy() #Cria uma copia do dataframe original vindo do extract.py
-
-    # 1. Limpar espaços dos nomes de colunas — artefato do Sheets
     df.columns = df.columns.str.strip()
 
-    # 2. Selecionar e renomear
-    df = df[[
+    # Ponto 2 - Proteção contra colunas amputadas
+    COLUNAS_ESPERADAS = [
         "Carimbo de data/hora",
         "Endereço de e-mail",
         "Data de Entrada",
@@ -62,7 +45,8 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Porte",
         "Condição de Saúde",
         "Histórico/Observações do Resgate",
-    ]].copy()
+    ]
+    df = df.reindex(columns=COLUNAS_ESPERADAS)
 
     df = df.rename(columns={
         "Carimbo de data/hora":             "carimbo_ts",
@@ -77,65 +61,81 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Histórico/Observações do Resgate": "historico",
     })
 
-    # 3. Carimbo — datetime do Sheets, remover microssegundos
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
-    # 4. Data de Entrada — [REQ], manter dtype datetime64 para carga no BigQuery
     df["data_entrada"] = pd.to_datetime(
         df["data_entrada"], dayfirst=True, errors="coerce"
     ).dt.normalize()
 
-    nulos = df["data_entrada"].isna().sum()
-    if nulos > 0:
-        log.warning(f"[SILVER] {nulos} data(s) de entrada inválida(s) → revisar na origem")
+    nulos_data = df["data_entrada"].isna().sum()
+    if nulos_data > 0:
+        erros_da_aba.append(f"{nulos_data} data(s) de entrada inválida(s) ou em branco")
 
-    # 5. E-mail — lowercase + strip
-    df["email_responsavel"] = (
-        df["email_responsavel"].astype(str).str.strip().str.lower()
-    )
-
-    # 6. Nome e sobrenome — Forms valida regex mas não remove trailing spaces
+    df["email_responsavel"] = df["email_responsavel"].astype(str).str.strip().str.lower()
     df["nome_responsavel"]      = df["nome_responsavel"].astype(str).str.strip().str.title()
     df["sobrenome_responsavel"] = df["sobrenome_responsavel"].astype(str).str.strip().str.title()
     df["nome_completo"]         = (df["nome_responsavel"] + " " + df["sobrenome_responsavel"]).str.strip()
 
-    # 7. Dropdowns — Forms garante valor válido, só strip
     df["especie"] = df["especie"].astype(str).str.strip()
     df["sexo"]    = df["sexo"].astype(str).str.strip()
     df["porte"]   = df["porte"].astype(str).str.strip()
 
-    # 8. Condição de Saúde — multi-choice, validar cada valor individualmente
-    df["condicao_saude"]         = df["condicao_saude"].astype(str).str.strip().apply(_normalizar_condicao)
+    df["condicao_saude"] = df["condicao_saude"].astype(str).str.strip().apply(_normalizar_condicao, args=(erros_da_aba,))
+    
     df["flag_multiplas_condicoes"] = df["condicao_saude"].str.contains(",").astype(str)
     for condicao in CONDICAO_VALIDA:
         sufixo = condicao.lower().replace(' ', '_').replace('á', 'a')
         col_name = f"is_{sufixo}"
-        df[col_name] = df["condicao_saude"].str.contains(condicao, case= False, na= False)
+        df[col_name] = df["condicao_saude"].str.contains(condicao, case=False, na=False)
+        
     if "flag_multiplas_condicoes" in df.columns:
         df["flag_multiplas_condicoes"] = df["flag_multiplas_condicoes"].replace({
             "True": 1, "False": 0,
             "true": 1, "false": 0,
             True: 1, False: 0
         }).astype("Int64")
+        
     colunas_is = [col for col in df.columns if col.startswith("is_")]
     df[colunas_is] = df[colunas_is].astype("boolean")
-    # 9. Histórico — único campo não obrigatório
-    #    fillna("") antes do astype(str) evita que NaN vire a string "nan"
+
     df["historico"] = (
         df["historico"]
         .fillna("")
         .astype(str)
-        .str.replace(r"\\n", " ", regex=True)   # \n literal vindo do Forms
-        .str.replace(r"\n",  " ", regex=True)    # quebra de linha real
-        .str.replace(r"\s+", " ", regex=True)    # múltiplos espaços
+        .str.replace(r"\\n", " ", regex=True)
+        .str.replace(r"\n",  " ", regex=True)
+        .str.replace(r"\s+", " ", regex=True)
         .str.strip()
     )
-    def gerar_id(row):
-        string_base = f"{row['carimbo_ts']}_{row['nome_responsavel']}_{row['especie']}]"
-        return "ANI-" + hashlib.md5(string_base.encode()).hexdigest()[:6].upper()
-    df['id_animal'] = df.apply(gerar_id, axis=1)
-    log.info(f"[SILVER] Entradas: {len(df)} registros transformados")
+
+    # Ponto 3 - Vetorização do ID Animal
+    df["string_temporaria"] = (
+        df["carimbo_ts"].astype(str) + "_"
+        + df["nome_responsavel"].astype(str) + "_"
+        + df["especie"].astype(str)
+    )
+
+    def gerar_hash_md5(texto_base: str) -> str:
+        return "ANI-" + hashlib.md5(texto_base.encode()).hexdigest()[:6].upper()
+
+    df["id_animal"] = df["string_temporaria"].apply(gerar_hash_md5)
+    df.drop(columns=["string_temporaria"], inplace=True)
+
+    # Ponto 4 - Substituir strings vazias por pd.NA
+    colunas_texto = [
+        "email_responsavel", "nome_responsavel", "sobrenome_responsavel",
+        "nome_completo", "historico", "especie", "sexo", "porte", "condicao_saude"
+    ]
+    for col in colunas_texto:
+        df[col] = df[col].replace("", pd.NA)
+
+    if erros_da_aba:
+        mensagem_erro = "\n - ".join(erros_da_aba)
+        raise ValueError(f"[SILVER] Falha na validação da aba Entradas:\n - {mensagem_erro}")
+        
+    log.info(f"[SILVER] Entradas: {len(df)} registos transformados com sucesso.")
     return df
+
 
 # ---------------------------------------------------------------------------
 #   Formulário 2 — Controle de Doações
@@ -145,54 +145,37 @@ TIPOS_DOACAO_VALIDOS = {"Dinheiro", "Ração", "Medicamentos", "Acessórios/Roup
 TIPOS_DOADOR_VALIDOS = {"Anônimo", "Identificado"}
 
 
-def _validar_condicionais_doacoes(df: pd.DataFrame) -> None:
-    """
-    Valida a consistência dos campos condicionais sem bloquear o pipeline.
-    Loga anomalias para revisão na origem.
-    """
-    # Medicamentos: categoria e nome são [REQ] quando tipo == "Medicamentos"
+def _validar_condicionais_doacoes(df: pd.DataFrame, erros: list[str]) -> None:
     mask_med = df["tipo_doacao"] == "Medicamentos"
-    nulos_categoria = df.loc[mask_med, "categoria_medicamento"].replace("", pd.NA).isna().sum()
-    nulos_nome_med  = df.loc[mask_med, "nome_medicamento"].replace("", pd.NA).isna().sum()
+    nulos_categoria = df.loc[mask_med, "categoria_medicamento"].isna().sum()
+    nulos_nome_med  = df.loc[mask_med, "nome_medicamento"].isna().sum()
 
     if nulos_categoria > 0:
-        log.warning(f"[SILVER] {nulos_categoria} doação(ões) de Medicamentos sem categoria → revisar na origem")
+        erros.append(f"{nulos_categoria} doação(ões) de Medicamentos sem categoria informada.")
     if nulos_nome_med > 0:
-        log.warning(f"[SILVER] {nulos_nome_med} doação(ões) de Medicamentos sem nome específico → revisar na origem")
+        erros.append(f"{nulos_nome_med} doação(ões) de Medicamentos sem nome específico.")
 
-    # Dinheiro: valor_doado é [REQ] quando tipo == "Dinheiro"
     mask_din = df["tipo_doacao"] == "Dinheiro"
     nulos_valor = df.loc[mask_din, "valor_doado"].isna().sum()
     if nulos_valor > 0:
-        log.warning(f"[SILVER] {nulos_valor} doação(ões) em Dinheiro sem valor informado → revisar na origem")
+        erros.append(f"{nulos_valor} doação(ões) em Dinheiro sem valor preenchido.")
 
-    # Identificado: nome_doador é [REQ] quando tipo_doador == "Identificado"
     mask_id = df["tipo_doador"] == "Identificado"
-    nulos_nome = df.loc[mask_id, "nome_doador"].replace("", pd.NA).isna().sum()
+    nulos_nome = df.loc[mask_id, "nome_doador"].isna().sum()
     if nulos_nome > 0:
-        log.warning(f"[SILVER] {nulos_nome} doador(es) Identificado(s) sem nome → revisar na origem")
+        erros.append(f"{nulos_nome} doador(es) Identificado(s) sem nome.")
 
 
 def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
-    """
-    Bronze → Silver: Controle de Doações
-
-    Campos condicionais por ramificação do Forms:
-      tipo_doacao == "Medicamentos" → categoria_medicamento, nome_medicamento [REQ]
-      tipo_doacao == "Dinheiro"     → valor_doado [REQ]
-      tipo_doacao outro             → campos acima chegam NaN (esperado)
-      tipo_doador == "Identificado" → nome_doador [REQ]
-      tipo_doador == "Anônimo"      → nome_doador NaN (esperado, não erro)
-    """
     log.info("[SILVER] Iniciando transformação: Controle de Doações")
 
     df = df_raw.copy()
+    erros_da_aba = []
 
-    # 1. Limpar espaços dos nomes de colunas
     df.columns = df.columns.str.strip()
 
-    # 2. Selecionar e renomear
-    df = df[[
+    # Ponto 2 - Proteção contra colunas amputadas
+    COLUNAS_ESPERADAS = [
         "Carimbo de data/hora",
         "Endereço de e-mail",
         "Data da Doação",
@@ -202,7 +185,8 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Valor Doado (R$)",
         "Tipo de Doador",
         "Nome do Doador",
-    ]].copy()
+    ]
+    df = df.reindex(columns=COLUNAS_ESPERADAS)
 
     df = df.rename(columns={
         "Carimbo de data/hora":   "carimbo_ts",
@@ -216,59 +200,51 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Nome do Doador":         "nome_doador",
     })
 
-    # 3. Carimbo
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
-    # 4. Data da Doação — [REQ], manter dtype datetime64 para carga no BigQuery
     df["data_doacao"] = pd.to_datetime(
         df["data_doacao"], dayfirst=True, errors="coerce"
     ).dt.normalize()
 
     nulos_data = df["data_doacao"].isna().sum()
     if nulos_data > 0:
-        log.warning(f"[SILVER] {nulos_data} data(s) de doação inválida(s) → revisar na origem")
+        erros_da_aba.append(f"{nulos_data} data(s) de doação inválida(s) ou em branco.")
 
-    # 5. E-mail
     df["email_doador"] = df["email_doador"].astype(str).str.strip().str.lower()
-
-    # 6. Dropdowns obrigatórios — Forms garante valor válido, só strip
     df["tipo_doacao"] = df["tipo_doacao"].astype(str).str.strip()
     df["tipo_doador"] = df["tipo_doador"].astype(str).str.strip()
 
-    # 7. Valor Doado — condicional: só existe quando tipo_doacao == "Dinheiro"
-    #    NaN para outros tipos é ESPERADO — não preencher com 0.0
-    #    Converter para float garante tipagem correta para o BigQuery
     df["valor_doado"] = pd.to_numeric(df["valor_doado"], errors="coerce").astype("Float64")
 
-    # 8. Campos condicionais de Medicamentos
-    #    NaN quando tipo != "Medicamentos" é ESPERADO — converter para string vazia
-    #    mas apenas após a validação de consistência
     df["categoria_medicamento"] = (
         df["categoria_medicamento"].fillna("").astype(str).str.strip()
     )
-    # Forms valida regex mas não remove trailing spaces
     df["nome_medicamento"] = (
         df["nome_medicamento"].fillna("").astype(str).str.strip().str.title()
     )
-
-    # 9. Nome do Doador — condicional: NaN quando tipo_doador == "Anônimo" é ESPERADO
     df["nome_doador"] = (
         df["nome_doador"].fillna("").astype(str).str.strip().str.title()
     )
 
-    # 10. Validar consistência dos condicionais — loga anomalias sem bloquear
-    _validar_condicionais_doacoes(df)
+    # Ponto 4 - Substituir strings vazias por pd.NA
+    colunas_texto = ["email_doador", "categoria_medicamento", "nome_medicamento", "nome_doador"]
+    for col in colunas_texto:
+        df[col] = df[col].replace("", pd.NA)
 
-    log.info(f"[SILVER] Doações: {len(df)} registros transformados")
+    _validar_condicionais_doacoes(df, erros_da_aba)
+
+    if erros_da_aba:
+        mensagem_erro = "\n - ".join(erros_da_aba)
+        raise ValueError(f"[SILVER] Falha na validação da aba Doações:\n - {mensagem_erro}")
+
+    log.info(f"[SILVER] Doações: {len(df)} registros transformados com sucesso.")
     return df
+
 
 # ---------------------------------------------------------------------------
 #   Formulário 3 — Prontuário Médico e Rotina
 # ---------------------------------------------------------------------------
 
-# Mapa de quais campos condicionais são [REQ] por tipo de evento
-# Tipos sem campos condicionais (Consulta Veterinária, Castração)
-# não aparecem aqui — NaN neles é sempre esperado
 CAMPOS_OBRIGATORIOS_POR_EVENTO = {
     "Medicamento": ["categoria_medicamento", "nome_medicamento"],
     "Vacina":      ["categoria_vacina", "nome_vacina"],
@@ -276,54 +252,26 @@ CAMPOS_OBRIGATORIOS_POR_EVENTO = {
 }
 
 
-def _validar_condicionais_prontuario(df: pd.DataFrame) -> None:
-    """
-    Valida a consistência dos campos condicionais por tipo de evento.
-    NaN é esperado quando o campo não pertence ao evento da linha.
-    NaN é anomalia quando o campo é [REQ] para o evento da linha.
-    """
-    erros_encontrados = []
-
-    for tipo_evento, campos in CAMPOS_OBRIGATORIOS_POR_EVENTO.items():
-        mask = df["tipo_evento"] == tipo_evento
-        if not mask.any():
-            continue
-        for campo in campos:
-            # replace("", pd.NA) detecta tanto NaN quanto string vazia
-            nulos = df.loc[mask, campo].replace("", pd.NA).isna().sum()
-            if nulos > 0:
-                log.warning(
-                    f"[SILVER] {nulos} registro(s) com tipo_evento='{tipo_evento}' "
-                    f"sem '{campo}' → campo [REQ] para esse evento, revisar na origem"
-                )
-                erros_encontrados.append(nulos)
-                raise ValueError()
+def _validar_condicionais_prontuario(df: pd.DataFrame, erros: list[str]) -> None:
+    for evento, campos_exigidos in CAMPOS_OBRIGATORIOS_POR_EVENTO.items():
+        mask_evento = df["tipo_evento"] == evento
+        
+        for campo in campos_exigidos:
+            vazios = df.loc[mask_evento, campo].isna().sum()
+            if vazios > 0:
+                erros.append(f"{vazios} registro(s) de '{evento}' sem o campo '{campo}' preenchido.")
 
 
 def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
-    """
-    Bronze → Silver: Prontuário Médico e Rotina
-
-    Ramificações do Forms por Tipo do Evento:
-      "Medicamento"          → categoria_medicamento [REQ], nome_medicamento [REQ]
-      "Vacina"               → categoria_vacina [REQ], nome_vacina [REQ]
-      "Cirurgia"             → nome_cirurgia [REQ]
-      "Consulta Veterinária" → sem campos condicionais, todos NaN (esperado)
-      "Castração"            → sem campos condicionais, todos NaN (esperado)
-
-    Forms garante: tipo_evento dentro da lista, regex nos campos de texto,
-    todos os [REQ] não condicionais preenchidos.
-    pandas trata: strip de espaços, tipagem de datas, NaN condicionais.
-    """
     log.info("[SILVER] Iniciando transformação: Prontuário Médico e Rotina")
 
     df = df_raw.copy()
-
-    # 1. Limpar espaços dos nomes de colunas
+    erros_da_aba = []
+    
     df.columns = df.columns.str.strip()
 
-    # 2. Selecionar e renomear
-    df = df[[
+    # Ponto 2 - Proteção contra colunas amputadas
+    COLUNAS_ESPERADAS = [
         "Carimbo de data/hora",
         "Endereço de e-mail",
         "Data do Procedimento",
@@ -334,7 +282,8 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Categoria da Vacina",
         "Nome específico Vacina",
         "Nome da Cirurgia realizada",
-    ]].copy()
+    ]
+    df = df.reindex(columns=COLUNAS_ESPERADAS)
 
     df = df.rename(columns={
         "Carimbo de data/hora":        "carimbo_ts",
@@ -349,30 +298,20 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Nome da Cirurgia realizada":  "nome_cirurgia",
     })
 
-    # 3. Carimbo
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
-    # 4. Data do Procedimento — [REQ], manter dtype datetime64 para carga no BigQuery
     df["data_procedimento"] = pd.to_datetime(
         df["data_procedimento"], dayfirst=True, errors="coerce"
     ).dt.normalize()
 
     nulos_data = df["data_procedimento"].isna().sum()
     if nulos_data > 0:
-        log.warning(f"[SILVER] {nulos_data} data(s) de procedimento inválida(s) → revisar na origem")
+        erros_da_aba.append(f"{nulos_data} data(s) de procedimento inválida(s) ou em branco.")
 
-    # 5. E-mail
     df["email_profissional"] = df["email_profissional"].astype(str).str.strip().str.lower()
-
-    # 6. Nome do profissional — [REQ], Forms valida regex, pandas remove trailing spaces
     df["nome_profissional"] = df["nome_profissional"].astype(str).str.strip().str.title()
-
-    # 7. Tipo do Evento — [REQ] single-choice, Forms garante valor válido, só strip
     df["tipo_evento"] = df["tipo_evento"].astype(str).str.strip()
 
-    # 8. Campos condicionais — NaN esperado quando o evento não os ativa
-    #    Todos viram string vazia para consistência no banco
-    #    A validação de [REQ] por evento acontece logo depois
     campos_condicionais = [
         "categoria_medicamento",
         "nome_medicamento",
@@ -383,20 +322,26 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
     for campo in campos_condicionais:
         df[campo] = df[campo].fillna("").astype(str).str.strip().str.title()
 
-    # 9. Validar consistência dos condicionais por tipo de evento
-    _validar_condicionais_prontuario(df)
+    # Ponto 4 - Substituir strings vazias por pd.NA
+    colunas_texto = campos_condicionais + ["email_profissional", "nome_profissional"]
+    for col in colunas_texto:
+        df[col] = df[col].replace("", pd.NA)
 
-    log.info(f"[SILVER] Prontuários: {len(df)} registros transformados")
+    _validar_condicionais_prontuario(df, erros_da_aba)
+
+    if erros_da_aba:
+        mensagem_erro = "\n - ".join(erros_da_aba)
+        raise ValueError(f"[SILVER] Falha na validação da aba Prontuários:\n - {mensagem_erro}")
+
+    log.info(f"[SILVER] Prontuários: {len(df)} registros transformados com sucesso.")
     return df
+
 
 # ---------------------------------------------------------------------------
 #   Formulário 4 — Registro de Adoção / Saída
 # ---------------------------------------------------------------------------
 
-# Motivos que ativam os campos condicionais de destino
 MOTIVOS_COM_DESTINO = {"Adoção Definitiva", "Lar Temporário", "Transferência"}
-
-# Campos condicionais — todos controlados pelo mesmo motivo_saida
 CAMPOS_DESTINO = [
     "nome_adotante",
     "telefone",
@@ -407,51 +352,29 @@ CAMPOS_DESTINO = [
 ]
 
 
-def _validar_condicionais_saidas(df: pd.DataFrame) -> None:
-    """
-    Valida a consistência dos campos de destino por motivo de saída.
-
-    Motivos COM destino (Adoção Definitiva, Lar Temporário, Transferência):
-      todos os campos de destino são [REQ] → NaN ou "" é anomalia
-    Motivos SEM destino (Óbito, Fuga):
-      todos os campos de destino chegam NaN → comportamento esperado, não loga
-    """
+def _validar_condicionais_saidas(df: pd.DataFrame, erros: list[str]) -> None:
     mask_com_destino = df["motivo_saida"].isin(MOTIVOS_COM_DESTINO)
 
     for campo in CAMPOS_DESTINO:
-        nulos = df.loc[mask_com_destino, campo].replace("", pd.NA).isna().sum()
+        nulos = df.loc[mask_com_destino, campo].isna().sum()
         if nulos > 0:
-            log.warning(
-                f"[SILVER] {nulos} registro(s) com motivo que exige destino "
-                f"sem '{campo}' preenchido → campo [REQ] para esse motivo, "
-                f"revisar na origem"
+            mensagem = (
+                f"{nulos} registro(s) com motivo que exige destino "
+                f"sem o campo '{campo}' preenchido."
             )
+            erros.append(mensagem)
 
 
 def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
-    """
-    Bronze → Silver: Registro de Adoção / Saída
-
-    Ramificações do Forms por Motivo da Saída:
-      "Adoção Definitiva"  → 6 campos de destino [REQ]
-      "Lar Temporário"     → 6 campos de destino [REQ]
-      "Transferência"      → 6 campos de destino [REQ]
-      "Óbito"              → 6 campos de destino NaN (esperado, não loga)
-      "Fuga"               → 6 campos de destino NaN (esperado, não loga)
-
-    Forms garante: motivo dentro da lista, regex nos campos de texto,
-    apenas números em telefone e nº imóvel.
-    pandas trata: strip, tipagem de datas, int64 → string, NaN condicionais.
-    """
     log.info("[SILVER] Iniciando transformação: Registro de Adoção / Saída")
 
     df = df_raw.copy()
+    erros_da_aba = []
 
-    # 1. Limpar espaços dos nomes de colunas
     df.columns = df.columns.str.strip()
 
-    # 2. Selecionar e renomear
-    df = df[[
+    # Ponto 2 - Proteção contra colunas amputadas
+    COLUNAS_ESPERADAS = [
         "Carimbo de data/hora",
         "Data da Saída",
         "Nome do Animal",
@@ -462,7 +385,8 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Bairro de Destino",
         "Nº do Imovél",
         "Tipo do Imovél",
-    ]].copy()
+    ]
+    df = df.reindex(columns=COLUNAS_ESPERADAS)
 
     df = df.rename(columns={
         "Carimbo de data/hora":       "carimbo_ts",
@@ -477,39 +401,24 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Tipo do Imovél":             "tipo_imovel",
     })
 
-    # 3. Carimbo
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce").dt.floor("s")
 
-    # 4. Data da Saída — [REQ], manter dtype datetime64 para carga no BigQuery
     df["data_saida"] = pd.to_datetime(
         df["data_saida"], dayfirst=True, errors="coerce"
     ).dt.normalize()
 
     nulos_data = df["data_saida"].isna().sum()
     if nulos_data > 0:
-        log.warning(
-            f"[SILVER] {nulos_data} data(s) de saída inválida(s) → revisar na origem"
-        )
+        erros_da_aba.append(f"{nulos_data} data(s) de saída inválida(s) ou em branco.")
 
-    # 5. Nome do Animal — [REQ], Forms valida regex, pandas remove trailing spaces
     df["nome_animal"] = df["nome_animal"].astype(str).str.strip().str.title()
-
-    # 6. Motivo da Saída — [REQ] single-choice, Forms garante valor, só strip
     df["motivo_saida"] = df["motivo_saida"].astype(str).str.strip()
 
-    # 7. Campos condicionais de destino
-    #    fillna("") ANTES do astype(str) evita que NaN vire a string "nan"
-    #    Óbito e Fuga chegam com esses campos NaN — viram "" corretamente
-
-    # Texto livre — strip + title case
     for campo in ["nome_adotante", "cidade_destino", "bairro_destino"]:
         df[campo] = df[campo].fillna("").astype(str).str.strip().str.title()
 
-    # Single-choice — só strip (Forms garante valor quando ativo)
     df["tipo_imovel"] = df["tipo_imovel"].fillna("").astype(str).str.strip()
 
-    # Number → string: identificadores não são métricas
-    # str(int(x)) evita o ".0" que astype(str) adiciona em floats
     df["telefone"] = df["telefone"].apply(
         lambda x: str(int(x)) if pd.notna(x) and str(x).strip() != "" else ""
     )
@@ -517,20 +426,26 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
         lambda x: str(int(x)) if pd.notna(x) and str(x).strip() != "" else ""
     )
 
-    # 8. Validar consistência — roda APÓS conversões para detectar "" de NaN
-    #    vs. "" de campo realmente vazio em motivo que exige destino
-    _validar_condicionais_saidas(df)
+    # Ponto 4 - Substituir strings vazias por pd.NA
+    colunas_texto = CAMPOS_DESTINO + ["nome_animal", "motivo_saida"]
+    for col in colunas_texto:
+        df[col] = df[col].replace("", pd.NA)
 
-    log.info(f"[SILVER] Saídas: {len(df)} registros transformados")
+    _validar_condicionais_saidas(df, erros_da_aba)
+
+    if erros_da_aba:
+        mensagem_erro = "\n - ".join(erros_da_aba)
+        raise ValueError(f"[SILVER] Falha na validação da aba Saídas:\n - {mensagem_erro}")
+
+    log.info(f"[SILVER] Saídas: {len(df)} registros transformados com sucesso.")
     return df
 
 
-def transformar_dados(bronze: dict[str, pd.DataFrame]) -> dict[str, pd.DataFrame]:
-    """Wrapper que transforma todas as abas do bronze para silver.
+# ---------------------------------------------------------------------------
+#   Wrapper
+# ---------------------------------------------------------------------------
 
-    Recebe um dicionário com as abas (chaves: 'doacoes','saidas','prontuarios','entradas')
-    e retorna um dicionário com os DataFrames transformados.
-    """
+def transformar_dados(bronze: dict[str, pd.DataFrame]) -> dict[str, pd.DataFrame]:
     log.info("[SILVER] Iniciando transformação de todas as abas")
     silver: dict[str, pd.DataFrame] = {}
 
