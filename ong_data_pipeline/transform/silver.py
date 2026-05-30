@@ -23,6 +23,15 @@ def _normalizar_condicao(valor: str, erros: list[str]) -> str:
 
 
 # ---------------------------------------------------------------------------
+#   Função de hash reutilizável para criar chaves únicas
+# ---------------------------------------------------------------------------
+
+def _gerar_hash(prefixo: str, texto_base: str) -> str:
+    """Gera um identificador único no formato PREFIXO-XXXXXX."""
+    return f"{prefixo}-" + hashlib.md5(texto_base.encode()).hexdigest()[:6].upper()
+
+
+# ---------------------------------------------------------------------------
 #   Formulário 1 — Entrada / Novo Resgate
 # ---------------------------------------------------------------------------
 
@@ -61,7 +70,7 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Histórico/Observações do Resgate": "historico",
     })
 
-    #UTC explícito
+    # UTC explícito
     df["carimbo_ts"] = (
         pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce")
         .dt.floor("s")
@@ -113,18 +122,14 @@ def transformar_entradas(df_raw: pd.DataFrame) -> pd.DataFrame:
         .str.strip()
     )
 
-    # Ponto 3 - Vetorização do ID Animal
-    df["string_temporaria"] = (
+    # Ponto 3 - ID Animal (chave única)
+    string_temp = (
         df["carimbo_ts"].astype(str) + "_"
         + df["nome_responsavel"].astype(str) + "_"
         + df["especie"].astype(str)
     )
-
-    def gerar_hash_md5(texto_base: str) -> str:
-        return "ANI-" + hashlib.md5(texto_base.encode()).hexdigest()[:6].upper()
-
-    df["id_animal"] = df["string_temporaria"].apply(gerar_hash_md5)
-    df.drop(columns=["string_temporaria"], inplace=True)
+    df["id_animal"] = string_temp.apply(lambda s: _gerar_hash("ANI", s))
+    df.drop(columns=["string_temporaria"], inplace=True, errors="ignore")
 
     # Ponto 4 - Substituir strings vazias por pd.NA
     colunas_texto = [
@@ -205,7 +210,7 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Nome do Doador":         "nome_doador",
     })
 
-    #UTC explícito
+    # UTC explícito
     df["carimbo_ts"] = (
         pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce")
         .dt.floor("s")
@@ -235,6 +240,14 @@ def transformar_doacoes(df_raw: pd.DataFrame) -> pd.DataFrame:
     df["nome_doador"] = (
         df["nome_doador"].fillna("").astype(str).str.strip().str.title()
     )
+
+    # ID de Doação (chave única)
+    string_temp = (
+        df["carimbo_ts"].astype(str) + "_"
+        + df["tipo_doacao"].astype(str) + "_"
+        + df["valor_doado"].astype(str)
+    )
+    df["id_doacao"] = string_temp.apply(lambda s: _gerar_hash("DOA", s))
 
     # Ponto 4 - Substituir strings vazias por pd.NA
     colunas_texto = ["email_doador", "categoria_medicamento", "nome_medicamento", "nome_doador"]
@@ -308,7 +321,7 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Nome da Cirurgia realizada":  "nome_cirurgia",
     })
 
-    #UTC explícito
+    # UTC explícito
     df["carimbo_ts"] = (
         pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce")
         .dt.floor("s")
@@ -336,6 +349,14 @@ def transformar_prontuarios(df_raw: pd.DataFrame) -> pd.DataFrame:
     ]
     for campo in campos_condicionais:
         df[campo] = df[campo].fillna("").astype(str).str.strip().str.title()
+
+    # ID de Procedimento (chave única)
+    string_temp = (
+        df["carimbo_ts"].astype(str) + "_"
+        + df["tipo_evento"].astype(str) + "_"
+        + df["nome_profissional"].astype(str)
+    )
+    df["id_procedimento"] = string_temp.apply(lambda s: _gerar_hash("PROC", s))
 
     # Ponto 4 - Substituir strings vazias por pd.NA
     colunas_texto = campos_condicionais + ["email_profissional", "nome_profissional"]
@@ -416,7 +437,7 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
         "Tipo do Imovél":             "tipo_imovel",
     })
 
-    #UTC explícito
+    # UTC explícito
     df["carimbo_ts"] = (
         pd.to_datetime(df["carimbo_ts"], dayfirst=True, errors="coerce")
         .dt.floor("s")
@@ -445,6 +466,14 @@ def transformar_saidas(df_raw: pd.DataFrame) -> pd.DataFrame:
     df["num_imovel"] = df["num_imovel"].apply(
         lambda x: str(int(x)) if pd.notna(x) and str(x).strip() != "" else ""
     )
+
+    # ID de Saída (chave única)
+    string_temp = (
+        df["carimbo_ts"].astype(str) + "_"
+        + df["nome_animal"].astype(str) + "_"
+        + df["motivo_saida"].astype(str)
+    )
+    df["id_saida"] = string_temp.apply(lambda s: _gerar_hash("SAI", s))
 
     # Ponto 4 - Substituir strings vazias por pd.NA
     colunas_texto = CAMPOS_DESTINO + ["nome_animal", "motivo_saida"]

@@ -30,6 +30,7 @@ def schemas_silver():
             {"name": "categoria_medicamento", "type": "STRING", "mode": "NULLABLE"},
             {"name": "nome_medicamento", "type": "STRING", "mode": "NULLABLE"},
             {"name": "nome_doador", "type": "STRING", "mode": "NULLABLE"},
+            {"name": "id_doacao", "type": "STRING", "mode": "REQUIRED"},
         ],
         "silver_prontuarios": [
             {"name": "carimbo_ts", "type": "TIMESTAMP", "mode": "REQUIRED"},
@@ -42,6 +43,7 @@ def schemas_silver():
             {"name": "categoria_vacina", "type": "STRING", "mode": "NULLABLE"},
             {"name": "nome_vacina", "type": "STRING", "mode": "NULLABLE"},
             {"name": "nome_cirurgia", "type": "STRING", "mode": "NULLABLE"},
+            {"name": "id_procedimento", "type": "STRING", "mode": "REQUIRED"},
         ],
         "silver_saidas": [
             {"name": "carimbo_ts", "type": "TIMESTAMP", "mode": "REQUIRED"},
@@ -54,58 +56,72 @@ def schemas_silver():
             {"name": "bairro_destino", "type": "STRING", "mode": "NULLABLE"},
             {"name": "num_imovel", "type": "STRING", "mode": "NULLABLE"},
             {"name": "tipo_imovel", "type": "STRING", "mode": "NULLABLE"},
+            {"name": "id_saida", "type": "STRING", "mode": "REQUIRED"},
         ],
     }
     return BIGQUERY_SCHEMAS_SILVER
 
+
 def schemas_gold():
     BIGQUERY_SCHEMAS_GOLD: dict[str, list[dict[str, str]]] = {
-        "gold_entradas_metricas": [
+        "gold_entradas": [
             {"name": "ano", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "mes", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "ano_mes", "type": "STRING", "mode": "REQUIRED"},
             {"name": "especie", "type": "STRING", "mode": "NULLABLE"},
             {"name": "sexo", "type": "STRING", "mode": "NULLABLE"},
             {"name": "porte", "type": "STRING", "mode": "NULLABLE"},
             {"name": "condicao_saude", "type": "STRING", "mode": "NULLABLE"},
             {"name": "total_entradas", "type": "INTEGER", "mode": "REQUIRED"},
-            {"name": "quantidade_saudaveis", "type": "INTEGER", "mode": "NULLABLE"},
-            {"name": "quantidade_feridos", "type": "INTEGER", "mode": "NULLABLE"},
-            {"name": "quantidade_doentes", "type": "INTEGER", "mode": "NULLABLE"},
-            {"name": "quantidade_desnutridos", "type": "INTEGER", "mode": "NULLABLE"},
-            {"name": "quantidade_desconhecido", "type": "INTEGER", "mode": "NULLABLE"},
         ],
-        "gold_doacoes_metricas": [
+        "gold_doacoes": [
             {"name": "ano", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "mes", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "ano_mes", "type": "STRING", "mode": "REQUIRED"},
             {"name": "tipo_doacao", "type": "STRING", "mode": "NULLABLE"},
             {"name": "tipo_doador", "type": "STRING", "mode": "NULLABLE"},
             {"name": "total_doacoes", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "soma_valor_doado", "type": "FLOAT", "mode": "NULLABLE"},
             {"name": "media_valor_doado", "type": "FLOAT", "mode": "NULLABLE"},
+            {"name": "maior_doacao", "type": "FLOAT", "mode": "NULLABLE"},
+            {"name": "menor_doacao", "type": "FLOAT", "mode": "NULLABLE"},
         ],
-        "gold_prontuarios_metricas": [
+        "gold_prontuarios": [
             {"name": "ano", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "mes", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "ano_mes", "type": "STRING", "mode": "REQUIRED"},
             {"name": "tipo_evento", "type": "STRING", "mode": "NULLABLE"},
             {"name": "nome_profissional", "type": "STRING", "mode": "NULLABLE"},
             {"name": "total_procedimentos", "type": "INTEGER", "mode": "REQUIRED"},
         ],
-        "gold_saidas_metricas": [
+        "gold_saidas": [
             {"name": "ano", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "mes", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "ano_mes", "type": "STRING", "mode": "REQUIRED"},
             {"name": "motivo_saida", "type": "STRING", "mode": "NULLABLE"},
             {"name": "cidade_destino", "type": "STRING", "mode": "NULLABLE"},
             {"name": "bairro_destino", "type": "STRING", "mode": "NULLABLE"},
             {"name": "total_saidas", "type": "INTEGER", "mode": "REQUIRED"},
         ],
-        # Dimensão calendário para facilitar filtros no Looker
-        "dim_calendario": [
+        "dim_calendario_mensal": [
             {"name": "data", "type": "DATE", "mode": "REQUIRED"},
+            {"name": "ano", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "mes", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "ano_mes", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "nome_mes", "type": "STRING", "mode": "NULLABLE"},
+            {"name": "trimestre", "type": "INTEGER", "mode": "NULLABLE"},
+            {"name": "ano_mes_num", "type": "INTEGER", "mode": "REQUIRED"},
+        ],
+        "gold_animais_mensal": [
+            {"name": "ano_mes", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "total_entradas", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "total_saidas", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "saldo_liquido", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "saldo_acumulado", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "ano", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "mes", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "nome_mes", "type": "STRING", "mode": "NULLABLE"},
             {"name": "trimestre", "type": "INTEGER", "mode": "NULLABLE"},
-            {"name": "dia_da_semana", "type": "STRING", "mode": "NULLABLE"},
         ],
     }
     return BIGQUERY_SCHEMAS_GOLD
