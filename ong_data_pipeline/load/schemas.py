@@ -48,7 +48,7 @@ def schemas_silver():
             {"name": "categoria_vacina", "type": "STRING", "mode": "NULLABLE"},
             {"name": "nome_vacina", "type": "STRING", "mode": "NULLABLE"},
             {"name": "nome_cirurgia", "type": "STRING", "mode": "NULLABLE"},
-            {"name": "detalhes", "type": "STRING", "mode": "NULLABLE"},
+            {"name": "observacoes_medicas", "type": "STRING", "mode": "NULLABLE"},
         ],
         "silver_saidas": [
             {"name": "id_saida", "type": "STRING", "mode": "REQUIRED"},
