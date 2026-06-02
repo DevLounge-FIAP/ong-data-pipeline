@@ -7,7 +7,7 @@ name = "ong-data-pipeline"
 version = "0.1.0"
 description = "ONG pipeline"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "dotenv>=0.9.9",
     "gspread>=6.2.1",
