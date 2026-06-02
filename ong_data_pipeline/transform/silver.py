@@ -36,26 +36,32 @@ def transformar_entradas(df_bruto: pd.DataFrame) -> pd.DataFrame:
 
     df = df_bruto.copy()
     
-    # 1. Tipagem de Datas
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce")
-    df["data_entrada"] = pd.to_datetime(df["data_entrada"], errors="coerce").dt.date
+    # 1. Tipagem de Datas (tz_localize para o carimbo e normalize para a data)
+    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce", dayfirst=True).dt.tz_localize("UTC")
+    df["data_de_entrada"] = pd.to_datetime(df["data_de_entrada"], errors="coerce", dayfirst=True).dt.normalize()
 
-    # 2. Renomear coluna para manter compatibilidade com a Gold atual
-    if "nome_animal" in df.columns:
-        df.rename(columns={"nome_animal": "nome_completo"}, inplace=True)
+    # 2. Alinhamento de Colunas com o schemas.py
+    if "nome_completo" in df.columns:
+        df.rename(columns={"nome_completo": "nome_animal"}, inplace=True)
+    
+    if "endereco_email" in df.columns:
+        df.drop(columns=["endereco_email"], inplace=True)
 
     # 3. Engenharia de Features: Condição de Saúde (EnumList)
-    # O AppSheet envia como "Ferido, Doente". transforma em flags booleanas.
-    df["condicao_saude"] = df["condicao_saude"].fillna("Desconhecido").astype(str)
+    df["condicao_de_saude"] = df["condicao_de_saude"].fillna("Desconhecido").astype(str)
     
-    condicoes = ["Saudável", "Ferido", "Doente", "Desnutrido"]
-    for c in condicoes:
-        col_name = f"is_{c.lower()}"
-        # Se a string contiver a condição, é True
-        df[col_name] = df["condicao_saude"].str.contains(c, case=False, na=False)
+    condicoes = {
+        "Saudável": "saudavel", 
+        "Ferido": "ferido", 
+        "Doente": "doente", 
+        "Desnutrido": "desnutrido"
+    }
+    
+    for condicao_original, nome_limpo in condicoes.items():
+        col_name = f"is_{nome_limpo}"
+        df[col_name] = df["condicao_de_saude"].str.contains(condicao_original, case=False, na=False)
 
-    # Flag especial para múltiplas condições (ex: Ferido E Doente)
-    df["flag_multiplas_condicoes"] = df[[f"is_{c.lower()}" for c in condicoes]].sum(axis=1) > 1
+    df["flag_multiplas_condicoes"] = df[[f"is_{nome_limpo}" for nome_limpo in condicoes.values()]].sum(axis=1) > 1
 
     df = _limpar_textos_vazios(df)
     log.info(f"[SILVER] Entradas: {len(df)} registros transformados.")
@@ -72,12 +78,11 @@ def transformar_doacoes(df_bruto: pd.DataFrame) -> pd.DataFrame:
     df = df_bruto.copy()
 
     # 1. Tipagem de Datas
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce")
-    df["data_doacao"] = pd.to_datetime(df["data_doacao"], errors="coerce").dt.date
+    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce", dayfirst=True).dt.tz_localize("UTC")
+    df["data_doacao"] = pd.to_datetime(df["data_doacao"], errors="coerce", dayfirst=True).dt.normalize()
 
     # 2. Tipagem Numérica (Valor doado)
     if "valor_doado" in df.columns:
-        # Remove caracteres indesejados caso existam e converte para numérico
         df["valor_doado"] = pd.to_numeric(
             df["valor_doado"].astype(str).str.replace(r"[^\d.]", "", regex=True), 
             errors="coerce"
@@ -98,8 +103,8 @@ def transformar_prontuarios(df_bruto: pd.DataFrame) -> pd.DataFrame:
     df = df_bruto.copy()
 
     # 1. Tipagem de Datas
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce")
-    df["data_procedimento"] = pd.to_datetime(df["data_procedimento"], errors="coerce").dt.date
+    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce", dayfirst=True).dt.tz_localize("UTC")
+    df["data_do_procedimento"] = pd.to_datetime(df["data_do_procedimento"], errors="coerce", dayfirst=True).dt.normalize()
 
     df = _limpar_textos_vazios(df)
     log.info(f"[SILVER] Prontuários: {len(df)} registros transformados.")
@@ -116,16 +121,15 @@ def transformar_saidas(df_bruto: pd.DataFrame) -> pd.DataFrame:
     df = df_bruto.copy()
 
     # 1. Tipagem de Datas
-    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce")
-    df["data_saida"] = pd.to_datetime(df["data_saida"], errors="coerce").dt.date
+    df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce", dayfirst=True).dt.tz_localize("UTC")
+    df["data_da_saida"] = pd.to_datetime(df["data_da_saida"], errors="coerce", dayfirst=True).dt.normalize()
 
     # 2. Tipagem Numérica
-    if "num_imovel" in df.columns:
-        df["num_imovel"] = pd.to_numeric(df["num_imovel"], errors="coerce").astype("Int64")
+    if "numero_do_imovel" in df.columns:
+        df["numero_do_imovel"] = pd.to_numeric(df["numero_do_imovel"], errors="coerce").astype("Int64")
     
-    # Telefone como string (limpando apenas caracteres) para evitar notação científica
-    if "telefone_adotante" in df.columns:
-        df["telefone_adotante"] = df["telefone_adotante"].astype(str).str.replace(r"\D", "", regex=True)
+    if "telefone_de_contato" in df.columns:
+        df["telefone_de_contato"] = df["telefone_de_contato"].astype(str).str.replace(r"\D", "", regex=True)
 
     df = _limpar_textos_vazios(df)
     log.info(f"[SILVER] Saídas: {len(df)} registros transformados.")
