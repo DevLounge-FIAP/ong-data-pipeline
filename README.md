@@ -92,62 +92,39 @@ Na modelagem do saldo de animais abrigados (`gold_animais_mensal`), o pipeline g
 ## 🛠️ Como Executar o Pipeline
 
 ### Pré-requisitos
-
--   Python 3.11+
-    
--   Conta de Serviço no Google Cloud Platform com permissões de administrador do BigQuery.
-    
--   ID da Planilha do Google Sheets configurado.
+* Python 3.11+
+* [uv](https://github.com/astral-sh/uv) instalado no sistema (Gerenciador de pacotes ultrarrápido).
+* Conta de Serviço no Google Cloud Platform com permissões de administrador do BigQuery.
+* ID da Planilha do Google Sheets configurado.
 
 ### Configuração do Ambiente
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/ong-data-pipeline.git](https://github.com/seu-usuario/ong-data-pipeline.git)
+   cd ong-data-pipeline
+   ```
+   
+2.  Sincronize as dependências e crie o ambiente virtual automaticamente com o `uv`:
+	```Bash
+	uv sync
+	```    
 
-1.  Clone o repositório:
+3.  Crie um arquivo `.env` na raiz do projeto e configure as variáveis:
     
-    Bash
-    
-    ```
-    git clone https://github.com/seu-usuario/ong-data-pipeline.git
-    cd ong-data-pipeline
+    Snippet de código:
     
     ```
-    
-2.  Crie e ative o ambiente virtual:
-    
-    Bash
-    
-    ```
-    python -m venv .venv
-    source .venv/bin/activate  # Linux/Mac
-    .venv\Scripts\activate     # Windows
-    
-    ```
-    
-3.  Instale as dependências:
-    
-    Bash
-    
-    ```
-    pip install -r requirements.txt
-    
-    ```
-    
-4.  Configure as variáveis de ambiente (`.env`):
-    
-    Snippet de código
-    
-    ```
-    GOOGLE_APPLICATION_CREDENTIALS="caminho/para/seu/token-gcp.json"
+    GOOGLE_CREDENTIALS_PATH="caminho/para/seu/token-gcp.json"
     GOOGLE_SHEETS_ID="seu_id_do_google_sheets"
-    
+    GCP_PROJECT_ID="id_do_seu_projeto_GCP"
+    BQ_DATASET_ID="id_dataset_no_BQ"
     ```
     
 
 ### Execução
 
-Execute o orquestrador principal do pipeline:
+Execute o orquestrador principal do pipeline isolado no ambiente do `uv`:
 
-Bash
-
-```
-python -m ong_data_pipeline
-```
+ ```Bash
+uv run python -m ong_data_pipeline
+ ```
