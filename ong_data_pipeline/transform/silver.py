@@ -43,7 +43,8 @@ def transformar_entradas(df_bruto: pd.DataFrame) -> pd.DataFrame:
     # 2. Alinhamento de Colunas com o schemas.py
     if "nome_completo" in df.columns:
         df.rename(columns={"nome_completo": "nome_animal"}, inplace=True)
-    
+        
+    # Drop da coluna email que não precisa ir para o dash
     if "endereco_email" in df.columns:
         df.drop(columns=["endereco_email"], inplace=True)
 
@@ -81,7 +82,12 @@ def transformar_doacoes(df_bruto: pd.DataFrame) -> pd.DataFrame:
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce", dayfirst=True).dt.tz_localize("UTC")
     df["data_doacao"] = pd.to_datetime(df["data_doacao"], errors="coerce", dayfirst=True).dt.normalize()
 
-    # 2. Tipagem Numérica (Valor doado)
+    # 2. Drop de colunas não necessárias para o schema
+    for col_to_drop in ["endereco_email", "endereco_de_email"]:
+        if col_to_drop in df.columns:
+            df.drop(columns=[col_to_drop], inplace=True)
+
+    # 3. Tipagem Numérica (Valor doado)
     if "valor_doado" in df.columns:
         df["valor_doado"] = pd.to_numeric(
             df["valor_doado"].astype(str).str.replace(r"[^\d.]", "", regex=True), 
@@ -106,6 +112,11 @@ def transformar_prontuarios(df_bruto: pd.DataFrame) -> pd.DataFrame:
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce", dayfirst=True).dt.tz_localize("UTC")
     df["data_do_procedimento"] = pd.to_datetime(df["data_do_procedimento"], errors="coerce", dayfirst=True).dt.normalize()
 
+    # 2. Drop de colunas não necessárias para o schema
+    for col_to_drop in ["endereco_email", "endereco_de_email"]:
+        if col_to_drop in df.columns:
+            df.drop(columns=[col_to_drop], inplace=True)
+
     df = _limpar_textos_vazios(df)
     log.info(f"[SILVER] Prontuários: {len(df)} registros transformados.")
     return df
@@ -124,7 +135,12 @@ def transformar_saidas(df_bruto: pd.DataFrame) -> pd.DataFrame:
     df["carimbo_ts"] = pd.to_datetime(df["carimbo_ts"], errors="coerce", dayfirst=True).dt.tz_localize("UTC")
     df["data_da_saida"] = pd.to_datetime(df["data_da_saida"], errors="coerce", dayfirst=True).dt.normalize()
 
-    # 2. Tipagem Numérica
+    # 2. Drop de colunas não necessárias para o schema
+    for col_to_drop in ["endereco_email", "endereco_de_email"]:
+        if col_to_drop in df.columns:
+            df.drop(columns=[col_to_drop], inplace=True)
+
+    # 3. Tipagem Numérica
     if "numero_do_imovel" in df.columns:
         df["numero_do_imovel"] = pd.to_numeric(df["numero_do_imovel"], errors="coerce").astype("Int64")
     

@@ -66,19 +66,19 @@ def gerar_gold_entradas(df_entradas: pd.DataFrame) -> pd.DataFrame:
     """
     Tabela OBT de entradas: dimensões + métricas já unidas.
     """
-    cols_obrigatorias = ["data_entrada", "id_animal", "especie", "sexo", "porte"]
+    cols_obrigatorias = ["data_de_entrada", "id_animal", "especie_do_animal", "sexo", "porte"]
     for col in cols_obrigatorias:
         if col not in df_entradas.columns:
             raise KeyError(f"Coluna obrigatória ausente em entradas: {col}")
 
-    df = _adicionar_ano_mes(df_entradas, "data_entrada")
+    df = _adicionar_ano_mes(df_entradas, "data_de_entrada")
 
     # Usamos preenchimento de segurança para as agregações
-    for col in ["especie", "sexo", "porte", "condicao_saude"]:
+    for col in ["especie_do_animal", "sexo", "porte", "condicao_de_saude"]:
         if col in df.columns:
             df[col] = df[col].fillna("Não Informado")
 
-    agg = df.groupby(["ano", "mes", "ano_mes", "especie", "sexo", "porte", "condicao_saude"]).agg(
+    agg = df.groupby(["ano", "mes", "ano_mes", "especie_do_animal", "sexo", "porte", "condicao_de_saude"]).agg(
         total_entradas=("id_animal", "nunique"),
     ).reset_index()
 
@@ -113,27 +113,27 @@ def gerar_gold_prontuarios(df_prontuarios: pd.DataFrame, df_entradas: pd.DataFra
     """
     Tabela OBT de procedimentos. Cruza com as entradas para obter a espécie e porte do animal.
     """
-    cols_obrigatorias = ["data_procedimento", "tipo_evento", "nome_profissional", "id_animal"]
+    cols_obrigatorias = ["data_do_procedimento", "tipo_de_evento", "nome_do_profissional", "id_animal"]
     for col in cols_obrigatorias:
         if col not in df_prontuarios.columns:
             raise KeyError(f"Coluna obrigatória ausente em prontuários: {col}")
 
     # A MÁGICA DO APPSHEET ACONTECE AQUI: O Merge Relacional
     df_merged = df_prontuarios.merge(
-        df_entradas[["id_animal", "especie", "sexo", "porte"]], 
+        df_entradas[["id_animal", "especie_do_animal", "sexo", "porte"]], 
         on="id_animal", 
         how="left"
     )
     
     # Garantir que não existam NaNs nas dimensões
-    for col in ["especie", "sexo", "porte"]:
+    for col in ["especie_do_animal", "sexo", "porte"]:
         df_merged[col] = df_merged[col].fillna("Desconhecido")
 
-    df = _adicionar_ano_mes(df_merged, "data_procedimento")
+    df = _adicionar_ano_mes(df_merged, "data_do_procedimento")
 
     # Agora a OBT agrupa permitindo filtros de espécie e porte lá no Looker Studio
-    agg = df.groupby(["ano", "mes", "ano_mes", "tipo_evento", "nome_profissional", "especie", "sexo", "porte"]).agg(
-        total_procedimentos=("id_procedimento", "nunique") if "id_procedimento" in df.columns else ("tipo_evento", "count"),
+    agg = df.groupby(["ano", "mes", "ano_mes", "tipo_de_evento", "nome_do_profissional", "especie_do_animal", "sexo", "porte"]).agg(
+        total_procedimentos=("id_procedimento", "nunique") if "id_procedimento" in df.columns else ("tipo_de_evento", "count"),
     ).reset_index()
 
     agg["total_procedimentos"] = agg["total_procedimentos"].astype(int)
@@ -144,26 +144,26 @@ def gerar_gold_saidas(df_saidas: pd.DataFrame, df_entradas: pd.DataFrame) -> pd.
     """
     Tabela OBT de saídas. Cruza com as entradas para obter a espécie e porte do animal.
     """
-    cols_obrigatorias = ["data_saida", "motivo_saida", "id_animal"]
+    cols_obrigatorias = ["data_da_saida", "motivo_da_saida", "id_animal"]
     for col in cols_obrigatorias:
         if col not in df_saidas.columns:
             raise KeyError(f"Coluna obrigatória ausente em saídas: {col}")
 
     # A MÁGICA DO APPSHEET ACONTECE AQUI: O Merge Relacional
     df_merged = df_saidas.merge(
-        df_entradas[["id_animal", "especie", "sexo", "porte"]], 
+        df_entradas[["id_animal", "especie_do_animal", "sexo", "porte"]], 
         on="id_animal", 
         how="left"
     )
     
-    for col in ["especie", "sexo", "porte", "cidade_destino", "bairro_destino"]:
+    for col in ["especie_do_animal", "sexo", "porte", "cidade_de_destino", "bairro_de_destino"]:
         if col in df_merged.columns:
             df_merged[col] = df_merged[col].fillna("Não Informado")
 
-    df = _adicionar_ano_mes(df_merged, "data_saida")
+    df = _adicionar_ano_mes(df_merged, "data_da_saida")
 
-    agg = df.groupby(["ano", "mes", "ano_mes", "motivo_saida", "cidade_destino", "bairro_destino", "especie", "sexo", "porte"]).agg(
-        total_saidas=("id_saida", "nunique") if "id_saida" in df.columns else ("motivo_saida", "count"),
+    agg = df.groupby(["ano", "mes", "ano_mes", "motivo_da_saida", "cidade_de_destino", "bairro_de_destino", "especie_do_animal", "sexo", "porte"]).agg(
+        total_saidas=("id_saida", "nunique") if "id_saida" in df.columns else ("motivo_da_saida", "count"),
     ).reset_index()
 
     agg["total_saidas"] = agg["total_saidas"].astype(int)
@@ -177,12 +177,12 @@ def gerar_gold_animais_mensal(
     Cria a tabela de saldo mensal de animais, garantindo meses sem eventos (zeros)
     e calculando o saldo acumulado.
     """
-    entradas_agg = _adicionar_ano_mes(df_entradas, "data_entrada")
+    entradas_agg = _adicionar_ano_mes(df_entradas, "data_de_entrada")
     entradas_agg = entradas_agg.groupby("ano_mes").agg(
         total_entradas=("id_animal", "nunique")
     ).reset_index()
 
-    saidas_agg = _adicionar_ano_mes(df_saidas, "data_saida")
+    saidas_agg = _adicionar_ano_mes(df_saidas, "data_da_saida")
     saidas_agg = saidas_agg.groupby("ano_mes").agg(
         total_saidas=("id_saida", "nunique") if "id_saida" in df_saidas.columns else ("id_animal", "count")
     ).reset_index()
