@@ -1,0 +1,501 @@
+﻿id_animal,carimbo_ts,endereco_email,data_de_entrada,nome_do_responsavel,sobrenome_do_responsavel,nome_animal,especie_do_animal,sexo,porte,condicao_de_saude,status_atual
+d28457b7,19/03/2026 09:25:55,aelton.mantovani@ongamigos.org,19-03-2026,Aelton,Mantovani,Cacau,Gato,Fêmea,Pequeno,"Ferido, Doente",Transferência
+6dd6b363,29/04/2026 18:11:16,michelly.santos@ongamigos.org,29-04-2026,Michelly,Santos,Amora,Pet exótico,Macho,Médio,Saudável,No Abrigo
+0e080101,23/04/2026 16:25:20,aelton.soares@ongamigos.org,23-04-2026,Aelton,Soares,Luke,Ovino/Caprino,Fêmea,Grande,"Ferido, Desnutrido",No Abrigo
+1e9bb41f,31/08/2025 10:36:19,aelton.santos@ongamigos.org,31-08-2025,Aelton,Santos,Caramelo,Equino,Macho,Grande,Saudável,No Abrigo
+b9cdaaff,19/02/2026 13:29:56,bruno.soares@ongamigos.org,19-02-2026,Bruno,Soares,Rex,Gato,Fêmea,Grande,Desconhecido,No Abrigo
+137c0a5d,05/07/2025 18:37:18,michelly.santos@ongamigos.org,05-07-2025,Michelly,Santos,Amora,Peixe,Macho,Pequeno,Doente,Óbito
+65788c3b,07/09/2025 11:31:03,aelton.mantovani@ongamigos.org,07-09-2025,Aelton,Mantovani,Cacau,Peixe,Fêmea,Pequeno,Desnutrido,Óbito
+0f4acc60,03/06/2026 19:24:48,victor.soares@ongamigos.org,03-06-2026,Victor,Soares,Bidu,Animal silvestres,Macho,Pequeno,"Desnutrido, Doente",No Abrigo
+35d4d299,21/11/2025 13:43:55,bruno.soares@ongamigos.org,21-11-2025,Bruno,Soares,Pretinha,Pet exótico,Desconhecido,Pequeno,Desconhecido,Lar Temporário
+2df89e16,13/06/2025 16:33:53,michelly.soares@ongamigos.org,13-06-2025,Michelly,Soares,Pretinha,Ovino/Caprino,Fêmea,Grande,"Ferido, Doente",Lar Temporário
+8bc5e5bf,24/04/2026 11:52:41,michelly.soares@ongamigos.org,24-04-2026,Michelly,Soares,Toby,Suíno,Macho,Grande,Desconhecido,Adoção Definitiva
+e9dfdd44,09/05/2026 08:43:59,michelly.soares@ongamigos.org,09-05-2026,Michelly,Soares,Nina,Cão,Macho,Grande,Desconhecido,No Abrigo
+cea5bb3a,14/09/2025 14:45:28,aelton.santos@ongamigos.org,14-09-2025,Aelton,Santos,Luna,Ovino/Caprino,Fêmea,Médio,"Ferido, Doente",Adoção Definitiva
+e7d3bf5b,06/09/2025 17:56:38,aelton.santos@ongamigos.org,06-09-2025,Aelton,Santos,Thor,Ave,Desconhecido,Médio,Saudável,No Abrigo
+11f526f3,03/11/2025 10:23:07,bruno.soares@ongamigos.org,03-11-2025,Bruno,Soares,Amora,Gato,Fêmea,Pequeno,Saudável,No Abrigo
+3cabba83,09/11/2025 17:01:47,aelton.santos@ongamigos.org,09-11-2025,Aelton,Santos,Rex,Cão,Macho,Pequeno,Desconhecido,No Abrigo
+7d60527d,25/07/2025 17:48:14,victor.mantovani@ongamigos.org,25-07-2025,Victor,Mantovani,Amora,Peixe,Macho,Médio,Saudável,Lar Temporário
+dbb03135,25/06/2025 12:45:07,aelton.santos@ongamigos.org,25-06-2025,Aelton,Santos,Fred,Bovino,Macho,Médio,Desconhecido,No Abrigo
+cd483302,07/02/2026 15:14:30,victor.santos@ongamigos.org,07-02-2026,Victor,Santos,Rex,Suíno,Fêmea,Grande,Doente,Óbito
+e24ac219,12/06/2026 15:49:16,aelton.soares@ongamigos.org,12-06-2026,Aelton,Soares,Max,Pet exótico,Desconhecido,Grande,Saudável,No Abrigo
+9f1c0e6f,16/04/2026 14:02:38,bruno.mantovani@ongamigos.org,16-04-2026,Bruno,Mantovani,Bidu,Peixe,Desconhecido,Médio,Saudável,Transferência
+e3ed5f8d,02/02/2026 10:47:18,victor.mantovani@ongamigos.org,02-02-2026,Victor,Mantovani,Mel,Cão,Desconhecido,Médio,"Ferido, Desnutrido",No Abrigo
+4341c1f0,02/07/2025 14:25:32,victor.mantovani@ongamigos.org,02-07-2025,Victor,Mantovani,Luke,Ovino/Caprino,Fêmea,Grande,Saudável,No Abrigo
+8547cad2,03/01/2026 10:33:15,michelly.santos@ongamigos.org,03-01-2026,Michelly,Santos,Thor,Equino,Desconhecido,Médio,Desconhecido,Adoção Definitiva
+5b8b9ba3,17/04/2026 11:17:33,aelton.soares@ongamigos.org,17-04-2026,Aelton,Soares,Marley,Ovino/Caprino,Desconhecido,Médio,Saudável,Adoção Definitiva
+7c535851,04/07/2025 19:31:47,bruno.soares@ongamigos.org,04-07-2025,Bruno,Soares,Bob,Gato,Macho,Médio,Saudável,Transferência
+a0eb16ac,04/08/2025 18:00:49,michelly.mantovani@ongamigos.org,04-08-2025,Michelly,Mantovani,Amora,Peixe,Fêmea,Médio,"Desnutrido, Ferido",No Abrigo
+a5a71ccc,22/10/2025 14:46:50,michelly.mantovani@ongamigos.org,22-10-2025,Michelly,Mantovani,Thor,Ovino/Caprino,Desconhecido,Grande,Saudável,No Abrigo
+e9954710,06/11/2025 13:44:26,aelton.soares@ongamigos.org,06-11-2025,Aelton,Soares,Cacau,Equino,Desconhecido,Médio,Saudável,Óbito
+9a1697cc,18/03/2026 14:37:46,michelly.mantovani@ongamigos.org,18-03-2026,Michelly,Mantovani,Pipoca,Gato,Macho,Médio,Saudável,Transferência
+aee11ea8,04/07/2025 13:54:13,victor.santos@ongamigos.org,04-07-2025,Victor,Santos,Pretinha,Animal silvestres,Desconhecido,Pequeno,"Desnutrido, Doente",No Abrigo
+9ae8d3d1,02/12/2025 15:46:20,victor.soares@ongamigos.org,02-12-2025,Victor,Soares,Pretinha,Ovino/Caprino,Fêmea,Grande,Desconhecido,Lar Temporário
+0b147465,30/03/2026 15:59:23,michelly.santos@ongamigos.org,30-03-2026,Michelly,Santos,Luna,Equino,Desconhecido,Grande,Desconhecido,No Abrigo
+60bdc9fb,21/02/2026 10:10:36,aelton.santos@ongamigos.org,21-02-2026,Aelton,Santos,Caramelo,Animal silvestres,Macho,Grande,Saudável,Óbito
+fc7729bb,05/01/2026 18:23:26,victor.santos@ongamigos.org,05-01-2026,Victor,Santos,Pipoca,Ovino/Caprino,Fêmea,Médio,Saudável,No Abrigo
+1c24ed2a,16/02/2026 15:27:51,michelly.mantovani@ongamigos.org,16-02-2026,Michelly,Mantovani,Luna,Ovino/Caprino,Macho,Grande,"Desnutrido, Ferido",No Abrigo
+894ad601,07/07/2025 12:17:01,michelly.mantovani@ongamigos.org,07-07-2025,Michelly,Mantovani,Marley,Cão,Desconhecido,Grande,Desconhecido,No Abrigo
+4cba8730,09/10/2025 14:34:55,bruno.soares@ongamigos.org,09-10-2025,Bruno,Soares,Zeus,Equino,Fêmea,Pequeno,Saudável,Óbito
+5071bee8,26/10/2025 13:56:25,victor.santos@ongamigos.org,26-10-2025,Victor,Santos,Mel,Equino,Desconhecido,Pequeno,Desconhecido,Fuga
+e8041a88,15/12/2025 07:53:36,michelly.soares@ongamigos.org,15-12-2025,Michelly,Soares,Luke,Pet exótico,Desconhecido,Pequeno,Desconhecido,No Abrigo
+0bd114a7,02/07/2025 13:20:07,bruno.soares@ongamigos.org,02-07-2025,Bruno,Soares,Zeus,Peixe,Desconhecido,Pequeno,Desconhecido,No Abrigo
+54e5fdd7,25/11/2025 10:54:03,victor.santos@ongamigos.org,25-11-2025,Victor,Santos,Pipoca,Ovino/Caprino,Desconhecido,Grande,Doente,No Abrigo
+497cd3bf,19/09/2025 12:22:10,michelly.santos@ongamigos.org,19-09-2025,Michelly,Santos,Nina,Ave,Desconhecido,Grande,Saudável,No Abrigo
+f5347cec,27/04/2026 19:50:13,victor.soares@ongamigos.org,27-04-2026,Victor,Soares,Mel,Pet exótico,Macho,Grande,"Ferido, Doente",No Abrigo
+3053a93c,21/02/2026 16:07:24,michelly.soares@ongamigos.org,21-02-2026,Michelly,Soares,Cacau,Animal silvestres,Fêmea,Grande,Saudável,Óbito
+c18ee043,11/12/2025 19:54:24,michelly.soares@ongamigos.org,11-12-2025,Michelly,Soares,Rex,Animal silvestres,Fêmea,Pequeno,Desconhecido,No Abrigo
+6cb9bec9,19/02/2026 12:14:57,michelly.soares@ongamigos.org,19-02-2026,Michelly,Soares,Pretinha,Bovino,Fêmea,Grande,Ferido,No Abrigo
+dd5dd34c,05/03/2026 10:57:49,victor.santos@ongamigos.org,05-03-2026,Victor,Santos,Pipoca,Equino,Macho,Médio,Desnutrido,Fuga
+96a92541,06/09/2025 10:00:25,victor.santos@ongamigos.org,06-09-2025,Victor,Santos,Bidu,Ovino/Caprino,Desconhecido,Grande,Desnutrido,No Abrigo
+f065996d,05/12/2025 17:48:16,victor.mantovani@ongamigos.org,05-12-2025,Victor,Mantovani,Belinha,Pet exótico,Desconhecido,Pequeno,Saudável,No Abrigo
+bf2c1143,06/11/2025 10:45:55,bruno.soares@ongamigos.org,06-11-2025,Bruno,Soares,Mel,Animal silvestres,Desconhecido,Pequeno,Desconhecido,Lar Temporário
+e5d4d8bb,05/10/2025 13:47:32,bruno.soares@ongamigos.org,05-10-2025,Bruno,Soares,Luna,Cão,Fêmea,Grande,Saudável,No Abrigo
+1d839d19,20/03/2026 13:34:05,aelton.santos@ongamigos.org,20-03-2026,Aelton,Santos,Nina,Ave,Fêmea,Médio,"Ferido, Doente",Transferência
+2a33ac31,07/08/2025 18:57:24,aelton.santos@ongamigos.org,07-08-2025,Aelton,Santos,Belinha,Cão,Macho,Médio,Saudável,Óbito
+2b5f05a2,20/09/2025 19:45:49,victor.santos@ongamigos.org,20-09-2025,Victor,Santos,Luna,Peixe,Desconhecido,Grande,Doente,No Abrigo
+9b407ded,30/04/2026 17:56:15,michelly.mantovani@ongamigos.org,30-04-2026,Michelly,Mantovani,Rex,Ovino/Caprino,Desconhecido,Médio,Desconhecido,No Abrigo
+3903a1af,15/09/2025 16:52:58,victor.santos@ongamigos.org,15-09-2025,Victor,Santos,Thor,Pet exótico,Fêmea,Pequeno,"Desnutrido, Ferido",No Abrigo
+affaf22d,01/10/2025 10:03:44,aelton.santos@ongamigos.org,01-10-2025,Aelton,Santos,Mel,Pet exótico,Macho,Pequeno,Desconhecido,Fuga
+1847be9a,01/10/2025 16:58:24,victor.santos@ongamigos.org,01-10-2025,Victor,Santos,Luna,Equino,Fêmea,Médio,Saudável,Lar Temporário
+c8254161,12/03/2026 15:39:55,aelton.soares@ongamigos.org,12-03-2026,Aelton,Soares,Marley,Pet exótico,Fêmea,Pequeno,Desnutrido,No Abrigo
+9758cd7a,29/10/2025 14:12:34,michelly.mantovani@ongamigos.org,29-10-2025,Michelly,Mantovani,Bob,Peixe,Desconhecido,Pequeno,Desconhecido,Lar Temporário
+cf277149,04/06/2026 14:47:30,bruno.soares@ongamigos.org,04-06-2026,Bruno,Soares,Amora,Animal silvestres,Macho,Pequeno,Desconhecido,Transferência
+7d4a331e,21/11/2025 14:12:30,bruno.soares@ongamigos.org,21-11-2025,Bruno,Soares,Fred,Ave,Desconhecido,Médio,Desconhecido,No Abrigo
+c877de16,12/06/2026 08:26:31,michelly.mantovani@ongamigos.org,12-06-2026,Michelly,Mantovani,Marley,Cão,Desconhecido,Médio,Ferido,Fuga
+7488b4d3,15/07/2025 18:56:40,bruno.mantovani@ongamigos.org,15-07-2025,Bruno,Mantovani,Zeus,Gato,Desconhecido,Pequeno,Desnutrido,No Abrigo
+d7de9a62,23/05/2026 11:10:37,aelton.santos@ongamigos.org,23-05-2026,Aelton,Santos,Thor,Animal silvestres,Macho,Pequeno,Saudável,No Abrigo
+1840a74b,31/08/2025 07:48:13,victor.santos@ongamigos.org,31-08-2025,Victor,Santos,Amora,Suíno,Fêmea,Pequeno,"Desnutrido, Doente",Lar Temporário
+532f1177,08/08/2025 10:36:31,victor.santos@ongamigos.org,08-08-2025,Victor,Santos,Mel,Ave,Macho,Grande,"Doente, Desnutrido",No Abrigo
+1722e392,12/05/2026 09:57:20,victor.santos@ongamigos.org,12-05-2026,Victor,Santos,Bidu,Equino,Desconhecido,Pequeno,"Ferido, Desnutrido",No Abrigo
+ca33b1bb,22/11/2025 07:12:01,victor.mantovani@ongamigos.org,22-11-2025,Victor,Mantovani,Thor,Equino,Fêmea,Pequeno,"Doente, Ferido",No Abrigo
+da5eedf4,12/03/2026 19:43:28,victor.santos@ongamigos.org,12-03-2026,Victor,Santos,Pipoca,Gato,Desconhecido,Médio,"Desnutrido, Ferido",No Abrigo
+d881fc63,26/10/2025 11:20:09,aelton.santos@ongamigos.org,26-10-2025,Aelton,Santos,Belinha,Animal silvestres,Fêmea,Pequeno,Desconhecido,Transferência
+22a51d97,18/01/2026 13:17:35,michelly.soares@ongamigos.org,18-01-2026,Michelly,Soares,Cacau,Equino,Desconhecido,Médio,Saudável,No Abrigo
+a8b0cff1,22/04/2026 16:03:01,victor.soares@ongamigos.org,22-04-2026,Victor,Soares,Thor,Cão,Fêmea,Pequeno,Desconhecido,No Abrigo
+e992ca88,10/12/2025 16:55:33,aelton.mantovani@ongamigos.org,10-12-2025,Aelton,Mantovani,Maia,Ovino/Caprino,Desconhecido,Médio,Saudável,No Abrigo
+220fbb4a,05/08/2025 18:17:13,victor.mantovani@ongamigos.org,05-08-2025,Victor,Mantovani,Caramelo,Peixe,Fêmea,Grande,Saudável,No Abrigo
+3f8d750a,25/09/2025 14:42:42,bruno.soares@ongamigos.org,25-09-2025,Bruno,Soares,Luna,Equino,Fêmea,Grande,Saudável,No Abrigo
+c4a62ee7,18/11/2025 14:18:18,aelton.mantovani@ongamigos.org,18-11-2025,Aelton,Mantovani,Zeus,Pet exótico,Desconhecido,Pequeno,Doente,No Abrigo
+abc4a44a,26/04/2026 09:56:36,aelton.soares@ongamigos.org,26-04-2026,Aelton,Soares,Amora,Pet exótico,Desconhecido,Pequeno,Desconhecido,No Abrigo
+e06304c2,29/04/2026 16:58:38,michelly.santos@ongamigos.org,29-04-2026,Michelly,Santos,Maia,Bovino,Macho,Médio,Saudável,Transferência
+909ed5e6,12/11/2025 11:28:36,michelly.mantovani@ongamigos.org,12-11-2025,Michelly,Mantovani,Amora,Equino,Macho,Médio,Saudável,No Abrigo
+dcf8056b,29/11/2025 14:08:24,victor.mantovani@ongamigos.org,29-11-2025,Victor,Mantovani,Marley,Gato,Macho,Médio,Saudável,No Abrigo
+6521be20,30/08/2025 15:57:28,bruno.mantovani@ongamigos.org,30-08-2025,Bruno,Mantovani,Maia,Ovino/Caprino,Fêmea,Grande,"Desnutrido, Ferido",No Abrigo
+962e7fbe,08/12/2025 15:01:52,bruno.mantovani@ongamigos.org,08-12-2025,Bruno,Mantovani,Max,Animal silvestres,Fêmea,Médio,"Doente, Desnutrido",Fuga
+e92d059e,13/09/2025 07:17:52,aelton.santos@ongamigos.org,13-09-2025,Aelton,Santos,Bidu,Animal silvestres,Desconhecido,Médio,"Desnutrido, Doente",No Abrigo
+caaaa0f9,07/02/2026 12:41:22,victor.santos@ongamigos.org,07-02-2026,Victor,Santos,Pipoca,Bovino,Desconhecido,Pequeno,"Desnutrido, Ferido",No Abrigo
+ad386dfc,16/08/2025 14:23:44,victor.mantovani@ongamigos.org,16-08-2025,Victor,Mantovani,Amora,Peixe,Macho,Pequeno,Desconhecido,No Abrigo
+4aecdbac,07/10/2025 11:44:38,victor.mantovani@ongamigos.org,07-10-2025,Victor,Mantovani,Caramelo,Peixe,Macho,Pequeno,Saudável,Adoção Definitiva
+2fc9b260,13/04/2026 16:15:08,michelly.mantovani@ongamigos.org,13-04-2026,Michelly,Mantovani,Pipoca,Bovino,Desconhecido,Pequeno,"Ferido, Doente",No Abrigo
+e768812d,12/03/2026 10:14:01,michelly.mantovani@ongamigos.org,12-03-2026,Michelly,Mantovani,Mel,Pet exótico,Desconhecido,Médio,Desconhecido,Transferência
+b071be18,13/01/2026 14:16:39,aelton.santos@ongamigos.org,13-01-2026,Aelton,Santos,Amora,Equino,Fêmea,Médio,Desconhecido,Transferência
+7be650ee,20/06/2025 13:33:31,bruno.mantovani@ongamigos.org,20-06-2025,Bruno,Mantovani,Caramelo,Peixe,Macho,Grande,Saudável,No Abrigo
+6460fe94,06/02/2026 10:26:37,victor.santos@ongamigos.org,06-02-2026,Victor,Santos,Rex,Peixe,Macho,Grande,Saudável,Transferência
+a6e5f34a,12/02/2026 15:54:49,victor.mantovani@ongamigos.org,12-02-2026,Victor,Mantovani,Bidu,Ave,Macho,Médio,Desconhecido,No Abrigo
+2dc919b1,04/01/2026 07:13:01,michelly.soares@ongamigos.org,04-01-2026,Michelly,Soares,Fred,Pet exótico,Macho,Pequeno,Saudável,No Abrigo
+68fa6a7b,09/02/2026 18:39:59,bruno.soares@ongamigos.org,09-02-2026,Bruno,Soares,Belinha,Ovino/Caprino,Desconhecido,Grande,Saudável,Adoção Definitiva
+0d71e9dc,13/06/2025 12:48:13,michelly.santos@ongamigos.org,13-06-2025,Michelly,Santos,Luna,Suíno,Macho,Pequeno,Desconhecido,Lar Temporário
+6154d875,07/12/2025 15:57:45,aelton.santos@ongamigos.org,07-12-2025,Aelton,Santos,Marley,Animal silvestres,Macho,Grande,Desconhecido,Óbito
+75a9dcc1,08/03/2026 15:23:34,bruno.santos@ongamigos.org,08-03-2026,Bruno,Santos,Amora,Gato,Macho,Médio,Desnutrido,No Abrigo
+5004cdbc,08/07/2025 17:34:11,bruno.santos@ongamigos.org,08-07-2025,Bruno,Santos,Pipoca,Ave,Macho,Médio,Saudável,No Abrigo
+57f6b643,20/08/2025 17:21:21,bruno.mantovani@ongamigos.org,20-08-2025,Bruno,Mantovani,Marley,Cão,Macho,Médio,Doente,No Abrigo
+74150122,28/11/2025 18:42:06,aelton.mantovani@ongamigos.org,28-11-2025,Aelton,Mantovani,Luna,Animal silvestres,Macho,Médio,Desconhecido,Transferência
+91bb7a1a,28/08/2025 13:44:57,victor.santos@ongamigos.org,28-08-2025,Victor,Santos,Amora,Gato,Fêmea,Grande,Doente,No Abrigo
+3a14c968,26/05/2026 15:09:55,michelly.mantovani@ongamigos.org,26-05-2026,Michelly,Mantovani,Caramelo,Cão,Desconhecido,Grande,Desconhecido,No Abrigo
+c7c3c8d9,07/03/2026 17:38:03,victor.soares@ongamigos.org,07-03-2026,Victor,Soares,Amora,Ave,Fêmea,Médio,"Doente, Ferido",No Abrigo
+3553d02c,26/11/2025 14:50:22,aelton.soares@ongamigos.org,26-11-2025,Aelton,Soares,Luke,Cão,Macho,Médio,Ferido,No Abrigo
+40acdf9a,17/10/2025 10:39:56,michelly.soares@ongamigos.org,17-10-2025,Michelly,Soares,Cacau,Cão,Macho,Pequeno,Saudável,Lar Temporário
+a8f7cad9,28/12/2025 08:37:36,bruno.soares@ongamigos.org,28-12-2025,Bruno,Soares,Bob,Cão,Macho,Grande,Desconhecido,No Abrigo
+07900215,02/09/2025 13:29:11,michelly.santos@ongamigos.org,02-09-2025,Michelly,Santos,Bob,Ave,Desconhecido,Médio,Desconhecido,No Abrigo
+0c1bb650,13/03/2026 08:34:52,aelton.soares@ongamigos.org,13-03-2026,Aelton,Soares,Thor,Cão,Desconhecido,Pequeno,Saudável,No Abrigo
+49563c5d,30/08/2025 08:23:05,bruno.santos@ongamigos.org,30-08-2025,Bruno,Santos,Mel,Bovino,Desconhecido,Pequeno,"Doente, Desnutrido",No Abrigo
+202ada2c,12/01/2026 16:33:48,michelly.soares@ongamigos.org,12-01-2026,Michelly,Soares,Zeus,Bovino,Macho,Grande,"Desnutrido, Ferido",No Abrigo
+6acf9957,05/01/2026 09:05:15,michelly.mantovani@ongamigos.org,05-01-2026,Michelly,Mantovani,Nina,Equino,Macho,Grande,Desnutrido,No Abrigo
+7f17c10d,15/03/2026 09:15:58,victor.soares@ongamigos.org,15-03-2026,Victor,Soares,Max,Bovino,Macho,Médio,Ferido,No Abrigo
+12055324,16/04/2026 10:47:51,victor.mantovani@ongamigos.org,16-04-2026,Victor,Mantovani,Belinha,Cão,Fêmea,Grande,Saudável,Transferência
+11e45768,11/11/2025 19:53:56,michelly.soares@ongamigos.org,11-11-2025,Michelly,Soares,Luke,Ovino/Caprino,Desconhecido,Médio,"Doente, Desnutrido",Óbito
+5190bc71,08/10/2025 14:02:12,michelly.santos@ongamigos.org,08-10-2025,Michelly,Santos,Max,Gato,Desconhecido,Pequeno,Desnutrido,No Abrigo
+9aa2e300,19/03/2026 16:20:51,aelton.santos@ongamigos.org,19-03-2026,Aelton,Santos,Toby,Peixe,Macho,Médio,Saudável,No Abrigo
+5115f641,04/10/2025 12:37:43,bruno.santos@ongamigos.org,04-10-2025,Bruno,Santos,Thor,Ave,Desconhecido,Médio,Saudável,No Abrigo
+e3081f3e,21/04/2026 09:58:33,bruno.mantovani@ongamigos.org,21-04-2026,Bruno,Mantovani,Thor,Animal silvestres,Desconhecido,Médio,Saudável,Adoção Definitiva
+02d7ebc7,02/11/2025 07:42:55,victor.mantovani@ongamigos.org,02-11-2025,Victor,Mantovani,Thor,Pet exótico,Desconhecido,Pequeno,Desconhecido,Óbito
+c2dc738d,17/02/2026 10:30:10,bruno.mantovani@ongamigos.org,17-02-2026,Bruno,Mantovani,Thor,Ave,Macho,Grande,Desconhecido,No Abrigo
+830a6aee,24/04/2026 10:04:35,bruno.mantovani@ongamigos.org,24-04-2026,Bruno,Mantovani,Caramelo,Gato,Macho,Médio,Saudável,Fuga
+c7084c07,14/08/2025 18:19:21,bruno.mantovani@ongamigos.org,14-08-2025,Bruno,Mantovani,Fred,Animal silvestres,Desconhecido,Grande,Saudável,No Abrigo
+9e571c64,05/09/2025 13:57:25,victor.mantovani@ongamigos.org,05-09-2025,Victor,Mantovani,Zeus,Peixe,Desconhecido,Pequeno,"Ferido, Doente",No Abrigo
+b04d209b,13/08/2025 16:53:36,michelly.santos@ongamigos.org,13-08-2025,Michelly,Santos,Luke,Bovino,Fêmea,Médio,Saudável,No Abrigo
+e1af038f,19/01/2026 09:53:22,michelly.santos@ongamigos.org,19-01-2026,Michelly,Santos,Caramelo,Ovino/Caprino,Desconhecido,Médio,Desconhecido,No Abrigo
+d1353c05,25/05/2026 15:57:30,victor.mantovani@ongamigos.org,25-05-2026,Victor,Mantovani,Amora,Suíno,Macho,Pequeno,"Desnutrido, Doente",Adoção Definitiva
+5462cce9,12/02/2026 18:05:33,victor.mantovani@ongamigos.org,12-02-2026,Victor,Mantovani,Caramelo,Suíno,Macho,Médio,Desconhecido,No Abrigo
+c860b1cb,25/10/2025 07:39:23,bruno.mantovani@ongamigos.org,25-10-2025,Bruno,Mantovani,Max,Peixe,Fêmea,Grande,Desconhecido,No Abrigo
+32f4346f,16/01/2026 18:54:45,aelton.mantovani@ongamigos.org,16-01-2026,Aelton,Mantovani,Mel,Ovino/Caprino,Desconhecido,Médio,Desconhecido,Óbito
+7eb6b251,02/05/2026 07:01:36,michelly.soares@ongamigos.org,02-05-2026,Michelly,Soares,Mel,Pet exótico,Desconhecido,Grande,Desconhecido,No Abrigo
+1c15cd7d,15/10/2025 14:32:29,michelly.santos@ongamigos.org,15-10-2025,Michelly,Santos,Pretinha,Ave,Fêmea,Grande,Desconhecido,Óbito
+068ae551,26/02/2026 14:22:15,aelton.santos@ongamigos.org,26-02-2026,Aelton,Santos,Fred,Equino,Macho,Médio,Saudável,No Abrigo
+358475e5,06/12/2025 10:48:09,victor.mantovani@ongamigos.org,06-12-2025,Victor,Mantovani,Belinha,Pet exótico,Desconhecido,Médio,Saudável,Óbito
+859c4e29,22/07/2025 12:34:26,bruno.soares@ongamigos.org,22-07-2025,Bruno,Soares,Max,Cão,Fêmea,Pequeno,Saudável,No Abrigo
+d7d1332d,15/01/2026 09:04:02,aelton.santos@ongamigos.org,15-01-2026,Aelton,Santos,Nina,Ovino/Caprino,Macho,Médio,Saudável,Lar Temporário
+ae909a11,01/09/2025 07:52:49,bruno.mantovani@ongamigos.org,01-09-2025,Bruno,Mantovani,Cacau,Ave,Macho,Grande,Saudável,No Abrigo
+453a120e,05/03/2026 18:32:48,michelly.mantovani@ongamigos.org,05-03-2026,Michelly,Mantovani,Pretinha,Ovino/Caprino,Macho,Pequeno,Saudável,No Abrigo
+0e17ffa1,27/08/2025 17:55:54,aelton.santos@ongamigos.org,27-08-2025,Aelton,Santos,Amora,Peixe,Desconhecido,Pequeno,Saudável,No Abrigo
+5bc8d90b,04/12/2025 12:46:21,michelly.soares@ongamigos.org,04-12-2025,Michelly,Soares,Marley,Gato,Fêmea,Médio,Saudável,Adoção Definitiva
+018945a3,19/02/2026 14:50:06,victor.soares@ongamigos.org,19-02-2026,Victor,Soares,Rex,Peixe,Fêmea,Médio,"Ferido, Desnutrido",Transferência
+431902ee,17/08/2025 10:29:59,aelton.santos@ongamigos.org,17-08-2025,Aelton,Santos,Fred,Gato,Macho,Grande,"Doente, Ferido",Transferência
+8d3e587a,31/03/2026 10:06:25,victor.soares@ongamigos.org,31-03-2026,Victor,Soares,Fred,Ovino/Caprino,Desconhecido,Médio,"Doente, Desnutrido",Lar Temporário
+6c83fe64,28/04/2026 17:12:59,bruno.mantovani@ongamigos.org,28-04-2026,Bruno,Mantovani,Cacau,Pet exótico,Macho,Médio,Doente,Transferência
+3205154d,22/10/2025 13:58:09,aelton.mantovani@ongamigos.org,22-10-2025,Aelton,Mantovani,Thor,Gato,Desconhecido,Pequeno,Desconhecido,No Abrigo
+d9b181b9,01/07/2025 11:09:33,bruno.santos@ongamigos.org,01-07-2025,Bruno,Santos,Pipoca,Animal silvestres,Macho,Médio,Ferido,No Abrigo
+32735cbe,24/09/2025 08:19:21,victor.santos@ongamigos.org,24-09-2025,Victor,Santos,Pretinha,Suíno,Fêmea,Médio,Desconhecido,No Abrigo
+0f5f9747,27/10/2025 09:27:06,victor.soares@ongamigos.org,27-10-2025,Victor,Soares,Toby,Ovino/Caprino,Macho,Pequeno,Saudável,Transferência
+58ebdc5a,26/07/2025 19:30:40,victor.soares@ongamigos.org,26-07-2025,Victor,Soares,Belinha,Gato,Desconhecido,Grande,Desconhecido,No Abrigo
+5b2f865b,01/09/2025 19:57:41,michelly.soares@ongamigos.org,01-09-2025,Michelly,Soares,Max,Pet exótico,Macho,Grande,"Doente, Desnutrido",No Abrigo
+713aac0f,05/10/2025 10:00:23,aelton.santos@ongamigos.org,05-10-2025,Aelton,Santos,Pipoca,Cão,Desconhecido,Grande,Desconhecido,No Abrigo
+340292cc,24/03/2026 09:36:58,michelly.soares@ongamigos.org,24-03-2026,Michelly,Soares,Amora,Ovino/Caprino,Desconhecido,Médio,Saudável,No Abrigo
+dc19b4a9,22/12/2025 15:33:59,bruno.soares@ongamigos.org,22-12-2025,Bruno,Soares,Rex,Ovino/Caprino,Fêmea,Médio,Saudável,No Abrigo
+0132afad,22/03/2026 10:59:46,bruno.mantovani@ongamigos.org,22-03-2026,Bruno,Mantovani,Fred,Peixe,Desconhecido,Grande,Saudável,No Abrigo
+47ab850c,13/03/2026 11:51:38,michelly.soares@ongamigos.org,13-03-2026,Michelly,Soares,Cacau,Suíno,Desconhecido,Pequeno,"Ferido, Doente",No Abrigo
+9244ca66,14/10/2025 09:00:15,michelly.santos@ongamigos.org,14-10-2025,Michelly,Santos,Belinha,Animal silvestres,Macho,Grande,Saudável,No Abrigo
+7c27a993,07/04/2026 10:02:40,bruno.mantovani@ongamigos.org,07-04-2026,Bruno,Mantovani,Zeus,Suíno,Desconhecido,Pequeno,Desconhecido,Adoção Definitiva
+7039cf2e,24/10/2025 14:57:12,aelton.santos@ongamigos.org,24-10-2025,Aelton,Santos,Marley,Ovino/Caprino,Fêmea,Grande,Saudável,No Abrigo
+2b26df51,06/09/2025 17:43:19,aelton.mantovani@ongamigos.org,06-09-2025,Aelton,Mantovani,Thor,Peixe,Fêmea,Grande,Saudável,Fuga
+4db64208,02/07/2025 13:25:40,aelton.mantovani@ongamigos.org,02-07-2025,Aelton,Mantovani,Bidu,Ovino/Caprino,Desconhecido,Médio,Desconhecido,Fuga
+70fe56ed,27/11/2025 19:41:33,victor.mantovani@ongamigos.org,27-11-2025,Victor,Mantovani,Pipoca,Pet exótico,Macho,Grande,Desconhecido,No Abrigo
+3ca1ae6e,29/11/2025 08:18:23,bruno.mantovani@ongamigos.org,29-11-2025,Bruno,Mantovani,Luke,Animal silvestres,Fêmea,Médio,Doente,No Abrigo
+9e78eef2,02/09/2025 07:33:26,michelly.soares@ongamigos.org,02-09-2025,Michelly,Soares,Thor,Ovino/Caprino,Desconhecido,Grande,Saudável,Adoção Definitiva
+be9ea905,07/11/2025 07:04:46,victor.santos@ongamigos.org,07-11-2025,Victor,Santos,Cacau,Equino,Fêmea,Pequeno,Desnutrido,Lar Temporário
+c5f0363d,02/04/2026 07:17:20,victor.santos@ongamigos.org,02-04-2026,Victor,Santos,Thor,Equino,Macho,Médio,"Doente, Ferido",No Abrigo
+85298825,17/06/2025 18:17:16,michelly.santos@ongamigos.org,17-06-2025,Michelly,Santos,Caramelo,Ave,Desconhecido,Médio,Desnutrido,No Abrigo
+555ee0e3,26/04/2026 14:59:42,bruno.santos@ongamigos.org,26-04-2026,Bruno,Santos,Rex,Peixe,Macho,Grande,Desconhecido,Adoção Definitiva
+706f5b5b,18/09/2025 07:38:20,bruno.soares@ongamigos.org,18-09-2025,Bruno,Soares,Pipoca,Peixe,Desconhecido,Pequeno,Saudável,Adoção Definitiva
+262352d4,28/09/2025 10:25:48,victor.mantovani@ongamigos.org,28-09-2025,Victor,Mantovani,Luna,Bovino,Desconhecido,Grande,Desnutrido,Fuga
+f90a5bef,06/10/2025 15:40:02,victor.soares@ongamigos.org,06-10-2025,Victor,Soares,Marley,Peixe,Macho,Pequeno,"Desnutrido, Ferido",Transferência
+f1087890,30/04/2026 12:06:50,bruno.santos@ongamigos.org,30-04-2026,Bruno,Santos,Pipoca,Equino,Fêmea,Pequeno,"Desnutrido, Ferido",No Abrigo
+cf9eafbb,25/09/2025 17:33:20,victor.mantovani@ongamigos.org,25-09-2025,Victor,Mantovani,Amora,Gato,Macho,Médio,"Doente, Ferido",No Abrigo
+5d2d72c5,23/08/2025 18:11:26,michelly.santos@ongamigos.org,23-08-2025,Michelly,Santos,Max,Equino,Fêmea,Pequeno,"Doente, Ferido",Adoção Definitiva
+b2880b70,01/01/2026 09:44:00,aelton.santos@ongamigos.org,01-01-2026,Aelton,Santos,Amora,Animal silvestres,Macho,Pequeno,Desnutrido,Óbito
+d8f966be,16/02/2026 13:37:20,aelton.santos@ongamigos.org,16-02-2026,Aelton,Santos,Bidu,Pet exótico,Macho,Médio,Saudável,Lar Temporário
+8c4b2bbe,27/12/2025 15:43:11,bruno.santos@ongamigos.org,27-12-2025,Bruno,Santos,Fred,Pet exótico,Fêmea,Médio,Saudável,Transferência
+4e27aa6d,23/11/2025 10:10:21,bruno.soares@ongamigos.org,23-11-2025,Bruno,Soares,Fred,Animal silvestres,Fêmea,Grande,Saudável,No Abrigo
+61c77649,18/08/2025 12:14:49,bruno.soares@ongamigos.org,18-08-2025,Bruno,Soares,Thor,Ovino/Caprino,Fêmea,Médio,Desnutrido,Lar Temporário
+64642d73,03/12/2025 15:54:46,aelton.mantovani@ongamigos.org,03-12-2025,Aelton,Mantovani,Fred,Gato,Fêmea,Pequeno,Saudável,Transferência
+8c266363,09/10/2025 13:28:19,bruno.soares@ongamigos.org,09-10-2025,Bruno,Soares,Caramelo,Ave,Macho,Grande,Saudável,Óbito
+52034afb,11/04/2026 18:34:25,victor.soares@ongamigos.org,11-04-2026,Victor,Soares,Pipoca,Pet exótico,Fêmea,Grande,Doente,No Abrigo
+5d05d83c,27/01/2026 19:56:14,aelton.mantovani@ongamigos.org,27-01-2026,Aelton,Mantovani,Amora,Ave,Fêmea,Médio,Ferido,No Abrigo
+7a2ea127,16/10/2025 11:37:56,bruno.mantovani@ongamigos.org,16-10-2025,Bruno,Mantovani,Belinha,Ave,Fêmea,Pequeno,Saudável,No Abrigo
+a8ac996f,31/10/2025 16:45:17,victor.santos@ongamigos.org,31-10-2025,Victor,Santos,Amora,Ovino/Caprino,Macho,Médio,Desconhecido,Transferência
+6518cb62,21/10/2025 08:46:43,bruno.soares@ongamigos.org,21-10-2025,Bruno,Soares,Rex,Suíno,Desconhecido,Pequeno,Desconhecido,No Abrigo
+33254217,28/02/2026 16:32:46,aelton.santos@ongamigos.org,28-02-2026,Aelton,Santos,Toby,Gato,Desconhecido,Pequeno,Desconhecido,No Abrigo
+ee229547,20/04/2026 14:28:12,victor.mantovani@ongamigos.org,20-04-2026,Victor,Mantovani,Cacau,Pet exótico,Fêmea,Pequeno,Doente,No Abrigo
+9ac87eaf,29/03/2026 11:14:24,bruno.mantovani@ongamigos.org,29-03-2026,Bruno,Mantovani,Nina,Bovino,Macho,Pequeno,Desconhecido,No Abrigo
+8e02430b,03/06/2026 13:07:01,michelly.santos@ongamigos.org,03-06-2026,Michelly,Santos,Toby,Cão,Fêmea,Médio,Desconhecido,No Abrigo
+3297337f,22/09/2025 15:57:26,michelly.mantovani@ongamigos.org,22-09-2025,Michelly,Mantovani,Toby,Equino,Macho,Pequeno,Desconhecido,No Abrigo
+03bc3f5b,30/09/2025 12:40:39,victor.santos@ongamigos.org,30-09-2025,Victor,Santos,Luke,Gato,Desconhecido,Médio,Desnutrido,No Abrigo
+22d2f3aa,12/07/2025 15:33:44,michelly.mantovani@ongamigos.org,12-07-2025,Michelly,Mantovani,Fred,Equino,Desconhecido,Médio,Saudável,No Abrigo
+83afe5f1,16/04/2026 19:20:54,victor.mantovani@ongamigos.org,16-04-2026,Victor,Mantovani,Rex,Equino,Desconhecido,Médio,Desnutrido,Óbito
+36a148dc,22/01/2026 13:38:31,michelly.santos@ongamigos.org,22-01-2026,Michelly,Santos,Toby,Ovino/Caprino,Macho,Pequeno,Doente,Adoção Definitiva
+11dfc158,17/10/2025 16:49:31,aelton.mantovani@ongamigos.org,17-10-2025,Aelton,Mantovani,Bob,Equino,Desconhecido,Pequeno,Saudável,No Abrigo
+bda38bc6,11/08/2025 16:25:50,aelton.mantovani@ongamigos.org,11-08-2025,Aelton,Mantovani,Amora,Cão,Desconhecido,Médio,"Doente, Desnutrido",Adoção Definitiva
+916cd34e,03/05/2026 16:30:20,bruno.mantovani@ongamigos.org,03-05-2026,Bruno,Mantovani,Toby,Cão,Desconhecido,Médio,Desconhecido,Fuga
+69670812,13/08/2025 13:45:19,aelton.mantovani@ongamigos.org,13-08-2025,Aelton,Mantovani,Bidu,Bovino,Fêmea,Médio,Desnutrido,No Abrigo
+26d4d54c,10/09/2025 09:48:00,victor.soares@ongamigos.org,10-09-2025,Victor,Soares,Luna,Ovino/Caprino,Macho,Grande,Desnutrido,No Abrigo
+36d7a08f,17/09/2025 13:58:28,victor.santos@ongamigos.org,17-09-2025,Victor,Santos,Pipoca,Ovino/Caprino,Macho,Médio,Desconhecido,Lar Temporário
+24a5f878,04/08/2025 09:39:48,michelly.santos@ongamigos.org,04-08-2025,Michelly,Santos,Mel,Pet exótico,Fêmea,Médio,Ferido,No Abrigo
+acb0109b,25/03/2026 18:11:21,aelton.santos@ongamigos.org,25-03-2026,Aelton,Santos,Marley,Animal silvestres,Fêmea,Grande,Desconhecido,Lar Temporário
+a26b2dfd,01/01/2026 09:07:28,bruno.soares@ongamigos.org,01-01-2026,Bruno,Soares,Pretinha,Suíno,Desconhecido,Médio,Doente,Óbito
+0b0fd6fc,15/05/2026 16:56:50,aelton.mantovani@ongamigos.org,15-05-2026,Aelton,Mantovani,Max,Equino,Fêmea,Grande,Desconhecido,No Abrigo
+741e3686,22/01/2026 19:51:54,bruno.mantovani@ongamigos.org,22-01-2026,Bruno,Mantovani,Bob,Ovino/Caprino,Desconhecido,Pequeno,Saudável,No Abrigo
+977356d3,13/01/2026 15:23:34,bruno.mantovani@ongamigos.org,13-01-2026,Bruno,Mantovani,Toby,Ovino/Caprino,Macho,Médio,Desconhecido,No Abrigo
+54e348c0,07/11/2025 10:03:56,bruno.mantovani@ongamigos.org,07-11-2025,Bruno,Mantovani,Zeus,Peixe,Desconhecido,Pequeno,Saudável,Fuga
+b99e0b33,03/03/2026 15:03:09,aelton.mantovani@ongamigos.org,03-03-2026,Aelton,Mantovani,Max,Cão,Desconhecido,Médio,"Doente, Desnutrido",No Abrigo
+a5a14dec,07/05/2026 09:42:57,michelly.soares@ongamigos.org,07-05-2026,Michelly,Soares,Mel,Ave,Fêmea,Pequeno,Desconhecido,No Abrigo
+b9e2bf51,17/02/2026 19:13:54,michelly.santos@ongamigos.org,17-02-2026,Michelly,Santos,Amora,Peixe,Desconhecido,Pequeno,Desconhecido,Transferência
+9f105079,11/07/2025 12:28:31,bruno.soares@ongamigos.org,11-07-2025,Bruno,Soares,Pretinha,Peixe,Fêmea,Grande,"Doente, Ferido",Transferência
+0da59074,16/08/2025 11:06:17,michelly.soares@ongamigos.org,16-08-2025,Michelly,Soares,Nina,Peixe,Macho,Pequeno,Saudável,Lar Temporário
+0b8d69cc,12/10/2025 14:51:42,bruno.santos@ongamigos.org,12-10-2025,Bruno,Santos,Caramelo,Ave,Fêmea,Médio,Doente,No Abrigo
+a72b8aa7,20/09/2025 17:09:16,victor.soares@ongamigos.org,20-09-2025,Victor,Soares,Nina,Gato,Macho,Grande,Saudável,No Abrigo
+33c82046,13/06/2025 16:59:21,bruno.santos@ongamigos.org,13-06-2025,Bruno,Santos,Bidu,Ovino/Caprino,Desconhecido,Médio,Desconhecido,No Abrigo
+1786245e,14/12/2025 13:32:01,bruno.soares@ongamigos.org,14-12-2025,Bruno,Soares,Mel,Bovino,Fêmea,Pequeno,"Desnutrido, Ferido",Óbito
+48c8de07,24/12/2025 17:39:02,michelly.santos@ongamigos.org,24-12-2025,Michelly,Santos,Max,Equino,Desconhecido,Pequeno,Desconhecido,Óbito
+e7227a43,28/05/2026 09:51:46,victor.mantovani@ongamigos.org,28-05-2026,Victor,Mantovani,Rex,Pet exótico,Fêmea,Pequeno,"Doente, Desnutrido",Adoção Definitiva
+3b97e74d,08/10/2025 14:01:03,victor.soares@ongamigos.org,08-10-2025,Victor,Soares,Toby,Equino,Fêmea,Pequeno,Saudável,No Abrigo
+2721e9b8,07/06/2026 19:06:15,bruno.santos@ongamigos.org,07-06-2026,Bruno,Santos,Marley,Animal silvestres,Fêmea,Médio,Saudável,Óbito
+18008b77,21/03/2026 14:48:44,bruno.mantovani@ongamigos.org,21-03-2026,Bruno,Mantovani,Pretinha,Pet exótico,Macho,Grande,Saudável,Transferência
+7fd2173c,16/05/2026 15:37:08,michelly.santos@ongamigos.org,16-05-2026,Michelly,Santos,Mel,Ovino/Caprino,Desconhecido,Médio,"Doente, Desnutrido",No Abrigo
+736c1458,28/07/2025 10:19:48,michelly.mantovani@ongamigos.org,28-07-2025,Michelly,Mantovani,Mel,Animal silvestres,Macho,Pequeno,Desconhecido,No Abrigo
+29c69cc1,10/05/2026 15:08:31,victor.santos@ongamigos.org,10-05-2026,Victor,Santos,Belinha,Ovino/Caprino,Fêmea,Grande,Saudável,Óbito
+3dbf4319,20/02/2026 15:01:57,bruno.soares@ongamigos.org,20-02-2026,Bruno,Soares,Caramelo,Ave,Fêmea,Pequeno,"Ferido, Doente",No Abrigo
+7678a2bd,31/05/2026 12:38:34,michelly.santos@ongamigos.org,31-05-2026,Michelly,Santos,Amora,Pet exótico,Fêmea,Médio,Desnutrido,Lar Temporário
+ec17259b,14/08/2025 07:06:37,bruno.soares@ongamigos.org,14-08-2025,Bruno,Soares,Mel,Gato,Desconhecido,Pequeno,Saudável,Lar Temporário
+d9997ae0,10/09/2025 19:40:27,victor.soares@ongamigos.org,10-09-2025,Victor,Soares,Thor,Gato,Fêmea,Pequeno,Saudável,Fuga
+3afd04ed,06/11/2025 19:44:23,bruno.mantovani@ongamigos.org,06-11-2025,Bruno,Mantovani,Nina,Equino,Fêmea,Médio,Saudável,Adoção Definitiva
+d9f466f2,02/12/2025 16:39:10,victor.soares@ongamigos.org,02-12-2025,Victor,Soares,Luke,Equino,Desconhecido,Pequeno,"Doente, Ferido",Lar Temporário
+ce663963,24/05/2026 12:29:42,aelton.santos@ongamigos.org,24-05-2026,Aelton,Santos,Toby,Animal silvestres,Macho,Pequeno,"Desnutrido, Ferido",Adoção Definitiva
+62ab44b8,01/03/2026 16:45:57,aelton.soares@ongamigos.org,01-03-2026,Aelton,Soares,Belinha,Suíno,Macho,Pequeno,Desconhecido,No Abrigo
+4cf4a51d,18/12/2025 07:01:46,victor.soares@ongamigos.org,18-12-2025,Victor,Soares,Luke,Gato,Macho,Pequeno,Ferido,Adoção Definitiva
+a0143bc0,04/11/2025 17:35:20,aelton.mantovani@ongamigos.org,04-11-2025,Aelton,Mantovani,Max,Peixe,Fêmea,Pequeno,Desconhecido,No Abrigo
+75996da1,13/06/2026 18:45:32,aelton.mantovani@ongamigos.org,13-06-2026,Aelton,Mantovani,Zeus,Pet exótico,Fêmea,Pequeno,"Doente, Desnutrido",Lar Temporário
+96028f6d,23/08/2025 16:21:08,aelton.soares@ongamigos.org,23-08-2025,Aelton,Soares,Bob,Cão,Macho,Grande,Saudável,No Abrigo
+ad380d2c,23/07/2025 08:16:21,victor.soares@ongamigos.org,23-07-2025,Victor,Soares,Amora,Peixe,Macho,Pequeno,Saudável,Adoção Definitiva
+81856c7e,14/08/2025 13:20:10,victor.mantovani@ongamigos.org,14-08-2025,Victor,Mantovani,Rex,Peixe,Macho,Grande,Desconhecido,Adoção Definitiva
+682693c6,25/01/2026 14:49:21,victor.soares@ongamigos.org,25-01-2026,Victor,Soares,Caramelo,Cão,Fêmea,Grande,Desconhecido,No Abrigo
+80ab6b18,16/07/2025 07:20:51,michelly.soares@ongamigos.org,16-07-2025,Michelly,Soares,Pretinha,Animal silvestres,Macho,Pequeno,Desnutrido,No Abrigo
+63108878,26/03/2026 10:25:38,michelly.soares@ongamigos.org,26-03-2026,Michelly,Soares,Luna,Peixe,Desconhecido,Pequeno,Saudável,Óbito
+c5c93812,22/09/2025 13:01:49,victor.mantovani@ongamigos.org,22-09-2025,Victor,Mantovani,Marley,Gato,Desconhecido,Pequeno,Desconhecido,Fuga
+45971ff7,23/01/2026 12:25:56,michelly.soares@ongamigos.org,23-01-2026,Michelly,Soares,Rex,Suíno,Desconhecido,Pequeno,Saudável,Adoção Definitiva
+7306855f,25/01/2026 16:31:06,victor.santos@ongamigos.org,25-01-2026,Victor,Santos,Maia,Pet exótico,Desconhecido,Grande,Ferido,Óbito
+42a4a959,18/04/2026 18:54:19,victor.mantovani@ongamigos.org,18-04-2026,Victor,Mantovani,Pretinha,Ovino/Caprino,Fêmea,Pequeno,"Desnutrido, Ferido",No Abrigo
+725a1e08,17/07/2025 09:11:46,michelly.santos@ongamigos.org,17-07-2025,Michelly,Santos,Mel,Ovino/Caprino,Macho,Pequeno,Desconhecido,No Abrigo
+5624c07c,27/09/2025 12:48:45,michelly.santos@ongamigos.org,27-09-2025,Michelly,Santos,Luna,Bovino,Fêmea,Pequeno,Saudável,No Abrigo
+ded69336,11/12/2025 07:59:49,bruno.mantovani@ongamigos.org,11-12-2025,Bruno,Mantovani,Zeus,Gato,Desconhecido,Médio,Doente,No Abrigo
+5ffdf56b,01/02/2026 16:49:13,victor.santos@ongamigos.org,01-02-2026,Victor,Santos,Bob,Pet exótico,Desconhecido,Grande,Desconhecido,No Abrigo
+acb8f8f4,29/10/2025 12:24:18,aelton.mantovani@ongamigos.org,29-10-2025,Aelton,Mantovani,Pipoca,Pet exótico,Macho,Grande,Saudável,Lar Temporário
+69367598,22/09/2025 19:12:01,victor.soares@ongamigos.org,22-09-2025,Victor,Soares,Maia,Pet exótico,Macho,Médio,"Doente, Desnutrido",Lar Temporário
+cfbf78d7,25/03/2026 08:31:11,michelly.santos@ongamigos.org,25-03-2026,Michelly,Santos,Bob,Peixe,Macho,Grande,Saudável,No Abrigo
+28cf9691,26/04/2026 17:25:51,bruno.santos@ongamigos.org,26-04-2026,Bruno,Santos,Luke,Ovino/Caprino,Desconhecido,Grande,Desconhecido,No Abrigo
+e0b42ca1,30/07/2025 12:55:53,bruno.mantovani@ongamigos.org,30-07-2025,Bruno,Mantovani,Pipoca,Cão,Desconhecido,Médio,Saudável,Transferência
+1abefa84,01/06/2026 14:36:03,aelton.mantovani@ongamigos.org,01-06-2026,Aelton,Mantovani,Rex,Gato,Macho,Grande,"Doente, Desnutrido",No Abrigo
+cc6ec772,11/06/2026 13:05:53,bruno.soares@ongamigos.org,11-06-2026,Bruno,Soares,Zeus,Peixe,Fêmea,Grande,"Ferido, Doente",Transferência
+1a04e69a,13/02/2026 17:53:15,aelton.soares@ongamigos.org,13-02-2026,Aelton,Soares,Fred,Bovino,Macho,Médio,Desnutrido,No Abrigo
+f480ba6b,29/04/2026 12:32:00,victor.soares@ongamigos.org,29-04-2026,Victor,Soares,Luna,Pet exótico,Desconhecido,Pequeno,Desconhecido,No Abrigo
+f0242133,03/04/2026 13:22:20,victor.soares@ongamigos.org,03-04-2026,Victor,Soares,Max,Bovino,Desconhecido,Pequeno,"Ferido, Doente",No Abrigo
+928724e1,03/05/2026 16:54:42,victor.santos@ongamigos.org,03-05-2026,Victor,Santos,Max,Peixe,Desconhecido,Médio,Ferido,No Abrigo
+7ee37a35,06/05/2026 07:18:41,michelly.mantovani@ongamigos.org,06-05-2026,Michelly,Mantovani,Cacau,Ovino/Caprino,Desconhecido,Pequeno,Saudável,Lar Temporário
+bb25e752,05/01/2026 14:43:28,aelton.santos@ongamigos.org,05-01-2026,Aelton,Santos,Belinha,Cão,Macho,Médio,"Ferido, Doente",Fuga
+35de37c1,12/08/2025 17:36:55,victor.soares@ongamigos.org,12-08-2025,Victor,Soares,Nina,Ave,Macho,Pequeno,"Doente, Ferido",Transferência
+c10f3792,08/11/2025 15:41:40,bruno.santos@ongamigos.org,08-11-2025,Bruno,Santos,Amora,Ovino/Caprino,Desconhecido,Pequeno,Saudável,Adoção Definitiva
+51cb99ed,13/11/2025 14:25:08,aelton.soares@ongamigos.org,13-11-2025,Aelton,Soares,Luke,Animal silvestres,Macho,Grande,Desconhecido,No Abrigo
+4fa120c4,08/06/2026 09:02:25,bruno.santos@ongamigos.org,08-06-2026,Bruno,Santos,Marley,Ave,Macho,Médio,Doente,No Abrigo
+33227f97,02/11/2025 12:19:30,bruno.santos@ongamigos.org,02-11-2025,Bruno,Santos,Luke,Equino,Fêmea,Grande,Saudável,No Abrigo
+99d6ef34,14/08/2025 18:12:54,bruno.soares@ongamigos.org,14-08-2025,Bruno,Soares,Pretinha,Cão,Desconhecido,Pequeno,Desconhecido,No Abrigo
+8040a6c3,04/04/2026 18:32:58,bruno.mantovani@ongamigos.org,04-04-2026,Bruno,Mantovani,Fred,Gato,Fêmea,Pequeno,Saudável,Fuga
+ba8278d2,09/12/2025 15:12:03,bruno.mantovani@ongamigos.org,09-12-2025,Bruno,Mantovani,Luke,Pet exótico,Desconhecido,Grande,Desconhecido,No Abrigo
+18c6022c,11/12/2025 18:46:34,victor.mantovani@ongamigos.org,11-12-2025,Victor,Mantovani,Nina,Pet exótico,Macho,Grande,Saudável,No Abrigo
+40bff7a5,15/12/2025 07:44:17,bruno.soares@ongamigos.org,15-12-2025,Bruno,Soares,Belinha,Peixe,Macho,Pequeno,Saudável,Óbito
+c543fea6,03/05/2026 15:28:26,michelly.mantovani@ongamigos.org,03-05-2026,Michelly,Mantovani,Max,Bovino,Macho,Grande,Saudável,Fuga
+1011c605,25/04/2026 16:01:56,bruno.mantovani@ongamigos.org,25-04-2026,Bruno,Mantovani,Luna,Cão,Fêmea,Grande,Desnutrido,No Abrigo
+3d97fe83,13/04/2026 12:23:48,michelly.santos@ongamigos.org,13-04-2026,Michelly,Santos,Belinha,Suíno,Macho,Grande,Desconhecido,No Abrigo
+4ffc0460,20/03/2026 09:29:02,michelly.santos@ongamigos.org,20-03-2026,Michelly,Santos,Max,Equino,Fêmea,Grande,Saudável,No Abrigo
+27f2ea09,23/05/2026 07:23:27,michelly.santos@ongamigos.org,23-05-2026,Michelly,Santos,Zeus,Animal silvestres,Desconhecido,Pequeno,"Ferido, Desnutrido",No Abrigo
+7474c3fb,23/09/2025 18:39:59,bruno.santos@ongamigos.org,23-09-2025,Bruno,Santos,Belinha,Animal silvestres,Fêmea,Pequeno,Doente,No Abrigo
+dda1d0cf,06/05/2026 13:05:29,victor.santos@ongamigos.org,06-05-2026,Victor,Santos,Caramelo,Peixe,Macho,Grande,"Desnutrido, Ferido",No Abrigo
+de74793b,26/01/2026 16:10:34,victor.mantovani@ongamigos.org,26-01-2026,Victor,Mantovani,Bidu,Animal silvestres,Macho,Médio,Desnutrido,Fuga
+1f603107,19/04/2026 14:36:24,bruno.mantovani@ongamigos.org,19-04-2026,Bruno,Mantovani,Marley,Ovino/Caprino,Desconhecido,Médio,Desconhecido,No Abrigo
+641b7d7c,29/06/2025 12:31:52,michelly.santos@ongamigos.org,29-06-2025,Michelly,Santos,Pretinha,Suíno,Macho,Grande,Desconhecido,No Abrigo
+accaf7f8,08/03/2026 07:22:13,michelly.mantovani@ongamigos.org,08-03-2026,Michelly,Mantovani,Bob,Animal silvestres,Macho,Grande,"Ferido, Doente",Transferência
+71f0f69c,30/08/2025 12:32:32,aelton.mantovani@ongamigos.org,30-08-2025,Aelton,Mantovani,Thor,Suíno,Macho,Médio,Doente,No Abrigo
+db55baf1,06/04/2026 07:54:24,victor.santos@ongamigos.org,06-04-2026,Victor,Santos,Pipoca,Ovino/Caprino,Fêmea,Pequeno,"Desnutrido, Doente",No Abrigo
+d905fae1,03/10/2025 18:46:02,bruno.santos@ongamigos.org,03-10-2025,Bruno,Santos,Thor,Suíno,Fêmea,Médio,Desconhecido,No Abrigo
+49f49538,23/04/2026 09:22:16,victor.santos@ongamigos.org,23-04-2026,Victor,Santos,Nina,Gato,Macho,Pequeno,Desnutrido,Lar Temporário
+2a158bd5,25/04/2026 08:31:09,aelton.santos@ongamigos.org,25-04-2026,Aelton,Santos,Nina,Gato,Fêmea,Pequeno,Saudável,Óbito
+86b15a9c,24/10/2025 08:47:08,victor.soares@ongamigos.org,24-10-2025,Victor,Soares,Amora,Cão,Macho,Pequeno,Desconhecido,No Abrigo
+0f90fbdd,19/11/2025 14:59:12,aelton.santos@ongamigos.org,19-11-2025,Aelton,Santos,Caramelo,Pet exótico,Desconhecido,Médio,Desconhecido,No Abrigo
+be548ce1,24/08/2025 09:53:21,bruno.mantovani@ongamigos.org,24-08-2025,Bruno,Mantovani,Luna,Bovino,Desconhecido,Médio,Saudável,No Abrigo
+63dcf591,17/02/2026 16:20:54,michelly.mantovani@ongamigos.org,17-02-2026,Michelly,Mantovani,Caramelo,Ovino/Caprino,Desconhecido,Médio,Saudável,No Abrigo
+35d6860d,27/11/2025 12:21:07,victor.mantovani@ongamigos.org,27-11-2025,Victor,Mantovani,Cacau,Equino,Desconhecido,Médio,"Desnutrido, Doente",Transferência
+109d008e,13/09/2025 11:29:43,michelly.soares@ongamigos.org,13-09-2025,Michelly,Soares,Mel,Pet exótico,Desconhecido,Grande,Ferido,Óbito
+4a9f3780,25/10/2025 10:30:45,aelton.mantovani@ongamigos.org,25-10-2025,Aelton,Mantovani,Amora,Ave,Desconhecido,Grande,"Doente, Ferido",Transferência
+82804770,10/06/2026 11:12:25,michelly.mantovani@ongamigos.org,10-06-2026,Michelly,Mantovani,Pipoca,Suíno,Desconhecido,Grande,Saudável,Óbito
+2079138f,23/04/2026 09:41:26,victor.mantovani@ongamigos.org,23-04-2026,Victor,Mantovani,Marley,Suíno,Macho,Médio,Saudável,No Abrigo
+ea829e0d,15/07/2025 17:38:15,michelly.mantovani@ongamigos.org,15-07-2025,Michelly,Mantovani,Max,Cão,Fêmea,Médio,Desconhecido,Lar Temporário
+6feb2790,13/03/2026 19:58:17,victor.soares@ongamigos.org,13-03-2026,Victor,Soares,Pipoca,Peixe,Desconhecido,Médio,Ferido,No Abrigo
+55845eec,14/08/2025 07:26:31,aelton.santos@ongamigos.org,14-08-2025,Aelton,Santos,Caramelo,Bovino,Desconhecido,Pequeno,Desconhecido,Adoção Definitiva
+8d7a8f37,20/01/2026 16:01:46,michelly.soares@ongamigos.org,20-01-2026,Michelly,Soares,Rex,Ave,Fêmea,Pequeno,"Doente, Ferido",Lar Temporário
+9e7fb6cb,06/07/2025 10:25:00,victor.santos@ongamigos.org,06-07-2025,Victor,Santos,Luke,Peixe,Macho,Pequeno,Saudável,No Abrigo
+e42c6a37,04/03/2026 17:06:19,bruno.santos@ongamigos.org,04-03-2026,Bruno,Santos,Zeus,Peixe,Macho,Médio,Doente,Fuga
+3b8b7816,30/09/2025 11:51:24,victor.santos@ongamigos.org,30-09-2025,Victor,Santos,Maia,Animal silvestres,Desconhecido,Grande,Saudável,No Abrigo
+2f3c3160,13/06/2026 11:38:21,michelly.mantovani@ongamigos.org,13-06-2026,Michelly,Mantovani,Maia,Bovino,Fêmea,Grande,"Ferido, Doente",Fuga
+adea9219,11/11/2025 11:50:26,victor.santos@ongamigos.org,11-11-2025,Victor,Santos,Bidu,Bovino,Desconhecido,Grande,Desconhecido,No Abrigo
+bf1b9330,30/08/2025 11:31:03,victor.soares@ongamigos.org,30-08-2025,Victor,Soares,Cacau,Equino,Macho,Pequeno,"Desnutrido, Doente",Adoção Definitiva
+abb85dec,25/02/2026 08:14:00,bruno.soares@ongamigos.org,25-02-2026,Bruno,Soares,Thor,Cão,Macho,Grande,Desconhecido,Transferência
+84530d27,04/10/2025 14:47:14,bruno.mantovani@ongamigos.org,04-10-2025,Bruno,Mantovani,Luke,Bovino,Fêmea,Grande,Saudável,No Abrigo
+ac8e8689,25/07/2025 12:25:28,bruno.santos@ongamigos.org,25-07-2025,Bruno,Santos,Belinha,Pet exótico,Macho,Pequeno,Desconhecido,No Abrigo
+71d871bc,16/07/2025 11:25:02,victor.soares@ongamigos.org,16-07-2025,Victor,Soares,Thor,Animal silvestres,Desconhecido,Grande,Ferido,No Abrigo
+d042fc53,14/11/2025 16:16:08,michelly.santos@ongamigos.org,14-11-2025,Michelly,Santos,Luke,Peixe,Desconhecido,Pequeno,Saudável,Fuga
+fae8b446,13/10/2025 09:34:29,aelton.santos@ongamigos.org,13-10-2025,Aelton,Santos,Cacau,Pet exótico,Fêmea,Pequeno,Desconhecido,No Abrigo
+41f2c937,04/03/2026 18:41:39,aelton.mantovani@ongamigos.org,04-03-2026,Aelton,Mantovani,Pipoca,Animal silvestres,Fêmea,Pequeno,Desconhecido,Óbito
+5836d133,12/09/2025 14:13:14,victor.santos@ongamigos.org,12-09-2025,Victor,Santos,Thor,Equino,Fêmea,Pequeno,"Desnutrido, Doente",Fuga
+a720099c,08/12/2025 07:52:40,aelton.santos@ongamigos.org,08-12-2025,Aelton,Santos,Marley,Gato,Macho,Médio,Desconhecido,No Abrigo
+c3a7f519,16/02/2026 16:32:01,aelton.soares@ongamigos.org,16-02-2026,Aelton,Soares,Cacau,Peixe,Desconhecido,Grande,Ferido,Lar Temporário
+67f5404c,28/05/2026 07:13:07,victor.soares@ongamigos.org,28-05-2026,Victor,Soares,Caramelo,Pet exótico,Fêmea,Grande,Desconhecido,No Abrigo
+912527ed,07/10/2025 14:55:06,victor.mantovani@ongamigos.org,07-10-2025,Victor,Mantovani,Rex,Ovino/Caprino,Desconhecido,Pequeno,Desconhecido,No Abrigo
+a4028482,08/08/2025 13:29:09,victor.soares@ongamigos.org,08-08-2025,Victor,Soares,Maia,Animal silvestres,Fêmea,Pequeno,Desconhecido,Óbito
+96a716ed,20/02/2026 08:23:41,aelton.mantovani@ongamigos.org,20-02-2026,Aelton,Mantovani,Pipoca,Animal silvestres,Desconhecido,Pequeno,Desconhecido,No Abrigo
+189e3b98,10/07/2025 12:21:37,victor.soares@ongamigos.org,10-07-2025,Victor,Soares,Mel,Ovino/Caprino,Desconhecido,Médio,Doente,Transferência
+4a25dcf7,13/09/2025 10:01:34,bruno.mantovani@ongamigos.org,13-09-2025,Bruno,Mantovani,Luke,Animal silvestres,Macho,Médio,Desconhecido,No Abrigo
+2759ab8d,16/10/2025 14:07:44,victor.mantovani@ongamigos.org,16-10-2025,Victor,Mantovani,Bob,Animal silvestres,Desconhecido,Pequeno,Desnutrido,No Abrigo
+1c152f84,04/08/2025 15:55:37,michelly.soares@ongamigos.org,04-08-2025,Michelly,Soares,Nina,Bovino,Fêmea,Pequeno,Saudável,Lar Temporário
+28eaf750,28/11/2025 12:31:58,victor.mantovani@ongamigos.org,28-11-2025,Victor,Mantovani,Amora,Ave,Macho,Pequeno,Desconhecido,No Abrigo
+193b6be0,25/09/2025 12:34:51,michelly.santos@ongamigos.org,25-09-2025,Michelly,Santos,Max,Equino,Macho,Grande,Saudável,Adoção Definitiva
+bf64d251,18/10/2025 18:18:21,michelly.santos@ongamigos.org,18-10-2025,Michelly,Santos,Mel,Cão,Macho,Médio,"Doente, Desnutrido",No Abrigo
+95c000b2,10/08/2025 19:15:48,michelly.santos@ongamigos.org,10-08-2025,Michelly,Santos,Bidu,Bovino,Desconhecido,Médio,Saudável,No Abrigo
+8cf2bc5e,18/05/2026 08:35:11,bruno.santos@ongamigos.org,18-05-2026,Bruno,Santos,Thor,Suíno,Desconhecido,Pequeno,Desconhecido,Adoção Definitiva
+08a14194,22/09/2025 14:52:50,bruno.mantovani@ongamigos.org,22-09-2025,Bruno,Mantovani,Caramelo,Gato,Macho,Grande,Saudável,Óbito
+86676f4c,19/01/2026 12:52:08,michelly.santos@ongamigos.org,19-01-2026,Michelly,Santos,Belinha,Gato,Desconhecido,Médio,"Ferido, Doente",No Abrigo
+1a7e6d36,13/09/2025 12:33:50,bruno.santos@ongamigos.org,13-09-2025,Bruno,Santos,Fred,Gato,Macho,Grande,Saudável,No Abrigo
+8c32181b,22/12/2025 12:36:29,aelton.soares@ongamigos.org,22-12-2025,Aelton,Soares,Nina,Peixe,Desconhecido,Médio,Desconhecido,No Abrigo
+1e561a1d,25/05/2026 08:22:50,bruno.mantovani@ongamigos.org,25-05-2026,Bruno,Mantovani,Luke,Ave,Macho,Médio,Doente,Óbito
+a1106499,26/12/2025 16:10:08,aelton.soares@ongamigos.org,26-12-2025,Aelton,Soares,Rex,Bovino,Macho,Pequeno,Saudável,Fuga
+99eb144d,02/11/2025 19:30:06,bruno.mantovani@ongamigos.org,02-11-2025,Bruno,Mantovani,Bob,Suíno,Macho,Grande,Desconhecido,No Abrigo
+47dd60f5,29/10/2025 13:48:39,aelton.soares@ongamigos.org,29-10-2025,Aelton,Soares,Marley,Suíno,Desconhecido,Grande,Desnutrido,No Abrigo
+5caad85d,03/09/2025 11:10:43,victor.santos@ongamigos.org,03-09-2025,Victor,Santos,Thor,Bovino,Macho,Pequeno,Saudável,No Abrigo
+1e85eefd,31/03/2026 18:26:12,victor.soares@ongamigos.org,31-03-2026,Victor,Soares,Marley,Equino,Desconhecido,Grande,"Ferido, Doente",Transferência
+33899d32,12/04/2026 18:19:31,bruno.santos@ongamigos.org,12-04-2026,Bruno,Santos,Caramelo,Bovino,Macho,Médio,Desconhecido,No Abrigo
+b3be6718,05/03/2026 14:16:20,bruno.mantovani@ongamigos.org,05-03-2026,Bruno,Mantovani,Amora,Gato,Desconhecido,Grande,Desconhecido,Óbito
+e20cfee7,28/12/2025 19:18:18,michelly.soares@ongamigos.org,28-12-2025,Michelly,Soares,Bidu,Suíno,Macho,Pequeno,Saudável,No Abrigo
+fa40cc7e,10/06/2026 16:46:55,bruno.mantovani@ongamigos.org,10-06-2026,Bruno,Mantovani,Pretinha,Bovino,Fêmea,Grande,Desconhecido,No Abrigo
+e24d7bfc,09/05/2026 11:53:08,michelly.soares@ongamigos.org,09-05-2026,Michelly,Soares,Nina,Cão,Macho,Pequeno,"Ferido, Desnutrido",Lar Temporário
+bfe55326,23/08/2025 12:06:31,bruno.mantovani@ongamigos.org,23-08-2025,Bruno,Mantovani,Amora,Ave,Macho,Médio,Saudável,No Abrigo
+b8355802,28/08/2025 12:33:59,michelly.soares@ongamigos.org,28-08-2025,Michelly,Soares,Mel,Bovino,Desconhecido,Grande,Desconhecido,No Abrigo
+a3d1d6f8,07/05/2026 16:37:35,bruno.soares@ongamigos.org,07-05-2026,Bruno,Soares,Maia,Peixe,Macho,Pequeno,Desconhecido,Transferência
+0aef4f06,01/08/2025 15:42:23,victor.santos@ongamigos.org,01-08-2025,Victor,Santos,Cacau,Ave,Macho,Médio,"Desnutrido, Ferido",Óbito
+73bdd1e4,14/11/2025 18:15:06,michelly.mantovani@ongamigos.org,14-11-2025,Michelly,Mantovani,Max,Peixe,Macho,Pequeno,Saudável,No Abrigo
+8b7ae1fb,20/02/2026 13:41:53,aelton.mantovani@ongamigos.org,20-02-2026,Aelton,Mantovani,Amora,Equino,Macho,Médio,Saudável,No Abrigo
+ca954cbe,02/08/2025 10:51:37,aelton.soares@ongamigos.org,02-08-2025,Aelton,Soares,Cacau,Bovino,Desconhecido,Médio,Desconhecido,No Abrigo
+44fe1995,19/02/2026 16:27:30,aelton.santos@ongamigos.org,19-02-2026,Aelton,Santos,Max,Suíno,Macho,Médio,Desconhecido,No Abrigo
+f0430013,07/11/2025 17:44:19,aelton.santos@ongamigos.org,07-11-2025,Aelton,Santos,Max,Gato,Desconhecido,Pequeno,Saudável,No Abrigo
+69ca3bdc,11/11/2025 12:59:54,michelly.soares@ongamigos.org,11-11-2025,Michelly,Soares,Pretinha,Ave,Macho,Pequeno,Desconhecido,No Abrigo
+2e76e4cb,13/08/2025 09:53:17,victor.santos@ongamigos.org,13-08-2025,Victor,Santos,Marley,Bovino,Fêmea,Pequeno,Desconhecido,No Abrigo
+8388928b,02/04/2026 07:21:51,michelly.santos@ongamigos.org,02-04-2026,Michelly,Santos,Rex,Bovino,Fêmea,Pequeno,Desnutrido,Fuga
+840ec739,23/01/2026 14:22:34,michelly.mantovani@ongamigos.org,23-01-2026,Michelly,Mantovani,Cacau,Equino,Desconhecido,Pequeno,Saudável,No Abrigo
+afb1fd7e,10/03/2026 12:18:01,michelly.santos@ongamigos.org,10-03-2026,Michelly,Santos,Zeus,Ave,Desconhecido,Grande,Desconhecido,No Abrigo
+242227ff,19/10/2025 17:40:30,victor.soares@ongamigos.org,19-10-2025,Victor,Soares,Maia,Peixe,Macho,Pequeno,Desconhecido,Lar Temporário
+bf1ec014,11/08/2025 19:09:32,aelton.mantovani@ongamigos.org,11-08-2025,Aelton,Mantovani,Thor,Suíno,Fêmea,Médio,Desconhecido,Transferência
+f39604cf,01/04/2026 15:41:18,victor.mantovani@ongamigos.org,01-04-2026,Victor,Mantovani,Zeus,Gato,Desconhecido,Pequeno,"Ferido, Doente",No Abrigo
+ca5adbe7,06/06/2026 15:24:50,aelton.soares@ongamigos.org,06-06-2026,Aelton,Soares,Amora,Ovino/Caprino,Macho,Grande,Desconhecido,No Abrigo
+2ae824b6,09/02/2026 12:15:59,michelly.mantovani@ongamigos.org,09-02-2026,Michelly,Mantovani,Zeus,Gato,Desconhecido,Médio,Desconhecido,No Abrigo
+ebd67fa6,15/06/2025 10:16:05,bruno.mantovani@ongamigos.org,15-06-2025,Bruno,Mantovani,Fred,Cão,Desconhecido,Grande,"Ferido, Doente",No Abrigo
+54f60192,16/06/2025 08:18:28,aelton.santos@ongamigos.org,16-06-2025,Aelton,Santos,Bob,Pet exótico,Macho,Médio,Desnutrido,No Abrigo
+b4f5200e,24/07/2025 18:35:51,aelton.soares@ongamigos.org,24-07-2025,Aelton,Soares,Belinha,Suíno,Desconhecido,Pequeno,Saudável,No Abrigo
+289906ba,30/11/2025 10:54:28,bruno.santos@ongamigos.org,30-11-2025,Bruno,Santos,Zeus,Animal silvestres,Fêmea,Grande,Saudável,Transferência
+9e85d659,30/03/2026 10:01:08,aelton.santos@ongamigos.org,30-03-2026,Aelton,Santos,Zeus,Animal silvestres,Desconhecido,Grande,Desconhecido,No Abrigo
+ffcd2265,06/01/2026 18:33:55,victor.soares@ongamigos.org,06-01-2026,Victor,Soares,Marley,Gato,Macho,Pequeno,Saudável,No Abrigo
+aaae5bf9,15/07/2025 12:16:21,bruno.soares@ongamigos.org,15-07-2025,Bruno,Soares,Bidu,Peixe,Desconhecido,Grande,Saudável,No Abrigo
+f74a2580,13/10/2025 16:11:28,bruno.mantovani@ongamigos.org,13-10-2025,Bruno,Mantovani,Mel,Ovino/Caprino,Fêmea,Grande,"Desnutrido, Doente",No Abrigo
+5e8eceb9,21/03/2026 13:07:04,bruno.mantovani@ongamigos.org,21-03-2026,Bruno,Mantovani,Luna,Pet exótico,Fêmea,Médio,Desconhecido,No Abrigo
+1d541a68,13/02/2026 13:17:11,michelly.mantovani@ongamigos.org,13-02-2026,Michelly,Mantovani,Caramelo,Equino,Macho,Grande,Saudável,No Abrigo
+89c0c2ae,05/03/2026 18:17:03,michelly.mantovani@ongamigos.org,05-03-2026,Michelly,Mantovani,Thor,Suíno,Desconhecido,Médio,Desconhecido,Transferência
+d971800e,16/05/2026 13:53:45,aelton.santos@ongamigos.org,16-05-2026,Aelton,Santos,Fred,Ovino/Caprino,Fêmea,Pequeno,Desconhecido,No Abrigo
+a37f5c5b,16/01/2026 16:05:25,victor.soares@ongamigos.org,16-01-2026,Victor,Soares,Marley,Cão,Fêmea,Médio,Desconhecido,No Abrigo
+201a6095,04/12/2025 12:08:31,bruno.mantovani@ongamigos.org,04-12-2025,Bruno,Mantovani,Bob,Equino,Fêmea,Pequeno,Saudável,No Abrigo
+f940dbca,08/02/2026 14:44:50,aelton.soares@ongamigos.org,08-02-2026,Aelton,Soares,Bidu,Equino,Desconhecido,Médio,Desconhecido,No Abrigo
+9dc7b176,06/03/2026 16:46:42,victor.soares@ongamigos.org,06-03-2026,Victor,Soares,Rex,Gato,Fêmea,Médio,Doente,No Abrigo
+3f398e87,19/02/2026 13:51:41,victor.soares@ongamigos.org,19-02-2026,Victor,Soares,Amora,Bovino,Fêmea,Médio,Desconhecido,No Abrigo
+167e87d3,06/05/2026 11:35:07,victor.soares@ongamigos.org,06-05-2026,Victor,Soares,Belinha,Pet exótico,Desconhecido,Pequeno,Desconhecido,No Abrigo
+59a24199,16/03/2026 10:33:55,michelly.santos@ongamigos.org,16-03-2026,Michelly,Santos,Cacau,Pet exótico,Desconhecido,Pequeno,Saudável,Transferência
+b6d3133d,19/03/2026 15:04:27,aelton.mantovani@ongamigos.org,19-03-2026,Aelton,Mantovani,Fred,Suíno,Fêmea,Médio,Saudável,Transferência
+c40b750c,14/07/2025 15:14:04,victor.santos@ongamigos.org,14-07-2025,Victor,Santos,Marley,Ovino/Caprino,Macho,Médio,Saudável,Fuga
+d44a8e25,15/01/2026 16:47:08,aelton.mantovani@ongamigos.org,15-01-2026,Aelton,Mantovani,Pipoca,Bovino,Fêmea,Grande,Saudável,Adoção Definitiva
+a193ddb4,04/04/2026 10:17:42,michelly.santos@ongamigos.org,04-04-2026,Michelly,Santos,Luna,Equino,Desconhecido,Grande,Desconhecido,No Abrigo
+db987d2f,05/04/2026 08:24:43,aelton.mantovani@ongamigos.org,05-04-2026,Aelton,Mantovani,Nina,Ovino/Caprino,Desconhecido,Pequeno,"Desnutrido, Ferido",Óbito
+a2e6c7ec,25/02/2026 10:18:07,bruno.santos@ongamigos.org,25-02-2026,Bruno,Santos,Toby,Ovino/Caprino,Macho,Médio,Saudável,No Abrigo
+5c06862b,19/07/2025 10:53:21,bruno.santos@ongamigos.org,19-07-2025,Bruno,Santos,Luna,Bovino,Macho,Grande,Saudável,No Abrigo
+bae15ee3,23/07/2025 13:07:31,bruno.soares@ongamigos.org,23-07-2025,Bruno,Soares,Caramelo,Ave,Macho,Pequeno,Saudável,No Abrigo
+3175d2bc,28/04/2026 15:15:45,bruno.mantovani@ongamigos.org,28-04-2026,Bruno,Mantovani,Maia,Animal silvestres,Fêmea,Grande,Desconhecido,No Abrigo
+80236d39,15/08/2025 15:55:00,aelton.soares@ongamigos.org,15-08-2025,Aelton,Soares,Rex,Ave,Desconhecido,Grande,Ferido,No Abrigo
+8271b8d2,29/08/2025 12:23:01,michelly.santos@ongamigos.org,29-08-2025,Michelly,Santos,Maia,Suíno,Macho,Pequeno,"Doente, Desnutrido",Fuga
+36b52d32,18/12/2025 19:57:41,michelly.soares@ongamigos.org,18-12-2025,Michelly,Soares,Marley,Animal silvestres,Macho,Médio,Desconhecido,Fuga
+2d14d026,22/06/2025 08:26:28,victor.soares@ongamigos.org,22-06-2025,Victor,Soares,Belinha,Ovino/Caprino,Desconhecido,Grande,Desconhecido,Adoção Definitiva
+7af4fff3,07/04/2026 14:51:18,aelton.mantovani@ongamigos.org,07-04-2026,Aelton,Mantovani,Caramelo,Suíno,Fêmea,Grande,Saudável,Adoção Definitiva
+64b1e3de,14/12/2025 16:29:22,michelly.soares@ongamigos.org,14-12-2025,Michelly,Soares,Nina,Suíno,Fêmea,Grande,Desnutrido,No Abrigo
+5a292d8c,02/10/2025 16:22:24,bruno.santos@ongamigos.org,02-10-2025,Bruno,Santos,Bob,Equino,Desconhecido,Pequeno,Desconhecido,No Abrigo
+efc59054,19/10/2025 18:39:13,victor.mantovani@ongamigos.org,19-10-2025,Victor,Mantovani,Mel,Gato,Desconhecido,Pequeno,Saudável,Lar Temporário
+ceeef7e1,03/09/2025 17:52:44,aelton.mantovani@ongamigos.org,03-09-2025,Aelton,Mantovani,Rex,Suíno,Desconhecido,Grande,Doente,Adoção Definitiva
+ed5ce097,04/05/2026 09:11:52,victor.mantovani@ongamigos.org,04-05-2026,Victor,Mantovani,Pipoca,Cão,Macho,Pequeno,Desconhecido,Fuga
+13963be2,24/02/2026 17:43:39,michelly.soares@ongamigos.org,24-02-2026,Michelly,Soares,Zeus,Bovino,Fêmea,Pequeno,Desconhecido,Fuga
+06d32fd1,01/02/2026 15:45:37,michelly.santos@ongamigos.org,01-02-2026,Michelly,Santos,Amora,Bovino,Fêmea,Grande,Desconhecido,Lar Temporário
+97c95d1f,21/09/2025 13:08:40,victor.mantovani@ongamigos.org,21-09-2025,Victor,Mantovani,Caramelo,Cão,Fêmea,Pequeno,"Ferido, Desnutrido",Fuga
+1effc669,10/07/2025 14:43:11,bruno.santos@ongamigos.org,10-07-2025,Bruno,Santos,Thor,Ave,Macho,Grande,"Ferido, Doente",Óbito
+61954160,17/06/2025 11:40:29,aelton.santos@ongamigos.org,17-06-2025,Aelton,Santos,Cacau,Ave,Fêmea,Grande,Saudável,No Abrigo
+fc605922,21/05/2026 16:37:56,michelly.mantovani@ongamigos.org,21-05-2026,Michelly,Mantovani,Pretinha,Animal silvestres,Desconhecido,Pequeno,Desconhecido,No Abrigo
+6f574c84,05/02/2026 12:06:05,victor.soares@ongamigos.org,05-02-2026,Victor,Soares,Amora,Ave,Fêmea,Pequeno,"Ferido, Desnutrido",No Abrigo
+fb2bc464,12/08/2025 17:16:30,michelly.soares@ongamigos.org,12-08-2025,Michelly,Soares,Mel,Gato,Desconhecido,Médio,"Desnutrido, Ferido",No Abrigo
+f335486a,18/01/2026 16:23:24,michelly.soares@ongamigos.org,18-01-2026,Michelly,Soares,Fred,Gato,Fêmea,Grande,Saudável,No Abrigo
+7c204f76,20/04/2026 08:11:19,victor.mantovani@ongamigos.org,20-04-2026,Victor,Mantovani,Zeus,Equino,Fêmea,Grande,Doente,No Abrigo
+e7b62502,31/12/2025 07:11:47,michelly.santos@ongamigos.org,31-12-2025,Michelly,Santos,Amora,Peixe,Desconhecido,Médio,"Ferido, Doente",No Abrigo
+b0f9325c,21/04/2026 15:46:18,aelton.santos@ongamigos.org,21-04-2026,Aelton,Santos,Marley,Peixe,Macho,Grande,Desnutrido,No Abrigo
+de489efe,20/07/2025 13:01:06,bruno.mantovani@ongamigos.org,20-07-2025,Bruno,Mantovani,Cacau,Cão,Fêmea,Médio,Ferido,No Abrigo
+4cdf9de7,30/10/2025 17:45:44,bruno.soares@ongamigos.org,30-10-2025,Bruno,Soares,Fred,Animal silvestres,Macho,Grande,Desconhecido,No Abrigo
+362f43e7,12/04/2026 17:59:28,victor.mantovani@ongamigos.org,12-04-2026,Victor,Mantovani,Cacau,Pet exótico,Fêmea,Médio,Desconhecido,Fuga
+56c134d9,29/03/2026 14:15:05,bruno.soares@ongamigos.org,29-03-2026,Bruno,Soares,Toby,Equino,Fêmea,Pequeno,Desconhecido,No Abrigo
+a33939da,03/11/2025 11:50:05,aelton.soares@ongamigos.org,03-11-2025,Aelton,Soares,Maia,Suíno,Macho,Médio,Ferido,Fuga
+2c075899,09/04/2026 09:48:08,aelton.soares@ongamigos.org,09-04-2026,Aelton,Soares,Thor,Equino,Fêmea,Grande,Doente,Lar Temporário
+0aea0837,09/07/2025 18:21:11,aelton.soares@ongamigos.org,09-07-2025,Aelton,Soares,Pretinha,Gato,Macho,Grande,"Doente, Ferido",No Abrigo
+5e5772fb,05/12/2025 17:23:16,michelly.santos@ongamigos.org,05-12-2025,Michelly,Santos,Max,Gato,Desconhecido,Pequeno,Desconhecido,No Abrigo
+6031b9ef,21/03/2026 15:13:43,aelton.soares@ongamigos.org,21-03-2026,Aelton,Soares,Fred,Bovino,Desconhecido,Médio,Desconhecido,Fuga
+8093be90,06/02/2026 18:29:01,michelly.mantovani@ongamigos.org,06-02-2026,Michelly,Mantovani,Mel,Ovino/Caprino,Fêmea,Pequeno,Desconhecido,Adoção Definitiva
+3b7d7b87,04/05/2026 17:12:47,bruno.soares@ongamigos.org,04-05-2026,Bruno,Soares,Pipoca,Cão,Fêmea,Grande,Desconhecido,No Abrigo
+a6cfc2d8,20/02/2026 07:06:34,aelton.santos@ongamigos.org,20-02-2026,Aelton,Santos,Nina,Equino,Desconhecido,Grande,Saudável,No Abrigo
+4ba46847,30/07/2025 11:36:37,victor.soares@ongamigos.org,30-07-2025,Victor,Soares,Toby,Ave,Fêmea,Pequeno,Desconhecido,Adoção Definitiva
+d2dcc92a,15/06/2025 15:15:58,michelly.soares@ongamigos.org,15-06-2025,Michelly,Soares,Pretinha,Animal silvestres,Macho,Médio,Desconhecido,No Abrigo
+e2ad32c8,06/06/2026 07:47:37,victor.soares@ongamigos.org,06-06-2026,Victor,Soares,Toby,Ave,Macho,Pequeno,Doente,Lar Temporário
+da116ad2,06/08/2025 19:04:57,aelton.soares@ongamigos.org,06-08-2025,Aelton,Soares,Amora,Peixe,Desconhecido,Grande,Desconhecido,No Abrigo
+524bc576,20/07/2025 19:38:08,victor.santos@ongamigos.org,20-07-2025,Victor,Santos,Belinha,Equino,Desconhecido,Grande,Saudável,No Abrigo
+e52bd127,26/09/2025 10:31:24,michelly.mantovani@ongamigos.org,26-09-2025,Michelly,Mantovani,Bob,Cão,Fêmea,Pequeno,Saudável,No Abrigo
+726ecb2b,19/10/2025 13:40:21,victor.soares@ongamigos.org,19-10-2025,Victor,Soares,Max,Pet exótico,Desconhecido,Grande,"Desnutrido, Doente",Transferência
+51124357,28/09/2025 17:07:08,michelly.soares@ongamigos.org,28-09-2025,Michelly,Soares,Mel,Peixe,Fêmea,Grande,Saudável,Transferência
+cd90efc4,05/11/2025 08:03:51,bruno.mantovani@ongamigos.org,05-11-2025,Bruno,Mantovani,Cacau,Gato,Macho,Pequeno,Desconhecido,No Abrigo
+a2e866b8,23/11/2025 19:28:20,aelton.santos@ongamigos.org,23-11-2025,Aelton,Santos,Thor,Ave,Macho,Grande,Desconhecido,Transferência
+cb174be7,19/04/2026 17:18:30,bruno.mantovani@ongamigos.org,19-04-2026,Bruno,Mantovani,Amora,Bovino,Fêmea,Pequeno,Saudável,No Abrigo
+7cc4a999,09/07/2025 15:07:10,bruno.soares@ongamigos.org,09-07-2025,Bruno,Soares,Pipoca,Peixe,Desconhecido,Pequeno,Desnutrido,Adoção Definitiva
+dcc11231,07/12/2025 07:14:11,aelton.soares@ongamigos.org,07-12-2025,Aelton,Soares,Pipoca,Gato,Fêmea,Pequeno,Desconhecido,No Abrigo
+e24e8e3c,06/05/2026 18:19:43,michelly.mantovani@ongamigos.org,06-05-2026,Michelly,Mantovani,Fred,Animal silvestres,Fêmea,Grande,Saudável,Óbito
+6c7b0853,25/06/2025 10:31:31,aelton.soares@ongamigos.org,25-06-2025,Aelton,Soares,Marley,Cão,Macho,Grande,Desconhecido,Adoção Definitiva
+80c357ae,05/04/2026 09:26:59,michelly.soares@ongamigos.org,05-04-2026,Michelly,Soares,Luna,Bovino,Fêmea,Grande,"Doente, Desnutrido",No Abrigo
+1668b153,23/11/2025 13:44:09,michelly.santos@ongamigos.org,23-11-2025,Michelly,Santos,Max,Peixe,Fêmea,Grande,Desconhecido,No Abrigo
+5dca6f67,01/09/2025 08:18:38,michelly.mantovani@ongamigos.org,01-09-2025,Michelly,Mantovani,Amora,Equino,Fêmea,Médio,"Doente, Ferido",No Abrigo
+c9f21add,19/03/2026 18:47:40,bruno.soares@ongamigos.org,19-03-2026,Bruno,Soares,Bidu,Animal silvestres,Fêmea,Pequeno,Desconhecido,No Abrigo
+5726be01,10/01/2026 19:46:56,aelton.santos@ongamigos.org,10-01-2026,Aelton,Santos,Caramelo,Suíno,Fêmea,Pequeno,Saudável,No Abrigo
+a3557539,04/01/2026 15:58:39,victor.soares@ongamigos.org,04-01-2026,Victor,Soares,Belinha,Ave,Desconhecido,Pequeno,Desconhecido,No Abrigo
+afd4f680,17/11/2025 12:35:03,bruno.mantovani@ongamigos.org,17-11-2025,Bruno,Mantovani,Zeus,Ovino/Caprino,Fêmea,Médio,Desconhecido,Lar Temporário
+c0ff5688,08/11/2025 16:34:42,victor.mantovani@ongamigos.org,08-11-2025,Victor,Mantovani,Bidu,Ovino/Caprino,Macho,Médio,Desconhecido,No Abrigo
+c3928330,13/06/2025 14:26:44,aelton.soares@ongamigos.org,13-06-2025,Aelton,Soares,Amora,Ovino/Caprino,Fêmea,Pequeno,Saudável,Lar Temporário
+e6623b8b,30/10/2025 12:43:54,victor.soares@ongamigos.org,30-10-2025,Victor,Soares,Bidu,Gato,Fêmea,Médio,"Ferido, Desnutrido",No Abrigo
+e5b95d62,14/06/2025 12:50:45,bruno.santos@ongamigos.org,14-06-2025,Bruno,Santos,Pipoca,Peixe,Fêmea,Médio,Desconhecido,No Abrigo
+686d6f91,27/01/2026 07:47:17,michelly.mantovani@ongamigos.org,27-01-2026,Michelly,Mantovani,Rex,Cão,Fêmea,Médio,Desnutrido,No Abrigo
+62b6246e,18/10/2025 17:09:35,aelton.soares@ongamigos.org,18-10-2025,Aelton,Soares,Max,Ovino/Caprino,Macho,Médio,Desconhecido,Adoção Definitiva
+a0994b62,14/12/2025 07:28:28,victor.mantovani@ongamigos.org,14-12-2025,Victor,Mantovani,Bidu,Bovino,Desconhecido,Pequeno,"Doente, Ferido",No Abrigo
+9f2d83d8,30/04/2026 18:40:06,bruno.mantovani@ongamigos.org,30-04-2026,Bruno,Mantovani,Thor,Bovino,Macho,Médio,Desconhecido,Óbito
+e6cb3461,16/12/2025 18:10:24,victor.soares@ongamigos.org,16-12-2025,Victor,Soares,Maia,Ave,Desconhecido,Médio,Desconhecido,Lar Temporário
+8dc86196,15/08/2025 17:22:49,victor.soares@ongamigos.org,15-08-2025,Victor,Soares,Pipoca,Ovino/Caprino,Macho,Grande,Saudável,No Abrigo
+8559774d,03/10/2025 09:28:36,bruno.soares@ongamigos.org,03-10-2025,Bruno,Soares,Bidu,Pet exótico,Macho,Grande,Saudável,No Abrigo
+8e8fbbda,03/02/2026 14:19:58,michelly.soares@ongamigos.org,03-02-2026,Michelly,Soares,Marley,Peixe,Desconhecido,Grande,Saudável,Adoção Definitiva
+2ee32457,20/01/2026 17:11:10,aelton.santos@ongamigos.org,20-01-2026,Aelton,Santos,Zeus,Peixe,Fêmea,Médio,Saudável,No Abrigo
+5bd67dfd,02/08/2025 13:42:54,victor.soares@ongamigos.org,02-08-2025,Victor,Soares,Fred,Suíno,Fêmea,Médio,Desconhecido,No Abrigo
+d5716804,27/05/2026 15:04:33,bruno.santos@ongamigos.org,27-05-2026,Bruno,Santos,Amora,Ovino/Caprino,Macho,Médio,Desconhecido,No Abrigo
+48723bb4,27/03/2026 19:24:38,victor.soares@ongamigos.org,27-03-2026,Victor,Soares,Marley,Animal silvestres,Macho,Grande,Saudável,No Abrigo
+1329155b,24/07/2025 11:04:32,victor.santos@ongamigos.org,24-07-2025,Victor,Santos,Maia,Ovino/Caprino,Desconhecido,Grande,Desconhecido,Fuga
+992d6e23,09/08/2025 10:27:24,aelton.mantovani@ongamigos.org,09-08-2025,Aelton,Mantovani,Bidu,Peixe,Macho,Grande,Desconhecido,No Abrigo
+3e06f485,17/07/2025 17:59:43,aelton.mantovani@ongamigos.org,17-07-2025,Aelton,Mantovani,Amora,Peixe,Macho,Grande,"Ferido, Doente",Transferência
+ac531c21,12/04/2026 16:42:36,aelton.santos@ongamigos.org,12-04-2026,Aelton,Santos,Fred,Suíno,Fêmea,Pequeno,Desconhecido,No Abrigo
+d41197a5,28/10/2025 12:43:50,bruno.soares@ongamigos.org,28-10-2025,Bruno,Soares,Luke,Peixe,Fêmea,Pequeno,Saudável,No Abrigo
+aedb5033,15/09/2025 08:23:39,victor.mantovani@ongamigos.org,15-09-2025,Victor,Mantovani,Toby,Peixe,Desconhecido,Grande,Desconhecido,No Abrigo
+6602187d,10/08/2025 09:50:33,victor.mantovani@ongamigos.org,10-08-2025,Victor,Mantovani,Nina,Ave,Desconhecido,Grande,Desconhecido,No Abrigo
+a0b89453,06/05/2026 17:29:37,michelly.mantovani@ongamigos.org,06-05-2026,Michelly,Mantovani,Cacau,Ovino/Caprino,Fêmea,Grande,Saudável,No Abrigo
+8bf1b522,08/10/2025 10:09:19,aelton.soares@ongamigos.org,08-10-2025,Aelton,Soares,Cacau,Equino,Fêmea,Grande,"Ferido, Desnutrido",No Abrigo
+39c0b0e6,27/06/2025 07:16:49,victor.mantovani@ongamigos.org,27-06-2025,Victor,Mantovani,Fred,Animal silvestres,Fêmea,Pequeno,"Doente, Desnutrido",Óbito
+a0d0f764,30/03/2026 07:17:27,aelton.mantovani@ongamigos.org,30-03-2026,Aelton,Mantovani,Maia,Pet exótico,Macho,Grande,Saudável,No Abrigo
+a23297ad,06/04/2026 13:43:35,victor.soares@ongamigos.org,06-04-2026,Victor,Soares,Zeus,Pet exótico,Desconhecido,Pequeno,"Doente, Desnutrido",No Abrigo
+9e6f4c05,18/01/2026 13:54:17,bruno.mantovani@ongamigos.org,18-01-2026,Bruno,Mantovani,Cacau,Ave,Desconhecido,Pequeno,Saudável,No Abrigo
+783699c7,05/10/2025 19:12:41,victor.soares@ongamigos.org,05-10-2025,Victor,Soares,Thor,Equino,Fêmea,Grande,Saudável,No Abrigo
+165e22ff,04/01/2026 18:33:30,bruno.santos@ongamigos.org,04-01-2026,Bruno,Santos,Amora,Ave,Desconhecido,Grande,Saudável,No Abrigo
+934fe6f3,02/07/2025 15:58:48,michelly.mantovani@ongamigos.org,02-07-2025,Michelly,Mantovani,Luna,Suíno,Fêmea,Pequeno,Ferido,Fuga
+9c01351d,23/07/2025 08:03:12,michelly.soares@ongamigos.org,23-07-2025,Michelly,Soares,Bidu,Suíno,Fêmea,Médio,Saudável,Óbito
+bd29e5ca,04/07/2025 08:25:57,victor.mantovani@ongamigos.org,04-07-2025,Victor,Mantovani,Maia,Suíno,Fêmea,Grande,Doente,No Abrigo
+a430d4fb,28/03/2026 19:03:11,victor.soares@ongamigos.org,28-03-2026,Victor,Soares,Belinha,Bovino,Desconhecido,Médio,Desconhecido,No Abrigo
+ae797aa4,12/08/2025 12:40:31,aelton.santos@ongamigos.org,12-08-2025,Aelton,Santos,Fred,Cão,Desconhecido,Grande,"Ferido, Desnutrido",No Abrigo
+5af719e2,03/03/2026 12:09:29,aelton.santos@ongamigos.org,03-03-2026,Aelton,Santos,Luke,Animal silvestres,Desconhecido,Médio,Desconhecido,No Abrigo
+35db501b,21/02/2026 18:56:15,michelly.santos@ongamigos.org,21-02-2026,Michelly,Santos,Thor,Pet exótico,Fêmea,Grande,Desconhecido,No Abrigo
+766580fa,22/07/2025 19:52:45,bruno.mantovani@ongamigos.org,22-07-2025,Bruno,Mantovani,Nina,Cão,Fêmea,Grande,"Doente, Desnutrido",No Abrigo
+e8ff7c97,16/02/2026 13:43:35,aelton.santos@ongamigos.org,16-02-2026,Aelton,Santos,Thor,Pet exótico,Fêmea,Grande,Desconhecido,No Abrigo
+2ae3960e,07/07/2025 16:18:53,michelly.santos@ongamigos.org,07-07-2025,Michelly,Santos,Pipoca,Peixe,Macho,Médio,Saudável,No Abrigo
+496e830f,11/06/2026 18:50:06,victor.mantovani@ongamigos.org,11-06-2026,Victor,Mantovani,Fred,Cão,Desconhecido,Médio,Desconhecido,No Abrigo
+9c86871f,25/10/2025 12:57:34,aelton.soares@ongamigos.org,25-10-2025,Aelton,Soares,Belinha,Pet exótico,Desconhecido,Pequeno,"Desnutrido, Doente",Fuga
+785cc680,27/11/2025 13:12:02,victor.santos@ongamigos.org,27-11-2025,Victor,Santos,Max,Animal silvestres,Fêmea,Grande,Saudável,Lar Temporário
+67889971,25/06/2025 19:10:22,bruno.santos@ongamigos.org,25-06-2025,Bruno,Santos,Zeus,Pet exótico,Desconhecido,Grande,Saudável,Lar Temporário
+d7f62257,22/02/2026 11:05:28,aelton.santos@ongamigos.org,22-02-2026,Aelton,Santos,Bob,Equino,Macho,Pequeno,Desnutrido,No Abrigo
+430f4174,01/03/2026 11:27:53,victor.soares@ongamigos.org,01-03-2026,Victor,Soares,Toby,Cão,Macho,Grande,Desconhecido,Adoção Definitiva
+3e998313,03/06/2026 16:43:13,michelly.santos@ongamigos.org,03-06-2026,Michelly,Santos,Fred,Ovino/Caprino,Macho,Pequeno,Desconhecido,No Abrigo
+d3533fea,16/01/2026 12:11:07,aelton.soares@ongamigos.org,16-01-2026,Aelton,Soares,Amora,Pet exótico,Macho,Pequeno,"Doente, Ferido",No Abrigo
+aade1d4b,17/02/2026 18:17:22,michelly.santos@ongamigos.org,17-02-2026,Michelly,Santos,Fred,Suíno,Macho,Pequeno,Doente,Fuga
+36cd7bdb,13/09/2025 15:32:08,bruno.santos@ongamigos.org,13-09-2025,Bruno,Santos,Pipoca,Gato,Fêmea,Pequeno,Ferido,Óbito

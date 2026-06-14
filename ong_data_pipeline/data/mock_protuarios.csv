@@ -1,0 +1,1258 @@
+﻿id_procedimento,id_animal,carimbo_ts,data_do_procedimento,nome_do_profissional,tipo_de_evento,categoria_medicamento,nome_medicamento,categoria_vacina,nome_vacina,nome_cirurgia_realizada
+97a98ed4,d28457b7,12/05/2026 14:51:14,12/05/2026,Aelton,Consulta Veterinária,,,,,
+9c06da8e,d28457b7,27/05/2026 11:28:30,27/05/2026,Aelton,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+088f46df,6dd6b363,03/05/2026 18:00:11,03/05/2026,Michelly,Medicamento,Anti-inflamatórios / Analgésico,Meloxicam,,,
+e3cc22fb,6dd6b363,30/05/2026 13:07:36,30/05/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+7a5dd73f,6dd6b363,12/05/2026 11:42:35,12/05/2026,Michelly,Vacina,,,Marek,Vacina Doença de Marek,
+749b654c,0e080101,10/05/2026 14:31:47,10/05/2026,Aelton,Consulta Veterinária,,,,,
+9f85290a,0e080101,25/05/2026 08:14:46,25/05/2026,Aelton,Vacina,,,Reprodutiva,Vacina Específica,
+23122b3e,1e9bb41f,01/10/2025 11:11:27,01/10/2025,Aelton,Vacina,,,Reprodutiva,Vacina Específica,
+d07ff603,1e9bb41f,31/10/2025 18:57:39,31/10/2025,Aelton,Medicamento,Anti-inflamatórios / Analgésico,Meloxicam,,,
+09c4c91f,b9cdaaff,17/04/2026 17:29:17,17/04/2026,Bruno,Medicamento,Antialérgico,Apoquel,,,
+4c5ab55f,b9cdaaff,05/06/2026 17:28:28,05/06/2026,Bruno,Castração,,,,,Castração Eletiva
+79358a81,137c0a5d,28/09/2025 12:12:21,28/09/2025,Michelly,Vacina,,,Newcastle,Vacina Newcastle,
+8e31a42e,137c0a5d,13/07/2025 10:08:49,13/07/2025,Michelly,Medicamento,Antifúngico,Itraconazol,,,
+6f6e0767,137c0a5d,15/10/2025 10:12:20,15/10/2025,Michelly,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+aa757227,137c0a5d,03/10/2025 17:39:57,03/10/2025,Michelly,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+cf86a198,65788c3b,08/06/2026 08:48:19,08/06/2026,Aelton,Castração,,,,,Castração Eletiva
+0f3d0f74,65788c3b,04/02/2026 16:12:37,04/02/2026,Aelton,Vacina,,,Tétano,Soro Antitetânico,
+1771ace5,65788c3b,16/02/2026 13:40:12,16/02/2026,Aelton,Castração,,,,,Castração Eletiva
+3821aefb,65788c3b,27/09/2025 11:31:04,27/09/2025,Aelton,Medicamento,Dermatológico,Shampoo Clorexidina,,,
+cda49627,0f4acc60,05/06/2026 13:06:36,05/06/2026,Victor,Consulta Veterinária,,,,,
+54ecab11,35d4d299,06/05/2026 08:02:45,06/05/2026,Bruno,Consulta Veterinária,,,,,
+2f89b06a,2df89e16,04/07/2025 10:52:30,04/07/2025,Michelly,Medicamento,Oftálmico,Pomada Oftálmica,,,
+04f92340,2df89e16,12/03/2026 18:26:08,12/03/2026,Michelly,Castração,,,,,Castração Eletiva
+d4c2f9f0,2df89e16,24/03/2026 17:57:06,24/03/2026,Michelly,Consulta Veterinária,,,,,
+3cb381c4,8bc5e5bf,27/05/2026 10:12:14,27/05/2026,Michelly,Castração,,,,,Castração Eletiva
+063bda8b,8bc5e5bf,24/04/2026 12:11:53,24/04/2026,Michelly,Medicamento,Antiviral,Aciclovir,,,
+864d7fe4,8bc5e5bf,29/04/2026 11:49:18,29/04/2026,Michelly,Castração,,,,,Castração Eletiva
+e752d533,8bc5e5bf,13/06/2026 15:20:15,13/06/2026,Michelly,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+19919ee6,e9dfdd44,11/06/2026 16:50:12,11/06/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+8ba77d11,e9dfdd44,01/06/2026 10:34:14,01/06/2026,Michelly,Cirurgia,,,,,Ortopedia
+ef4cd54e,cea5bb3a,27/01/2026 12:39:07,27/01/2026,Aelton,Castração,,,,,Castração Eletiva
+85ad09cd,cea5bb3a,18/01/2026 13:06:38,18/01/2026,Aelton,Medicamento,Suplementos / Vitaminas,Vitamina B12,,,
+24196fb1,cea5bb3a,04/01/2026 15:10:50,04/01/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+3267e02e,cea5bb3a,10/12/2025 12:19:40,10/12/2025,Aelton,Cirurgia,,,,,Amputação
+c1232f36,e7d3bf5b,06/03/2026 09:49:14,06/03/2026,Aelton,Consulta Veterinária,,,,,
+3ce126ad,e7d3bf5b,16/09/2025 17:45:33,16/09/2025,Aelton,Medicamento,Antibiótico,Doxiciclina,,,
+ff83d9fc,e7d3bf5b,05/01/2026 17:57:40,05/01/2026,Aelton,Consulta Veterinária,,,,,
+0533dfc4,e7d3bf5b,22/03/2026 14:14:25,22/03/2026,Aelton,Cirurgia,,,,,Amputação
+937fa2fb,11f526f3,20/02/2026 16:52:34,20/02/2026,Bruno,Consulta Veterinária,,,,,
+e16cf17c,3cabba83,06/05/2026 12:50:36,06/05/2026,Aelton,Castração,,,,,Castração Eletiva
+c104237d,3cabba83,04/05/2026 09:00:02,04/05/2026,Aelton,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+c760287b,7d60527d,26/07/2025 14:12:39,26/07/2025,Victor,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+e444fc8b,7d60527d,20/10/2025 16:37:32,20/10/2025,Victor,Vacina,,,Brucelose,Vacina Brucelose,
+1c884a89,7d60527d,28/09/2025 18:14:33,28/09/2025,Victor,Medicamento,Ontológico,Gota Otológica,,,
+6d87c828,dbb03135,10/08/2025 16:54:29,10/08/2025,Aelton,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+1f07e572,dbb03135,02/11/2025 10:26:25,02/11/2025,Aelton,Castração,,,,,Castração Eletiva
+42832c3a,cd483302,24/04/2026 18:26:20,24/04/2026,Victor,Cirurgia,,,,,Castração Emergencial
+b780a472,cd483302,25/05/2026 09:46:47,25/05/2026,Victor,Consulta Veterinária,,,,,
+521fdd3a,cd483302,30/03/2026 08:48:31,30/03/2026,Victor,Vacina,,,Clostridial,Polivalente Clostridial,
+2ddb1ae5,e24ac219,13/06/2026 12:51:45,13/06/2026,Aelton,Medicamento,Antiparasitario externo,Bravecto Top,,,
+ff27b801,e24ac219,12/06/2026 17:21:47,12/06/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+5ba3846a,9f1c0e6f,03/05/2026 14:05:28,03/05/2026,Bruno,Cirurgia,,,,,Amputação
+240f6d43,9f1c0e6f,14/05/2026 14:32:35,14/05/2026,Bruno,Medicamento,Cardiológico,Enalapril,,,
+44537782,9f1c0e6f,07/05/2026 14:36:37,07/05/2026,Bruno,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+324e8c63,e3ed5f8d,22/04/2026 16:30:12,22/04/2026,Victor,Consulta Veterinária,,,,,
+35e7f50e,e3ed5f8d,16/05/2026 11:05:32,16/05/2026,Victor,Cirurgia,,,,,Castração Emergencial
+6ec7deb6,e3ed5f8d,17/05/2026 09:21:07,17/05/2026,Victor,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+3fd255b4,4341c1f0,28/08/2025 16:51:47,28/08/2025,Victor,Cirurgia,,,,,Castração Emergencial
+59e2fd8d,8547cad2,03/03/2026 12:21:37,03/03/2026,Michelly,Consulta Veterinária,,,,,
+6437dc00,5b8b9ba3,10/05/2026 11:28:51,10/05/2026,Aelton,Consulta Veterinária,,,,,
+4194b916,5b8b9ba3,18/04/2026 12:14:58,18/04/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+1bd73938,7c535851,30/01/2026 11:19:10,30/01/2026,Bruno,Consulta Veterinária,,,,,
+dae10d2b,a0eb16ac,18/11/2025 08:24:34,18/11/2025,Michelly,Medicamento,Antiviral,Interferon,,,
+1dc2b89e,a0eb16ac,14/02/2026 11:32:09,14/02/2026,Michelly,Cirurgia,,,,,Amputação
+54fb0110,a0eb16ac,28/03/2026 08:33:33,28/03/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+cba81974,a0eb16ac,10/12/2025 09:19:38,10/12/2025,Michelly,Vacina,,,Reprodutiva,Vacina Específica,
+7a696951,a5a71ccc,02/11/2025 09:06:55,02/11/2025,Michelly,Consulta Veterinária,,,,,
+a80418db,e9954710,01/02/2026 18:35:09,01/02/2026,Aelton,Vacina,,,Polivalente,V4 Felina,
+e8f70209,e9954710,02/02/2026 16:54:19,02/02/2026,Aelton,Medicamento,Anti-inflamatórios / Analgésico,Meloxicam,,,
+9763b67f,e9954710,23/03/2026 09:01:29,23/03/2026,Aelton,Cirurgia,,,,,Ortopedia
+3725b087,9a1697cc,16/05/2026 16:07:09,16/05/2026,Michelly,Medicamento,Gastrointestinal,Ondansetrona,,,
+2ad341af,9a1697cc,26/03/2026 09:16:11,26/03/2026,Michelly,Medicamento,Respiratório,Aminofilina,,,
+8139a42f,aee11ea8,24/02/2026 14:05:30,24/02/2026,Victor,Cirurgia,,,,,Castração Emergencial
+835d6e84,aee11ea8,17/09/2025 08:40:26,17/09/2025,Victor,Cirurgia,,,,,Remoção de Nódulo
+6c272174,9ae8d3d1,19/04/2026 17:25:29,19/04/2026,Victor,Castração,,,,,Castração Eletiva
+fad54c77,9ae8d3d1,03/06/2026 15:28:17,03/06/2026,Victor,Castração,,,,,Castração Eletiva
+359f5c14,9ae8d3d1,11/02/2026 16:28:26,11/02/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+246a4219,9ae8d3d1,12/02/2026 12:33:25,12/02/2026,Victor,Castração,,,,,Castração Eletiva
+3f76a7ea,0b147465,13/05/2026 17:20:23,13/05/2026,Michelly,Castração,,,,,Castração Eletiva
+06a0eadd,0b147465,15/05/2026 16:06:38,15/05/2026,Michelly,Cirurgia,,,,,Ortopedia
+a482a402,60bdc9fb,22/04/2026 09:23:18,22/04/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+41541b52,60bdc9fb,04/04/2026 15:31:50,04/04/2026,Aelton,Medicamento,Ontológico,Gota Otológica,,,
+e81f4883,fc7729bb,19/03/2026 16:08:36,19/03/2026,Victor,Vacina,,,Clostridial,Polivalente Clostridial,
+a978f46e,fc7729bb,08/01/2026 09:47:11,08/01/2026,Victor,Medicamento,Hormônio,Insulina,,,
+ff87bb06,1c24ed2a,06/06/2026 09:47:11,06/06/2026,Michelly,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+d84cc3b9,1c24ed2a,21/02/2026 11:25:50,21/02/2026,Michelly,Consulta Veterinária,,,,,
+286b97e4,894ad601,24/03/2026 09:16:41,24/03/2026,Michelly,Vacina,,,Reprodutiva,Vacina Específica,
+364392f9,894ad601,19/09/2025 15:39:00,19/09/2025,Michelly,Castração,,,,,Castração Eletiva
+48c72f71,894ad601,24/02/2026 11:30:16,24/02/2026,Michelly,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+0b4d8d6d,894ad601,03/08/2025 13:28:34,03/08/2025,Michelly,Medicamento,Dermatológico,Shampoo Clorexidina,,,
+2f0a14c0,4cba8730,01/04/2026 14:53:57,01/04/2026,Bruno,Castração,,,,,Castração Eletiva
+d47665a2,5071bee8,26/02/2026 12:42:10,26/02/2026,Victor,Medicamento,Anestésico / Sedativo,Propofol,,,
+ba1b88a4,e8041a88,15/12/2025 17:32:47,15/12/2025,Michelly,Medicamento,Cardiológico,Enalapril,,,
+339a097a,e8041a88,08/05/2026 18:06:01,08/05/2026,Michelly,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+42c285b5,e8041a88,15/01/2026 18:07:17,15/01/2026,Michelly,Vacina,,,Polivalente,V4 Felina,
+aaee8ed3,e8041a88,20/02/2026 14:00:16,20/02/2026,Michelly,Consulta Veterinária,,,,,
+de9394fb,0bd114a7,06/11/2025 13:55:20,06/11/2025,Bruno,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+f097f973,54e5fdd7,24/05/2026 18:28:21,24/05/2026,Victor,Vacina,,,Tétano,Soro Antitetânico,
+57b7bbd4,497cd3bf,29/12/2025 14:02:54,29/12/2025,Michelly,Consulta Veterinária,,,,,
+d087dfe7,497cd3bf,18/03/2026 17:09:05,18/03/2026,Michelly,Castração,,,,,Castração Eletiva
+9ff43e2f,497cd3bf,02/05/2026 09:50:39,02/05/2026,Michelly,Medicamento,Oftálmico,Pomada Oftálmica,,,
+c58ebdaa,f5347cec,12/06/2026 08:49:13,12/06/2026,Victor,Castração,,,,,Castração Eletiva
+36718a3d,3053a93c,08/05/2026 18:51:28,08/05/2026,Michelly,Castração,,,,,Castração Eletiva
+4dcfa928,c18ee043,24/12/2025 08:17:12,24/12/2025,Michelly,Cirurgia,,,,,Remoção de Nódulo
+73a76aca,c18ee043,15/03/2026 11:01:47,15/03/2026,Michelly,Castração,,,,,Castração Eletiva
+6c882af7,c18ee043,09/05/2026 09:00:23,09/05/2026,Michelly,Vacina,,,Polivalente,V8,
+213295fb,6cb9bec9,20/02/2026 09:52:28,20/02/2026,Michelly,Castração,,,,,Castração Eletiva
+a6e290e9,6cb9bec9,21/04/2026 12:27:32,21/04/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+03dbb080,6cb9bec9,13/05/2026 11:06:41,13/05/2026,Michelly,Cirurgia,,,,,Amputação
+6b228fba,dd5dd34c,24/03/2026 13:52:53,24/03/2026,Victor,Consulta Veterinária,,,,,
+2d21f738,dd5dd34c,10/04/2026 08:13:04,10/04/2026,Victor,Consulta Veterinária,,,,,
+4e668d9f,dd5dd34c,01/06/2026 08:54:06,01/06/2026,Victor,Cirurgia,,,,,Ortopedia
+2cb0e9d7,96a92541,01/02/2026 18:09:05,01/02/2026,Victor,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+d17258ab,96a92541,08/03/2026 12:37:30,08/03/2026,Victor,Cirurgia,,,,,Castração Emergencial
+3b849a9f,96a92541,27/12/2025 08:24:26,27/12/2025,Victor,Cirurgia,,,,,Ortopedia
+97e78cff,96a92541,25/01/2026 11:07:37,25/01/2026,Victor,Vacina,,,Brucelose,Vacina Brucelose,
+c4ed24d2,f065996d,14/02/2026 18:35:49,14/02/2026,Victor,Medicamento,Dermatológico,Pomada Cicatrizante,,,
+d602d0a1,f065996d,11/06/2026 14:58:15,11/06/2026,Victor,Consulta Veterinária,,,,,
+50d7c802,f065996d,01/03/2026 15:09:20,01/03/2026,Victor,Castração,,,,,Castração Eletiva
+1d84cfec,bf2c1143,05/02/2026 13:01:18,05/02/2026,Bruno,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+afcbb561,bf2c1143,05/04/2026 11:26:07,05/04/2026,Bruno,Medicamento,Anestésico / Sedativo,Acepromazina,,,
+4161bfd3,bf2c1143,30/01/2026 09:26:25,30/01/2026,Bruno,Vacina,,,Marek,Vacina Doença de Marek,
+eb8734b6,e5d4d8bb,06/11/2025 18:14:20,06/11/2025,Bruno,Medicamento,Dermatológico,Shampoo Clorexidina,,,
+f8560343,e5d4d8bb,10/12/2025 12:29:04,10/12/2025,Bruno,Castração,,,,,Castração Eletiva
+aec66740,e5d4d8bb,04/11/2025 10:32:49,04/11/2025,Bruno,Castração,,,,,Castração Eletiva
+fc6d30d7,1d839d19,21/04/2026 13:15:35,21/04/2026,Aelton,Consulta Veterinária,,,,,
+5fb0e0b0,1d839d19,21/05/2026 17:40:47,21/05/2026,Aelton,Medicamento,Ontológico,Gota Otológica,,,
+0977efdd,1d839d19,30/05/2026 17:46:12,30/05/2026,Aelton,Castração,,,,,Castração Eletiva
+edf9db8f,1d839d19,11/06/2026 13:37:48,11/06/2026,Aelton,Castração,,,,,Castração Eletiva
+a6d6bd7e,2a33ac31,01/01/2026 16:18:04,01/01/2026,Aelton,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+65a662e8,2b5f05a2,06/12/2025 12:33:22,06/12/2025,Victor,Consulta Veterinária,,,,,
+9e8edb40,2b5f05a2,20/02/2026 12:06:16,20/02/2026,Victor,Castração,,,,,Castração Eletiva
+c08cd7fa,2b5f05a2,17/12/2025 09:20:00,17/12/2025,Victor,Medicamento,Outro,Soro Fisiológico,,,
+e940b65b,9b407ded,29/05/2026 12:32:58,29/05/2026,Michelly,Medicamento,Antiparasitario externo,NexGard,,,
+380555b1,9b407ded,08/06/2026 14:11:41,08/06/2026,Michelly,Cirurgia,,,,,Amputação
+c3f8d36b,9b407ded,07/06/2026 18:13:18,07/06/2026,Michelly,Vacina,,,Marek,Vacina Doença de Marek,
+d1bf2196,9b407ded,12/05/2026 12:33:57,12/05/2026,Michelly,Cirurgia,,,,,Amputação
+9f833a7d,3903a1af,25/12/2025 16:40:26,25/12/2025,Victor,Vacina,,,Tétano,Toxoide Tetânico,
+58217c40,3903a1af,03/01/2026 13:51:36,03/01/2026,Victor,Vacina,,,Calicivirose,Vacina Calicivirose,
+16354fd7,3903a1af,21/04/2026 08:20:46,21/04/2026,Victor,Castração,,,,,Castração Eletiva
+cce58928,affaf22d,20/02/2026 18:11:36,20/02/2026,Aelton,Consulta Veterinária,,,,,
+dbcea93f,affaf22d,02/03/2026 11:09:26,02/03/2026,Aelton,Consulta Veterinária,,,,,
+1aa092db,affaf22d,15/05/2026 10:12:27,15/05/2026,Aelton,Cirurgia,,,,,Ortopedia
+308e26ea,affaf22d,16/11/2025 08:44:55,16/11/2025,Aelton,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+d87205b0,1847be9a,11/10/2025 11:29:05,11/10/2025,Victor,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+7c48331a,1847be9a,08/03/2026 09:19:50,08/03/2026,Victor,Vacina,,,Clostridial,Polivalente Clostridial,
+e50f94b9,c8254161,29/04/2026 16:49:24,29/04/2026,Aelton,Vacina,,,Calicivirose,Vacina Calicivirose,
+675d16a4,c8254161,03/06/2026 13:05:34,03/06/2026,Aelton,Consulta Veterinária,,,,,
+11bcbe22,c8254161,13/03/2026 10:17:44,13/03/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+7571bd11,9758cd7a,28/02/2026 11:22:16,28/02/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+6b5f4efb,9758cd7a,15/05/2026 18:13:48,15/05/2026,Michelly,Castração,,,,,Castração Eletiva
+a79687fd,cf277149,06/06/2026 08:55:59,06/06/2026,Bruno,Vacina,,,Polivalente,V8,
+b1e1d291,cf277149,07/06/2026 18:23:46,07/06/2026,Bruno,Medicamento,Antibiótico,Doxiciclina,,,
+adfcfc61,cf277149,04/06/2026 10:04:16,04/06/2026,Bruno,Cirurgia,,,,,Ortopedia
+437d0ff4,7d4a331e,08/06/2026 16:31:02,08/06/2026,Bruno,Consulta Veterinária,,,,,
+ada67957,7d4a331e,29/12/2025 12:48:01,29/12/2025,Bruno,Cirurgia,,,,,Ortopedia
+a258203e,c877de16,13/06/2026 12:41:47,13/06/2026,Michelly,Medicamento,Antiviral,Interferon,,,
+ef5c5d80,c877de16,14/06/2026 12:49:17,14/06/2026,Michelly,Medicamento,Cardiológico,Pimobendan,,,
+c05df211,c877de16,13/06/2026 11:54:45,13/06/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+4411cad4,c877de16,12/06/2026 12:34:54,12/06/2026,Michelly,Cirurgia,,,,,Amputação
+91957533,7488b4d3,17/12/2025 08:17:55,17/12/2025,Bruno,Vacina,,,Calicivirose,Vacina Calicivirose,
+3e45c58b,7488b4d3,08/01/2026 08:57:25,08/01/2026,Bruno,Vacina,,,Clostridial,Polivalente Clostridial,
+155a694d,7488b4d3,26/05/2026 17:44:08,26/05/2026,Bruno,Vacina,,,Brucelose,Vacina Brucelose,
+a28f0ff3,7488b4d3,25/10/2025 09:13:02,25/10/2025,Bruno,Vacina,,,Reprodutiva,Vacina Específica,
+d0ae5405,d7de9a62,04/06/2026 16:25:09,04/06/2026,Aelton,Consulta Veterinária,,,,,
+77204b14,d7de9a62,11/06/2026 10:44:12,11/06/2026,Aelton,Medicamento,Antialérgico,Apoquel,,,
+6a631aef,1840a74b,17/01/2026 16:13:48,17/01/2026,Victor,Castração,,,,,Castração Eletiva
+1b715f7d,532f1177,23/12/2025 09:46:22,23/12/2025,Victor,Castração,,,,,Castração Eletiva
+30a61130,532f1177,25/09/2025 11:48:12,25/09/2025,Victor,Cirurgia,,,,,Remoção de Nódulo
+767a3c61,532f1177,31/12/2025 11:10:44,31/12/2025,Victor,Cirurgia,,,,,Ortopedia
+cdf404c7,1722e392,25/05/2026 15:10:18,25/05/2026,Victor,Cirurgia,,,,,Amputação
+28a8cba9,1722e392,27/05/2026 09:26:27,27/05/2026,Victor,Castração,,,,,Castração Eletiva
+829fc4a8,1722e392,13/05/2026 15:05:43,13/05/2026,Victor,Medicamento,Gastrointestinal,Omeprazol,,,
+a49a19cd,ca33b1bb,11/12/2025 15:16:32,11/12/2025,Victor,Cirurgia,,,,,Remoção de Nódulo
+5e5eb00c,ca33b1bb,11/05/2026 10:28:23,11/05/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+3c62fd59,ca33b1bb,09/06/2026 11:45:41,09/06/2026,Victor,Cirurgia,,,,,Amputação
+f5d46077,da5eedf4,11/05/2026 12:51:43,11/05/2026,Victor,Castração,,,,,Castração Eletiva
+7c77605a,d881fc63,01/04/2026 13:42:35,01/04/2026,Aelton,Medicamento,Outro,Glicose,,,
+fac3ee95,d881fc63,01/06/2026 17:53:31,01/06/2026,Aelton,Vacina,,,Clostridial,Polivalente Clostridial,
+5ce9c2f1,22a51d97,15/04/2026 08:03:35,15/04/2026,Michelly,Cirurgia,,,,,Amputação
+274891f7,22a51d97,07/04/2026 08:19:08,07/04/2026,Michelly,Cirurgia,,,,,Amputação
+19044e09,a8b0cff1,24/04/2026 08:57:18,24/04/2026,Victor,Castração,,,,,Castração Eletiva
+9a45a0dc,e992ca88,22/03/2026 15:28:26,22/03/2026,Aelton,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+0c1798ea,220fbb4a,17/09/2025 14:34:41,17/09/2025,Victor,Vacina,,,Brucelose,Vacina Brucelose,
+25586cc0,220fbb4a,26/08/2025 11:30:04,26/08/2025,Victor,Medicamento,Antifúngico,Cetoconazol,,,
+90ef9f74,3f8d750a,10/10/2025 13:10:47,10/10/2025,Bruno,Consulta Veterinária,,,,,
+88d60ce2,3f8d750a,21/12/2025 10:54:54,21/12/2025,Bruno,Consulta Veterinária,,,,,
+a0d7a6a5,3f8d750a,13/04/2026 12:40:25,13/04/2026,Bruno,Consulta Veterinária,,,,,
+03344e89,3f8d750a,21/12/2025 16:09:25,21/12/2025,Bruno,Consulta Veterinária,,,,,
+7598ad45,c4a62ee7,03/12/2025 14:53:39,03/12/2025,Aelton,Vacina,,,Reprodutiva,Vacina Específica,
+71f67d7c,c4a62ee7,15/12/2025 18:53:59,15/12/2025,Aelton,Medicamento,Gastrointestinal,Sucralfato,,,
+1643abfe,c4a62ee7,23/03/2026 14:15:37,23/03/2026,Aelton,Castração,,,,,Castração Eletiva
+ff60b016,abc4a44a,14/06/2026 10:55:56,14/06/2026,Aelton,Castração,,,,,Castração Eletiva
+cc4f0c96,e06304c2,18/05/2026 10:55:14,18/05/2026,Michelly,Consulta Veterinária,,,,,
+93dfe100,e06304c2,03/06/2026 18:29:05,03/06/2026,Michelly,Consulta Veterinária,,,,,
+661b0f8e,909ed5e6,29/11/2025 09:45:41,29/11/2025,Michelly,Cirurgia,,,,,Remoção de Nódulo
+0bb44784,909ed5e6,01/12/2025 14:57:26,01/12/2025,Michelly,Medicamento,Dermatológico,Shampoo Clorexidina,,,
+75bf6b43,909ed5e6,13/04/2026 12:25:20,13/04/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+5fd8b0b6,909ed5e6,05/06/2026 10:27:57,05/06/2026,Michelly,Medicamento,Hormônio,Insulina,,,
+e5332186,dcf8056b,03/05/2026 17:09:16,03/05/2026,Victor,Medicamento,Antialérgico,Apoquel,,,
+5145e5a2,6521be20,19/05/2026 10:21:55,19/05/2026,Bruno,Cirurgia,,,,,Ortopedia
+b8bf910d,6521be20,25/02/2026 15:45:49,25/02/2026,Bruno,Castração,,,,,Castração Eletiva
+1917c11a,6521be20,01/10/2025 12:40:14,01/10/2025,Bruno,Castração,,,,,Castração Eletiva
+6c91a3c1,6521be20,01/09/2025 12:03:24,01/09/2025,Bruno,Cirurgia,,,,,Remoção de Nódulo
+9f43c048,962e7fbe,25/03/2026 12:32:49,25/03/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+7df2f860,962e7fbe,11/01/2026 13:02:03,11/01/2026,Bruno,Medicamento,Anestésico / Sedativo,Propofol,,,
+3a8df0ba,962e7fbe,19/03/2026 10:24:46,19/03/2026,Bruno,Castração,,,,,Castração Eletiva
+80e10ab3,e92d059e,15/02/2026 13:00:20,15/02/2026,Aelton,Vacina,,,Polivalente,V5 Felina,
+2be94db2,e92d059e,18/04/2026 16:15:50,18/04/2026,Aelton,Cirurgia,,,,,Ortopedia
+c4d3b12c,caaaa0f9,01/06/2026 17:28:28,01/06/2026,Victor,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+0cf4716d,caaaa0f9,23/04/2026 15:30:17,23/04/2026,Victor,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+45791933,caaaa0f9,17/04/2026 11:14:38,17/04/2026,Victor,Medicamento,Hormônio,Levotiroxina,,,
+63ae09cb,ad386dfc,31/03/2026 18:02:51,31/03/2026,Victor,Vacina,,,Calicivirose,Vacina Calicivirose,
+ff929f13,ad386dfc,10/05/2026 14:46:28,10/05/2026,Victor,Medicamento,Oftálmico,Colírio Tobramicina,,,
+e3e5f817,ad386dfc,19/11/2025 18:13:08,19/11/2025,Victor,Medicamento,Anestésico / Sedativo,Cetamina,,,
+fe2614fb,ad386dfc,01/10/2025 15:53:20,01/10/2025,Victor,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+b7672f09,4aecdbac,06/05/2026 17:51:23,06/05/2026,Victor,Consulta Veterinária,,,,,
+77aad0ed,4aecdbac,03/02/2026 14:05:37,03/02/2026,Victor,Medicamento,Antialérgico,Loratadina,,,
+5688909b,4aecdbac,30/11/2025 10:25:25,30/11/2025,Victor,Vacina,,,Gastrointestinal,Vacina Giárdia,
+dadf2abf,2fc9b260,11/06/2026 15:32:00,11/06/2026,Michelly,Consulta Veterinária,,,,,
+0fda4f35,2fc9b260,30/05/2026 15:01:00,30/05/2026,Michelly,Castração,,,,,Castração Eletiva
+ebc8bd6f,2fc9b260,05/06/2026 09:55:10,05/06/2026,Michelly,Vacina,,,Calicivirose,Vacina Calicivirose,
+cd496a2c,e768812d,17/05/2026 13:26:01,17/05/2026,Michelly,Consulta Veterinária,,,,,
+1f2d58b7,e768812d,04/06/2026 15:33:52,04/06/2026,Michelly,Consulta Veterinária,,,,,
+3cdc4d72,b071be18,26/01/2026 09:28:14,26/01/2026,Aelton,Castração,,,,,Castração Eletiva
+9004b30b,b071be18,26/03/2026 15:46:43,26/03/2026,Aelton,Castração,,,,,Castração Eletiva
+6b5bbf4f,b071be18,17/03/2026 18:39:45,17/03/2026,Aelton,Castração,,,,,Castração Eletiva
+dfdfd909,7be650ee,20/09/2025 14:45:02,20/09/2025,Bruno,Cirurgia,,,,,Castração Emergencial
+27db1550,7be650ee,16/08/2025 10:50:37,16/08/2025,Bruno,Medicamento,Outro,Glicose,,,
+dc0335c6,6460fe94,10/03/2026 10:00:28,10/03/2026,Victor,Medicamento,Respiratório,Acetilcisteína,,,
+a80b4729,6460fe94,20/03/2026 13:22:30,20/03/2026,Victor,Castração,,,,,Castração Eletiva
+780d8782,6460fe94,01/05/2026 17:24:29,01/05/2026,Victor,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+b7732ada,6460fe94,07/04/2026 18:16:54,07/04/2026,Victor,Castração,,,,,Castração Eletiva
+64a13122,a6e5f34a,13/03/2026 13:02:04,13/03/2026,Victor,Castração,,,,,Castração Eletiva
+7a0026c6,a6e5f34a,20/03/2026 10:41:14,20/03/2026,Victor,Castração,,,,,Castração Eletiva
+e273079c,a6e5f34a,22/02/2026 16:15:07,22/02/2026,Victor,Consulta Veterinária,,,,,
+879b082e,2dc919b1,01/03/2026 12:38:45,01/03/2026,Michelly,Vacina,,,Brucelose,Vacina Brucelose,
+00f82441,68fa6a7b,26/05/2026 13:10:44,26/05/2026,Bruno,Cirurgia,,,,,Amputação
+bd5f592f,68fa6a7b,02/04/2026 17:04:59,02/04/2026,Bruno,Castração,,,,,Castração Eletiva
+d35ca9e1,0d71e9dc,21/10/2025 14:57:42,21/10/2025,Michelly,Cirurgia,,,,,Ortopedia
+0a581431,0d71e9dc,29/09/2025 18:29:02,29/09/2025,Michelly,Consulta Veterinária,,,,,
+e9cd8dba,0d71e9dc,24/10/2025 12:32:55,24/10/2025,Michelly,Castração,,,,,Castração Eletiva
+5d30374d,6154d875,14/01/2026 10:06:29,14/01/2026,Aelton,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+d2f7021d,75a9dcc1,03/04/2026 11:23:39,03/04/2026,Bruno,Castração,,,,,Castração Eletiva
+c07178ce,5004cdbc,28/11/2025 16:41:30,28/11/2025,Bruno,Medicamento,Anestésico / Sedativo,Cetamina,,,
+049de05d,5004cdbc,01/01/2026 13:50:33,01/01/2026,Bruno,Castração,,,,,Castração Eletiva
+980608dd,5004cdbc,06/09/2025 18:59:28,06/09/2025,Bruno,Cirurgia,,,,,Ortopedia
+656c5fa7,57f6b643,27/02/2026 15:27:30,27/02/2026,Bruno,Consulta Veterinária,,,,,
+f5aa8b87,57f6b643,11/09/2025 13:07:58,11/09/2025,Bruno,Castração,,,,,Castração Eletiva
+32d399e2,57f6b643,22/04/2026 18:12:35,22/04/2026,Bruno,Consulta Veterinária,,,,,
+0d43ba5f,57f6b643,29/09/2025 10:25:49,29/09/2025,Bruno,Castração,,,,,Castração Eletiva
+d7d4887c,74150122,20/12/2025 11:26:59,20/12/2025,Aelton,Vacina,,,Reprodutiva,Vacina Específica,
+45461b93,74150122,30/03/2026 16:16:21,30/03/2026,Aelton,Castração,,,,,Castração Eletiva
+9f9a70c6,74150122,05/01/2026 17:07:48,05/01/2026,Aelton,Medicamento,Anestésico / Sedativo,Acepromazina,,,
+740287d1,91bb7a1a,09/04/2026 11:55:00,09/04/2026,Victor,Medicamento,Anestésico / Sedativo,Propofol,,,
+55c12cce,91bb7a1a,25/05/2026 15:27:25,25/05/2026,Victor,Cirurgia,,,,,Ortopedia
+3bf9b98a,91bb7a1a,21/12/2025 08:12:27,21/12/2025,Victor,Castração,,,,,Castração Eletiva
+c1edc3de,3a14c968,30/05/2026 11:52:29,30/05/2026,Michelly,Medicamento,Antiviral,Aciclovir,,,
+b24f512d,3a14c968,06/06/2026 17:15:34,06/06/2026,Michelly,Castração,,,,,Castração Eletiva
+ddc7c1b5,3a14c968,12/06/2026 13:45:13,12/06/2026,Michelly,Consulta Veterinária,,,,,
+c08d7c45,3a14c968,04/06/2026 15:52:50,04/06/2026,Michelly,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+555347ec,c7c3c8d9,30/03/2026 09:03:29,30/03/2026,Victor,Cirurgia,,,,,Ortopedia
+205c9bd7,3553d02c,04/04/2026 08:01:43,04/04/2026,Aelton,Medicamento,Antiparasitário interno,Bravecto,,,
+81e2a3ff,3553d02c,14/04/2026 10:22:24,14/04/2026,Aelton,Consulta Veterinária,,,,,
+b9fd1640,3553d02c,16/01/2026 11:27:01,16/01/2026,Aelton,Medicamento,Antialérgico,Apoquel,,,
+91c769ca,40acdf9a,25/04/2026 12:37:22,25/04/2026,Michelly,Cirurgia,,,,,Amputação
+c1ce38a0,40acdf9a,24/12/2025 10:59:07,24/12/2025,Michelly,Medicamento,Antiviral,Aciclovir,,,
+384ab5ee,40acdf9a,27/04/2026 14:30:39,27/04/2026,Michelly,Castração,,,,,Castração Eletiva
+4e1e3054,40acdf9a,16/01/2026 18:01:45,16/01/2026,Michelly,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+998f64e6,a8f7cad9,12/04/2026 08:30:53,12/04/2026,Bruno,Cirurgia,,,,,Amputação
+299e7f22,a8f7cad9,23/01/2026 16:37:04,23/01/2026,Bruno,Medicamento,Suplementos / Vitaminas,Cálcio,,,
+81bf7543,07900215,10/04/2026 15:28:45,10/04/2026,Michelly,Consulta Veterinária,,,,,
+b5a2141b,0c1bb650,05/04/2026 08:11:31,05/04/2026,Aelton,Cirurgia,,,,,Amputação
+dacfcc9b,0c1bb650,28/03/2026 14:13:54,28/03/2026,Aelton,Medicamento,Outro,Soro Fisiológico,,,
+2221b320,49563c5d,04/05/2026 11:01:49,04/05/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+dd21be8f,202ada2c,11/05/2026 17:35:20,11/05/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+08e6a8b2,6acf9957,12/06/2026 12:21:09,12/06/2026,Michelly,Cirurgia,,,,,Ortopedia
+03f3a0ad,7f17c10d,23/03/2026 12:39:50,23/03/2026,Victor,Cirurgia,,,,,Amputação
+1311c0d9,7f17c10d,08/06/2026 15:23:47,08/06/2026,Victor,Consulta Veterinária,,,,,
+9d59ce66,7f17c10d,30/05/2026 16:15:04,30/05/2026,Victor,Vacina,,,Newcastle,Vacina Newcastle,
+e000f6d2,7f17c10d,04/05/2026 18:34:09,04/05/2026,Victor,Cirurgia,,,,,Ortopedia
+bdd0b080,12055324,23/04/2026 15:53:40,23/04/2026,Victor,Vacina,,,Tétano,Toxoide Tetânico,
+0c2ddfe6,12055324,25/04/2026 15:43:45,25/04/2026,Victor,Castração,,,,,Castração Eletiva
+9016fefc,12055324,31/05/2026 09:22:25,31/05/2026,Victor,Medicamento,Cardiológico,Pimobendan,,,
+d4663497,11e45768,30/05/2026 14:28:44,30/05/2026,Michelly,Vacina,,,Polivalente,V5 Felina,
+1d889204,5190bc71,02/11/2025 08:00:03,02/11/2025,Michelly,Cirurgia,,,,,Amputação
+9ca899aa,5190bc71,08/06/2026 11:34:04,08/06/2026,Michelly,Castração,,,,,Castração Eletiva
+4b2706f4,9aa2e300,25/04/2026 18:40:33,25/04/2026,Aelton,Medicamento,Antifúngico,Cetoconazol,,,
+dbe7ff94,9aa2e300,14/05/2026 14:15:01,14/05/2026,Aelton,Vacina,,,Gastrointestinal,Vacina Giárdia,
+b21aae03,9aa2e300,16/04/2026 10:59:14,16/04/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+1d583c93,5115f641,10/06/2026 13:45:24,10/06/2026,Bruno,Consulta Veterinária,,,,,
+2bf47bc1,5115f641,01/12/2025 18:19:52,01/12/2025,Bruno,Castração,,,,,Castração Eletiva
+5c4b31aa,e3081f3e,13/06/2026 09:32:22,13/06/2026,Bruno,Consulta Veterinária,,,,,
+371e81ab,02d7ebc7,13/03/2026 16:59:35,13/03/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+31c72f2b,02d7ebc7,15/04/2026 17:49:39,15/04/2026,Victor,Castração,,,,,Castração Eletiva
+c4a88336,c2dc738d,14/04/2026 11:45:59,14/04/2026,Bruno,Vacina,,,Brucelose,Vacina Brucelose,
+6695494a,830a6aee,25/05/2026 08:21:36,25/05/2026,Bruno,Castração,,,,,Castração Eletiva
+a581dc49,830a6aee,19/05/2026 13:04:11,19/05/2026,Bruno,Consulta Veterinária,,,,,
+e6bfeea4,830a6aee,30/05/2026 15:46:32,30/05/2026,Bruno,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+4109f575,830a6aee,28/05/2026 10:59:56,28/05/2026,Bruno,Castração,,,,,Castração Eletiva
+f2c8773c,c7084c07,05/02/2026 17:01:37,05/02/2026,Bruno,Castração,,,,,Castração Eletiva
+c561972b,c7084c07,12/09/2025 11:32:12,12/09/2025,Bruno,Consulta Veterinária,,,,,
+418e6729,c7084c07,03/11/2025 13:19:31,03/11/2025,Bruno,Castração,,,,,Castração Eletiva
+6cd67592,9e571c64,05/02/2026 15:00:24,05/02/2026,Victor,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+ef40d123,9e571c64,08/01/2026 16:01:09,08/01/2026,Victor,Cirurgia,,,,,Amputação
+408be910,9e571c64,06/06/2026 15:44:27,06/06/2026,Victor,Consulta Veterinária,,,,,
+8b9f351c,9e571c64,05/05/2026 12:50:38,05/05/2026,Victor,Cirurgia,,,,,Castração Emergencial
+738e9907,b04d209b,01/12/2025 13:29:32,01/12/2025,Michelly,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+1178a357,b04d209b,19/08/2025 09:43:17,19/08/2025,Michelly,Castração,,,,,Castração Eletiva
+c868be08,b04d209b,13/01/2026 16:46:03,13/01/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+228b3204,e1af038f,24/03/2026 09:12:35,24/03/2026,Michelly,Cirurgia,,,,,Ortopedia
+fe06ae5c,e1af038f,03/03/2026 15:09:40,03/03/2026,Michelly,Consulta Veterinária,,,,,
+b0b3344b,e1af038f,07/04/2026 16:04:34,07/04/2026,Michelly,Cirurgia,,,,,Ortopedia
+766215f8,e1af038f,27/02/2026 12:30:53,27/02/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+5f99b5de,d1353c05,26/05/2026 17:40:49,26/05/2026,Victor,Castração,,,,,Castração Eletiva
+06c6661e,d1353c05,09/06/2026 10:28:38,09/06/2026,Victor,Consulta Veterinária,,,,,
+0af85b3b,d1353c05,27/05/2026 16:13:40,27/05/2026,Victor,Medicamento,Cardiológico,Enalapril,,,
+212f03ad,5462cce9,06/04/2026 13:26:51,06/04/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+b935ba8b,5462cce9,07/03/2026 12:36:03,07/03/2026,Victor,Consulta Veterinária,,,,,
+fcb8dd71,5462cce9,25/02/2026 08:31:01,25/02/2026,Victor,Castração,,,,,Castração Eletiva
+4ec3be6f,5462cce9,24/05/2026 17:50:44,24/05/2026,Victor,Castração,,,,,Castração Eletiva
+b1b1b72c,c860b1cb,07/12/2025 15:48:14,07/12/2025,Bruno,Castração,,,,,Castração Eletiva
+75051f1c,c860b1cb,30/11/2025 09:21:51,30/11/2025,Bruno,Vacina,,,Calicivirose,Vacina Calicivirose,
+13b62256,c860b1cb,16/12/2025 13:06:13,16/12/2025,Bruno,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+094ebf01,c860b1cb,29/10/2025 12:47:31,29/10/2025,Bruno,Castração,,,,,Castração Eletiva
+ae48ef76,32f4346f,11/04/2026 18:04:55,11/04/2026,Aelton,Castração,,,,,Castração Eletiva
+f07b9872,32f4346f,18/02/2026 18:24:10,18/02/2026,Aelton,Medicamento,Anestésico / Sedativo,Acepromazina,,,
+8d713a12,32f4346f,10/04/2026 17:15:31,10/04/2026,Aelton,Consulta Veterinária,,,,,
+873f7096,32f4346f,11/03/2026 09:13:47,11/03/2026,Aelton,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+8848090b,7eb6b251,06/05/2026 12:34:05,06/05/2026,Michelly,Consulta Veterinária,,,,,
+ae371a5e,7eb6b251,16/05/2026 14:27:41,16/05/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+cda68e4a,1c15cd7d,26/10/2025 10:27:57,26/10/2025,Michelly,Consulta Veterinária,,,,,
+9769a923,1c15cd7d,27/04/2026 09:44:14,27/04/2026,Michelly,Cirurgia,,,,,Ortopedia
+1251feb3,068ae551,13/06/2026 15:47:22,13/06/2026,Aelton,Medicamento,Antiparasitário interno,Bravecto,,,
+5ecb26e7,358475e5,13/05/2026 16:47:40,13/05/2026,Victor,Consulta Veterinária,,,,,
+f264d8e1,358475e5,17/02/2026 14:11:33,17/02/2026,Victor,Castração,,,,,Castração Eletiva
+7cfba11e,358475e5,29/12/2025 16:45:27,29/12/2025,Victor,Vacina,,,Clostridial,Polivalente Clostridial,
+baf5aa25,859c4e29,12/02/2026 09:13:46,12/02/2026,Bruno,Cirurgia,,,,,Amputação
+faca22a8,859c4e29,13/01/2026 13:13:49,13/01/2026,Bruno,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+e6054a45,859c4e29,27/11/2025 09:55:14,27/11/2025,Bruno,Consulta Veterinária,,,,,
+23b04f8e,d7d1332d,06/02/2026 08:48:59,06/02/2026,Aelton,Castração,,,,,Castração Eletiva
+1f4cf3a6,ae909a11,14/02/2026 11:31:14,14/02/2026,Bruno,Vacina,,,Tétano,Toxoide Tetânico,
+8eb9ca16,ae909a11,08/10/2025 15:18:28,08/10/2025,Bruno,Cirurgia,,,,,Castração Emergencial
+0b1965f7,ae909a11,16/04/2026 10:12:47,16/04/2026,Bruno,Castração,,,,,Castração Eletiva
+0584da23,ae909a11,01/09/2025 12:19:55,01/09/2025,Bruno,Medicamento,Dermatológico,Pomada Cicatrizante,,,
+d2306cf7,453a120e,27/03/2026 12:25:30,27/03/2026,Michelly,Consulta Veterinária,,,,,
+9082d3c1,453a120e,07/06/2026 12:39:07,07/06/2026,Michelly,Consulta Veterinária,,,,,
+18259739,453a120e,10/03/2026 09:21:29,10/03/2026,Michelly,Medicamento,Oftálmico,Colírio Tobramicina,,,
+3bf98a75,453a120e,06/06/2026 10:12:29,06/06/2026,Michelly,Consulta Veterinária,,,,,
+136aa57d,0e17ffa1,26/10/2025 10:49:41,26/10/2025,Aelton,Cirurgia,,,,,Remoção de Nódulo
+784152c5,0e17ffa1,21/02/2026 14:36:49,21/02/2026,Aelton,Consulta Veterinária,,,,,
+deb897aa,0e17ffa1,22/09/2025 11:03:27,22/09/2025,Aelton,Medicamento,Anti-inflamatórios / Analgésico,Carprofeno,,,
+d40613e1,5bc8d90b,04/03/2026 09:13:59,04/03/2026,Michelly,Castração,,,,,Castração Eletiva
+8a7f3fb2,5bc8d90b,27/03/2026 13:35:37,27/03/2026,Michelly,Medicamento,Gastrointestinal,Sucralfato,,,
+c0743a8a,5bc8d90b,18/02/2026 09:27:23,18/02/2026,Michelly,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+145af33e,018945a3,21/04/2026 15:47:32,21/04/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+7d9ae2e4,431902ee,14/04/2026 17:02:43,14/04/2026,Aelton,Vacina,,,Gastrointestinal,Vacina Giárdia,
+20130380,431902ee,20/02/2026 15:58:03,20/02/2026,Aelton,Consulta Veterinária,,,,,
+4d2e571b,431902ee,08/12/2025 13:26:00,08/12/2025,Aelton,Cirurgia,,,,,Remoção de Nódulo
+bf767374,8d3e587a,14/06/2026 09:14:51,14/06/2026,Victor,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+64fd4664,8d3e587a,13/06/2026 15:40:59,13/06/2026,Victor,Consulta Veterinária,,,,,
+84a00508,8d3e587a,11/06/2026 14:27:02,11/06/2026,Victor,Medicamento,Antifúngico,Cetoconazol,,,
+bb4cca76,8d3e587a,24/05/2026 13:50:35,24/05/2026,Victor,Medicamento,Gastrointestinal,Sucralfato,,,
+f50a125e,6c83fe64,18/05/2026 10:25:21,18/05/2026,Bruno,Consulta Veterinária,,,,,
+d9885895,6c83fe64,14/05/2026 15:48:13,14/05/2026,Bruno,Consulta Veterinária,,,,,
+3402a98b,6c83fe64,05/05/2026 14:40:58,05/05/2026,Bruno,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+d80d729d,6c83fe64,25/05/2026 10:15:01,25/05/2026,Bruno,Consulta Veterinária,,,,,
+f4d2761c,3205154d,11/12/2025 15:37:53,11/12/2025,Aelton,Vacina,,,Marek,Vacina Doença de Marek,
+3ab3b9ed,3205154d,12/04/2026 13:49:34,12/04/2026,Aelton,Vacina,,,Tétano,Soro Antitetânico,
+cb9d91e2,3205154d,04/05/2026 18:10:16,04/05/2026,Aelton,Medicamento,Oftálmico,Pomada Oftálmica,,,
+3e1375ac,d9b181b9,14/03/2026 12:18:55,14/03/2026,Bruno,Consulta Veterinária,,,,,
+b80cc3b2,32735cbe,26/09/2025 14:19:59,26/09/2025,Victor,Castração,,,,,Castração Eletiva
+cb785922,32735cbe,22/01/2026 09:13:07,22/01/2026,Victor,Vacina,,,Calicivirose,Vacina Calicivirose,
+da61823c,0f5f9747,08/01/2026 18:04:16,08/01/2026,Victor,Castração,,,,,Castração Eletiva
+4d0a59f2,0f5f9747,08/12/2025 08:27:00,08/12/2025,Victor,Castração,,,,,Castração Eletiva
+0bd9f5d4,0f5f9747,16/04/2026 12:10:59,16/04/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+fd228f1d,0f5f9747,11/03/2026 17:50:30,11/03/2026,Victor,Consulta Veterinária,,,,,
+d512c7b9,58ebdc5a,28/10/2025 13:39:31,28/10/2025,Victor,Medicamento,Anestésico / Sedativo,Acepromazina,,,
+0ecffd7e,58ebdc5a,01/02/2026 12:38:07,01/02/2026,Victor,Medicamento,Gastrointestinal,Omeprazol,,,
+02cc21ef,58ebdc5a,14/09/2025 14:05:00,14/09/2025,Victor,Medicamento,Antiparasitário interno,Simparic,,,
+a3aa2e40,5b2f865b,07/05/2026 08:58:44,07/05/2026,Michelly,Medicamento,Gastrointestinal,Sucralfato,,,
+fa98462e,5b2f865b,17/03/2026 09:32:49,17/03/2026,Michelly,Consulta Veterinária,,,,,
+ba20a4a2,713aac0f,13/12/2025 18:20:16,13/12/2025,Aelton,Vacina,,,Polivalente,V4 Felina,
+0643308c,713aac0f,28/01/2026 12:47:37,28/01/2026,Aelton,Consulta Veterinária,,,,,
+fe370eab,340292cc,12/06/2026 13:53:10,12/06/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+e5366713,340292cc,18/05/2026 15:53:16,18/05/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+65d0fb0f,340292cc,29/03/2026 15:28:38,29/03/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+29dd8155,dc19b4a9,27/04/2026 13:19:48,27/04/2026,Bruno,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+683ebe76,dc19b4a9,28/05/2026 12:25:05,28/05/2026,Bruno,Cirurgia,,,,,Amputação
+cf794ad7,dc19b4a9,13/02/2026 08:48:14,13/02/2026,Bruno,Medicamento,Suplementos / Vitaminas,Vitamina B12,,,
+79c4ce54,dc19b4a9,06/03/2026 14:12:51,06/03/2026,Bruno,Castração,,,,,Castração Eletiva
+294b8fdc,0132afad,01/04/2026 12:55:45,01/04/2026,Bruno,Consulta Veterinária,,,,,
+3772a7f1,0132afad,19/04/2026 12:10:53,19/04/2026,Bruno,Cirurgia,,,,,Amputação
+79b15b52,0132afad,01/05/2026 09:32:42,01/05/2026,Bruno,Cirurgia,,,,,Amputação
+68eeecfd,0132afad,20/04/2026 13:21:00,20/04/2026,Bruno,Cirurgia,,,,,Castração Emergencial
+d6e3bc63,47ab850c,01/04/2026 16:05:12,01/04/2026,Michelly,Consulta Veterinária,,,,,
+21c2cc8f,9244ca66,28/11/2025 17:33:44,28/11/2025,Michelly,Medicamento,Gastrointestinal,Omeprazol,,,
+62012a23,9244ca66,25/11/2025 17:29:27,25/11/2025,Michelly,Castração,,,,,Castração Eletiva
+d7871c00,9244ca66,03/04/2026 16:46:01,03/04/2026,Michelly,Consulta Veterinária,,,,,
+e2dfbbe4,7c27a993,02/05/2026 08:41:51,02/05/2026,Bruno,Cirurgia,,,,,Ortopedia
+750f47a1,7c27a993,23/04/2026 09:26:26,23/04/2026,Bruno,Cirurgia,,,,,Ortopedia
+614eb19a,7c27a993,05/06/2026 12:18:59,05/06/2026,Bruno,Vacina,,,Marek,Vacina Doença de Marek,
+6b669a64,7c27a993,23/04/2026 18:40:09,23/04/2026,Bruno,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+9cca0de8,7039cf2e,09/03/2026 12:01:29,09/03/2026,Aelton,Cirurgia,,,,,Ortopedia
+99c237b4,7039cf2e,10/03/2026 12:37:15,10/03/2026,Aelton,Castração,,,,,Castração Eletiva
+16477bb2,7039cf2e,15/04/2026 16:15:37,15/04/2026,Aelton,Consulta Veterinária,,,,,
+73a01c0a,7039cf2e,02/05/2026 12:33:23,02/05/2026,Aelton,Consulta Veterinária,,,,,
+eb0e495e,2b26df51,22/02/2026 11:39:06,22/02/2026,Aelton,Consulta Veterinária,,,,,
+0f96bd00,2b26df51,29/10/2025 12:08:26,29/10/2025,Aelton,Cirurgia,,,,,Ortopedia
+859a011a,2b26df51,02/06/2026 15:34:37,02/06/2026,Aelton,Castração,,,,,Castração Eletiva
+bf2045e5,2b26df51,23/12/2025 08:04:38,23/12/2025,Aelton,Consulta Veterinária,,,,,
+d5bd7ef3,4db64208,27/04/2026 11:37:45,27/04/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+3bb57318,70fe56ed,06/12/2025 09:56:16,06/12/2025,Victor,Medicamento,Respiratório,Aminofilina,,,
+a49d8803,3ca1ae6e,11/05/2026 11:53:21,11/05/2026,Bruno,Medicamento,Antifúngico,Itraconazol,,,
+35cdb4a5,3ca1ae6e,10/03/2026 18:55:55,10/03/2026,Bruno,Consulta Veterinária,,,,,
+c12eb3a7,3ca1ae6e,17/04/2026 17:53:26,17/04/2026,Bruno,Medicamento,Outro,Glicose,,,
+306349ae,3ca1ae6e,24/04/2026 17:28:31,24/04/2026,Bruno,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+db63c414,9e78eef2,07/05/2026 17:07:05,07/05/2026,Michelly,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+175f4f45,9e78eef2,28/12/2025 16:57:44,28/12/2025,Michelly,Consulta Veterinária,,,,,
+37545e22,9e78eef2,04/06/2026 11:02:08,04/06/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+766c9f00,be9ea905,08/02/2026 16:43:48,08/02/2026,Victor,Castração,,,,,Castração Eletiva
+bf2607eb,be9ea905,21/02/2026 08:51:12,21/02/2026,Victor,Castração,,,,,Castração Eletiva
+caf6fbaf,be9ea905,31/03/2026 17:19:53,31/03/2026,Victor,Cirurgia,,,,,Amputação
+456a6cdd,be9ea905,27/01/2026 18:55:27,27/01/2026,Victor,Vacina,,,Newcastle,Vacina Newcastle,
+b014fb48,c5f0363d,15/05/2026 14:00:18,15/05/2026,Victor,Castração,,,,,Castração Eletiva
+f2061a1c,c5f0363d,03/06/2026 11:57:32,03/06/2026,Victor,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+955691f8,85298825,01/11/2025 12:02:43,01/11/2025,Michelly,Castração,,,,,Castração Eletiva
+eb8fccb5,85298825,14/03/2026 11:51:40,14/03/2026,Michelly,Medicamento,Antifúngico,Cetoconazol,,,
+a5f67019,555ee0e3,09/06/2026 11:20:12,09/06/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+f607b208,555ee0e3,04/06/2026 09:52:35,04/06/2026,Bruno,Consulta Veterinária,,,,,
+826f3dc0,706f5b5b,06/10/2025 16:55:44,06/10/2025,Bruno,Vacina,,,Clostridial,Polivalente Clostridial,
+6e347178,706f5b5b,15/02/2026 13:17:53,15/02/2026,Bruno,Castração,,,,,Castração Eletiva
+dadf78e9,262352d4,02/04/2026 18:11:26,02/04/2026,Victor,Consulta Veterinária,,,,,
+4ae51c01,262352d4,01/12/2025 15:22:32,01/12/2025,Victor,Castração,,,,,Castração Eletiva
+045126ba,262352d4,01/05/2026 14:13:51,01/05/2026,Victor,Medicamento,Cardiológico,Pimobendan,,,
+c2f3d4e7,f90a5bef,30/01/2026 10:04:22,30/01/2026,Victor,Castração,,,,,Castração Eletiva
+2fbfe1d8,f1087890,10/05/2026 15:12:04,10/05/2026,Bruno,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+a2c2ef53,f1087890,11/05/2026 09:59:56,11/05/2026,Bruno,Cirurgia,,,,,Castração Emergencial
+692f1347,cf9eafbb,09/11/2025 11:54:34,09/11/2025,Victor,Medicamento,Antialérgico,Loratadina,,,
+b719f416,5d2d72c5,14/05/2026 08:42:02,14/05/2026,Michelly,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+7e7a4286,5d2d72c5,12/05/2026 09:33:13,12/05/2026,Michelly,Castração,,,,,Castração Eletiva
+488c892f,5d2d72c5,09/04/2026 16:02:27,09/04/2026,Michelly,Cirurgia,,,,,Ortopedia
+9c6602b9,b2880b70,17/01/2026 16:42:10,17/01/2026,Aelton,Consulta Veterinária,,,,,
+197c0f89,b2880b70,12/02/2026 13:43:01,12/02/2026,Aelton,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+b4b71454,b2880b70,30/04/2026 10:42:53,30/04/2026,Aelton,Consulta Veterinária,,,,,
+0c0edfe2,d8f966be,16/05/2026 09:47:53,16/05/2026,Aelton,Castração,,,,,Castração Eletiva
+7cc53622,8c4b2bbe,31/05/2026 13:43:21,31/05/2026,Bruno,Consulta Veterinária,,,,,
+73f83390,8c4b2bbe,12/04/2026 16:00:21,12/04/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+4255850c,8c4b2bbe,27/03/2026 17:31:36,27/03/2026,Bruno,Medicamento,Outro,Soro Fisiológico,,,
+803dcf60,8c4b2bbe,05/01/2026 12:31:22,05/01/2026,Bruno,Castração,,,,,Castração Eletiva
+3360a398,4e27aa6d,16/03/2026 11:15:37,16/03/2026,Bruno,Castração,,,,,Castração Eletiva
+c386f5c8,4e27aa6d,28/04/2026 10:34:48,28/04/2026,Bruno,Cirurgia,,,,,Ortopedia
+125e1187,61c77649,02/05/2026 18:07:10,02/05/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+05721db9,61c77649,14/03/2026 08:22:45,14/03/2026,Bruno,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+eb9944ba,61c77649,05/12/2025 12:32:07,05/12/2025,Bruno,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+9a7d1e11,61c77649,03/09/2025 16:18:50,03/09/2025,Bruno,Vacina,,,Polivalente,V8,
+06bb046d,64642d73,10/03/2026 16:49:02,10/03/2026,Aelton,Consulta Veterinária,,,,,
+50002014,64642d73,14/03/2026 10:40:25,14/03/2026,Aelton,Medicamento,Antifúngico,Itraconazol,,,
+4aff372c,64642d73,21/04/2026 09:14:43,21/04/2026,Aelton,Castração,,,,,Castração Eletiva
+51d3a5a9,64642d73,07/04/2026 08:25:35,07/04/2026,Aelton,Medicamento,Hormônio,Insulina,,,
+717956fd,8c266363,29/12/2025 08:10:55,29/12/2025,Bruno,Cirurgia,,,,,Amputação
+b0e14829,8c266363,08/06/2026 10:48:36,08/06/2026,Bruno,Castração,,,,,Castração Eletiva
+b2165ab8,52034afb,24/05/2026 09:45:04,24/05/2026,Victor,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+0489d5af,52034afb,27/04/2026 17:31:05,27/04/2026,Victor,Cirurgia,,,,,Castração Emergencial
+96f842e5,52034afb,31/05/2026 18:59:36,31/05/2026,Victor,Vacina,,,Gastrointestinal,Vacina Giárdia,
+c4210863,52034afb,12/06/2026 18:02:52,12/06/2026,Victor,Castração,,,,,Castração Eletiva
+5647d874,5d05d83c,31/05/2026 09:05:55,31/05/2026,Aelton,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+5d811798,5d05d83c,21/05/2026 13:00:34,21/05/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+7cfa9ba3,7a2ea127,20/05/2026 13:38:47,20/05/2026,Bruno,Vacina,,,Clostridial,Polivalente Clostridial,
+fd4e9cae,7a2ea127,03/03/2026 12:54:49,03/03/2026,Bruno,Castração,,,,,Castração Eletiva
+a0d313db,a8ac996f,31/10/2025 08:57:09,31/10/2025,Victor,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+6f2f565c,a8ac996f,05/03/2026 16:31:57,05/03/2026,Victor,Medicamento,Ontológico,Limpador Auricular,,,
+4fb3c8fe,6518cb62,02/03/2026 09:04:16,02/03/2026,Bruno,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+c7af543d,6518cb62,09/11/2025 16:57:28,09/11/2025,Bruno,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+176f9b19,6518cb62,07/03/2026 13:37:24,07/03/2026,Bruno,Consulta Veterinária,,,,,
+1fa4151f,33254217,12/04/2026 15:36:30,12/04/2026,Aelton,Medicamento,Antibiótico,Doxiciclina,,,
+5bcd47a5,33254217,11/03/2026 16:07:14,11/03/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+8efd19e4,33254217,10/05/2026 18:18:57,10/05/2026,Aelton,Cirurgia,,,,,Amputação
+5103079f,33254217,29/05/2026 08:34:29,29/05/2026,Aelton,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+13350c46,ee229547,09/05/2026 11:50:31,09/05/2026,Victor,Consulta Veterinária,,,,,
+e9a7aacd,ee229547,03/05/2026 16:30:30,03/05/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+7be880df,ee229547,04/05/2026 09:51:50,04/05/2026,Victor,Medicamento,Anti-inflamatórios / Analgésico,Carprofeno,,,
+85cdc55c,ee229547,12/05/2026 15:27:32,12/05/2026,Victor,Castração,,,,,Castração Eletiva
+f4974a1c,9ac87eaf,07/05/2026 11:25:40,07/05/2026,Bruno,Castração,,,,,Castração Eletiva
+fbba5363,9ac87eaf,20/04/2026 14:34:32,20/04/2026,Bruno,Medicamento,Antiparasitário interno,Bravecto,,,
+4f84ce39,9ac87eaf,29/04/2026 12:17:40,29/04/2026,Bruno,Consulta Veterinária,,,,,
+a2f6d688,9ac87eaf,29/04/2026 17:15:02,29/04/2026,Bruno,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+36a54605,8e02430b,05/06/2026 11:14:59,05/06/2026,Michelly,Castração,,,,,Castração Eletiva
+5771d7fa,8e02430b,06/06/2026 15:54:35,06/06/2026,Michelly,Consulta Veterinária,,,,,
+dfee36b1,3297337f,17/12/2025 13:17:25,17/12/2025,Michelly,Consulta Veterinária,,,,,
+9d9c8e9c,3297337f,18/01/2026 15:56:26,18/01/2026,Michelly,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+ee5dfdb6,3297337f,24/09/2025 17:57:53,24/09/2025,Michelly,Consulta Veterinária,,,,,
+9bfcc499,03bc3f5b,15/01/2026 18:52:10,15/01/2026,Victor,Medicamento,Antialérgico,Loratadina,,,
+b2a4b60a,03bc3f5b,01/10/2025 15:05:35,01/10/2025,Victor,Consulta Veterinária,,,,,
+b58c4705,22d2f3aa,16/09/2025 12:35:41,16/09/2025,Michelly,Vacina,,,Reprodutiva,Vacina Específica,
+b4f7c23e,22d2f3aa,23/09/2025 17:01:31,23/09/2025,Michelly,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+72f22f01,22d2f3aa,12/10/2025 12:29:35,12/10/2025,Michelly,Cirurgia,,,,,Castração Emergencial
+cfe19930,83afe5f1,04/06/2026 08:28:27,04/06/2026,Victor,Medicamento,Hormônio,Insulina,,,
+86862073,83afe5f1,16/05/2026 10:28:16,16/05/2026,Victor,Medicamento,Antialérgico,Loratadina,,,
+c50cd160,36a148dc,29/03/2026 15:02:16,29/03/2026,Michelly,Vacina,,,Calicivirose,Vacina Calicivirose,
+6639dc07,36a148dc,26/01/2026 09:27:16,26/01/2026,Michelly,Cirurgia,,,,,Amputação
+b44e6125,36a148dc,10/02/2026 10:28:43,10/02/2026,Michelly,Medicamento,Antiparasitário interno,Bravecto,,,
+38f62abc,36a148dc,16/03/2026 17:14:22,16/03/2026,Michelly,Medicamento,Gastrointestinal,Omeprazol,,,
+7292dc9d,11dfc158,30/11/2025 09:49:48,30/11/2025,Aelton,Consulta Veterinária,,,,,
+bb957b41,11dfc158,11/03/2026 15:25:46,11/03/2026,Aelton,Consulta Veterinária,,,,,
+18f77801,bda38bc6,15/12/2025 13:38:47,15/12/2025,Aelton,Castração,,,,,Castração Eletiva
+e53c03bb,916cd34e,03/06/2026 11:37:11,03/06/2026,Bruno,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+2f7730a1,916cd34e,27/05/2026 10:03:29,27/05/2026,Bruno,Consulta Veterinária,,,,,
+281df476,916cd34e,09/05/2026 09:35:43,09/05/2026,Bruno,Consulta Veterinária,,,,,
+5415955a,69670812,01/05/2026 08:54:22,01/05/2026,Aelton,Vacina,,,Newcastle,Vacina Newcastle,
+da7a9edf,26d4d54c,06/05/2026 10:39:33,06/05/2026,Victor,Cirurgia,,,,,Castração Emergencial
+3847e619,26d4d54c,18/04/2026 14:56:25,18/04/2026,Victor,Castração,,,,,Castração Eletiva
+84829adc,26d4d54c,27/09/2025 13:32:00,27/09/2025,Victor,Castração,,,,,Castração Eletiva
+1d42e528,26d4d54c,08/06/2026 14:22:29,08/06/2026,Victor,Consulta Veterinária,,,,,
+80ef4739,36d7a08f,14/03/2026 17:13:15,14/03/2026,Victor,Cirurgia,,,,,Amputação
+4580c1d5,36d7a08f,09/02/2026 08:44:11,09/02/2026,Victor,Cirurgia,,,,,Castração Emergencial
+501c4d87,36d7a08f,22/10/2025 09:43:14,22/10/2025,Victor,Consulta Veterinária,,,,,
+5f48c74b,24a5f878,15/09/2025 16:47:41,15/09/2025,Michelly,Consulta Veterinária,,,,,
+55765c2f,24a5f878,16/02/2026 18:58:45,16/02/2026,Michelly,Medicamento,Antifúngico,Cetoconazol,,,
+42b004ad,24a5f878,14/11/2025 09:16:33,14/11/2025,Michelly,Medicamento,Ontológico,Limpador Auricular,,,
+b9430b36,24a5f878,06/04/2026 10:19:14,06/04/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+d4b02dd9,acb0109b,28/05/2026 11:15:35,28/05/2026,Aelton,Medicamento,Dermatológico,Pomada Cicatrizante,,,
+aad24acb,acb0109b,22/04/2026 14:21:24,22/04/2026,Aelton,Castração,,,,,Castração Eletiva
+653a6186,a26b2dfd,10/05/2026 18:33:59,10/05/2026,Bruno,Consulta Veterinária,,,,,
+ded2850d,a26b2dfd,16/05/2026 11:25:18,16/05/2026,Bruno,Consulta Veterinária,,,,,
+9dc3bdc8,a26b2dfd,24/02/2026 10:32:44,24/02/2026,Bruno,Castração,,,,,Castração Eletiva
+8b10a250,a26b2dfd,12/04/2026 09:22:04,12/04/2026,Bruno,Medicamento,Gastrointestinal,Omeprazol,,,
+214a770b,0b0fd6fc,08/06/2026 18:11:32,08/06/2026,Aelton,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+c07afcf1,0b0fd6fc,18/05/2026 11:23:43,18/05/2026,Aelton,Vacina,,,Marek,Vacina Doença de Marek,
+e2820f4f,0b0fd6fc,25/05/2026 10:39:26,25/05/2026,Aelton,Medicamento,Antiviral,Interferon,,,
+f9089cbe,0b0fd6fc,17/05/2026 10:59:18,17/05/2026,Aelton,Cirurgia,,,,,Ortopedia
+bba94e85,741e3686,26/01/2026 10:01:57,26/01/2026,Bruno,Castração,,,,,Castração Eletiva
+07537444,741e3686,18/02/2026 17:11:22,18/02/2026,Bruno,Vacina,,,Gastrointestinal,Vacina Giárdia,
+7c79b0e3,741e3686,25/03/2026 11:17:16,25/03/2026,Bruno,Consulta Veterinária,,,,,
+7a13ca22,977356d3,20/05/2026 10:23:52,20/05/2026,Bruno,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+d30ff6e7,977356d3,04/04/2026 12:33:58,04/04/2026,Bruno,Vacina,,,Polivalente,V10,
+56aa6f59,977356d3,15/03/2026 14:17:58,15/03/2026,Bruno,Vacina,,,Calicivirose,Vacina Calicivirose,
+e9e34ed4,977356d3,12/03/2026 12:53:17,12/03/2026,Bruno,Vacina,,,Newcastle,Vacina Newcastle,
+a559c529,54e348c0,21/01/2026 14:59:10,21/01/2026,Bruno,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+8f9be1c5,54e348c0,07/03/2026 16:48:01,07/03/2026,Bruno,Vacina,,,Brucelose,Vacina Brucelose,
+37a1f03f,b99e0b33,12/05/2026 09:52:25,12/05/2026,Aelton,Castração,,,,,Castração Eletiva
+78434ef1,b99e0b33,08/04/2026 13:31:38,08/04/2026,Aelton,Consulta Veterinária,,,,,
+f75e2838,b99e0b33,02/05/2026 17:58:06,02/05/2026,Aelton,Castração,,,,,Castração Eletiva
+c10ceba4,a5a14dec,19/05/2026 18:44:53,19/05/2026,Michelly,Medicamento,Suplementos / Vitaminas,Cálcio,,,
+417f8665,a5a14dec,06/06/2026 18:56:12,06/06/2026,Michelly,Castração,,,,,Castração Eletiva
+0cb09ee7,a5a14dec,11/06/2026 10:13:14,11/06/2026,Michelly,Vacina,,,Gastrointestinal,Vacina Giárdia,
+ab856b37,a5a14dec,20/05/2026 13:34:04,20/05/2026,Michelly,Vacina,,,Marek,Vacina Doença de Marek,
+2f753cb1,b9e2bf51,10/05/2026 16:29:13,10/05/2026,Michelly,Consulta Veterinária,,,,,
+1c4c6f1b,b9e2bf51,20/05/2026 15:32:23,20/05/2026,Michelly,Castração,,,,,Castração Eletiva
+ab474c03,b9e2bf51,12/06/2026 12:46:40,12/06/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+fa6671b7,b9e2bf51,08/05/2026 18:08:08,08/05/2026,Michelly,Cirurgia,,,,,Amputação
+bd89e8ce,9f105079,10/04/2026 10:36:42,10/04/2026,Bruno,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+c2cf5f30,9f105079,31/05/2026 14:45:18,31/05/2026,Bruno,Vacina,,,Calicivirose,Vacina Calicivirose,
+dac4071a,9f105079,21/07/2025 14:16:37,21/07/2025,Bruno,Cirurgia,,,,,Remoção de Nódulo
+10af5fda,0da59074,11/06/2026 18:49:18,11/06/2026,Michelly,Medicamento,Anti-inflamatórios / Analgésico,Carprofeno,,,
+8d87e9bf,0b8d69cc,28/11/2025 18:47:33,28/11/2025,Bruno,Consulta Veterinária,,,,,
+86d21f72,a72b8aa7,10/01/2026 14:20:45,10/01/2026,Victor,Consulta Veterinária,,,,,
+4cd072c7,33c82046,21/02/2026 13:34:59,21/02/2026,Bruno,Medicamento,Antibiótico,Enrofloxacina,,,
+a5105ba1,1786245e,03/06/2026 15:38:05,03/06/2026,Bruno,Consulta Veterinária,,,,,
+177c955f,1786245e,12/01/2026 09:10:25,12/01/2026,Bruno,Cirurgia,,,,,Amputação
+dc67f2ab,1786245e,01/02/2026 14:51:09,01/02/2026,Bruno,Medicamento,Suplementos / Vitaminas,Vitamina B12,,,
+3b3e978b,48c8de07,30/03/2026 17:21:47,30/03/2026,Michelly,Cirurgia,,,,,Ortopedia
+f32df214,48c8de07,29/01/2026 12:39:38,29/01/2026,Michelly,Medicamento,Anti-inflamatórios / Analgésico,Carprofeno,,,
+11a9116f,48c8de07,08/06/2026 09:59:23,08/06/2026,Michelly,Cirurgia,,,,,Ortopedia
+ed8f6405,48c8de07,31/12/2025 18:11:33,31/12/2025,Michelly,Medicamento,Anestésico / Sedativo,Cetamina,,,
+175d8176,e7227a43,31/05/2026 18:41:12,31/05/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+44094391,e7227a43,11/06/2026 15:01:21,11/06/2026,Victor,Vacina,,,Calicivirose,Vacina Calicivirose,
+939536f7,e7227a43,09/06/2026 15:10:38,09/06/2026,Victor,Cirurgia,,,,,Amputação
+9a8c989c,e7227a43,31/05/2026 18:40:06,31/05/2026,Victor,Consulta Veterinária,,,,,
+f9387fe8,3b97e74d,18/10/2025 17:53:32,18/10/2025,Victor,Consulta Veterinária,,,,,
+e2d54a00,2721e9b8,10/06/2026 14:27:10,10/06/2026,Bruno,Consulta Veterinária,,,,,
+36dee083,2721e9b8,12/06/2026 18:40:13,12/06/2026,Bruno,Castração,,,,,Castração Eletiva
+2d4ad6b5,2721e9b8,08/06/2026 10:26:13,08/06/2026,Bruno,Cirurgia,,,,,Ortopedia
+92895486,2721e9b8,12/06/2026 10:57:35,12/06/2026,Bruno,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+9cb759d1,18008b77,04/04/2026 13:37:45,04/04/2026,Bruno,Castração,,,,,Castração Eletiva
+5215962c,18008b77,14/05/2026 17:25:30,14/05/2026,Bruno,Medicamento,Outro,Soro Fisiológico,,,
+17a0c920,18008b77,04/06/2026 15:19:51,04/06/2026,Bruno,Cirurgia,,,,,Ortopedia
+4b0db4b1,7fd2173c,04/06/2026 17:17:21,04/06/2026,Michelly,Consulta Veterinária,,,,,
+135672de,7fd2173c,20/05/2026 16:25:52,20/05/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+675d9aad,736c1458,05/10/2025 11:44:59,05/10/2025,Michelly,Castração,,,,,Castração Eletiva
+8312553e,736c1458,16/12/2025 15:33:44,16/12/2025,Michelly,Cirurgia,,,,,Remoção de Nódulo
+ac57d324,736c1458,12/04/2026 17:46:37,12/04/2026,Michelly,Medicamento,Oftálmico,Pomada Oftálmica,,,
+7c2afa1e,736c1458,05/03/2026 12:38:17,05/03/2026,Michelly,Medicamento,Hormônio,Insulina,,,
+51a49e69,29c69cc1,24/05/2026 09:52:54,24/05/2026,Victor,Castração,,,,,Castração Eletiva
+cd434fa1,29c69cc1,25/05/2026 13:15:25,25/05/2026,Victor,Consulta Veterinária,,,,,
+f6b15a3a,29c69cc1,13/05/2026 09:53:18,13/05/2026,Victor,Cirurgia,,,,,Castração Emergencial
+735fe6d9,29c69cc1,10/06/2026 13:57:11,10/06/2026,Victor,Medicamento,Cardiológico,Pimobendan,,,
+d5dab1f3,3dbf4319,20/05/2026 08:47:21,20/05/2026,Bruno,Castração,,,,,Castração Eletiva
+d62d34ae,3dbf4319,12/06/2026 14:15:24,12/06/2026,Bruno,Vacina,,,Reprodutiva,Vacina Específica,
+a0c5d542,7678a2bd,10/06/2026 08:39:19,10/06/2026,Michelly,Medicamento,Suplementos / Vitaminas,Cálcio,,,
+a70d78ff,ec17259b,02/12/2025 11:35:20,02/12/2025,Bruno,Vacina,,,Gastrointestinal,Vacina Giárdia,
+ac2d4327,ec17259b,03/10/2025 08:52:34,03/10/2025,Bruno,Consulta Veterinária,,,,,
+12b5bae0,ec17259b,06/06/2026 18:34:27,06/06/2026,Bruno,Medicamento,Antibiótico,Amoxicilina,,,
+e3528640,ec17259b,16/04/2026 12:04:26,16/04/2026,Bruno,Vacina,,,Calicivirose,Vacina Calicivirose,
+7c991818,d9997ae0,04/05/2026 18:19:08,04/05/2026,Victor,Vacina,,,Newcastle,Vacina Newcastle,
+5719d41f,d9997ae0,13/09/2025 10:30:35,13/09/2025,Victor,Castração,,,,,Castração Eletiva
+2f82de4a,d9997ae0,21/04/2026 17:54:45,21/04/2026,Victor,Vacina,,,Brucelose,Vacina Brucelose,
+9c8c90e8,3afd04ed,10/04/2026 10:38:51,10/04/2026,Bruno,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+17f8c6d7,d9f466f2,17/05/2026 08:53:01,17/05/2026,Victor,Castração,,,,,Castração Eletiva
+acce0db4,d9f466f2,12/06/2026 18:28:49,12/06/2026,Victor,Consulta Veterinária,,,,,
+9bae94b4,d9f466f2,31/01/2026 18:13:54,31/01/2026,Victor,Castração,,,,,Castração Eletiva
+29cf641e,d9f466f2,04/03/2026 11:59:49,04/03/2026,Victor,Medicamento,Ontológico,Limpador Auricular,,,
+d3d0d8a2,ce663963,14/06/2026 09:25:03,14/06/2026,Aelton,Cirurgia,,,,,Ortopedia
+10ac115f,ce663963,28/05/2026 16:16:42,28/05/2026,Aelton,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+1687f6ec,ce663963,13/06/2026 08:45:56,13/06/2026,Aelton,Castração,,,,,Castração Eletiva
+03b046b8,62ab44b8,30/04/2026 08:39:18,30/04/2026,Aelton,Cirurgia,,,,,Ortopedia
+2127b252,4cf4a51d,14/01/2026 16:32:18,14/01/2026,Victor,Castração,,,,,Castração Eletiva
+c6ee1fe1,4cf4a51d,31/01/2026 15:35:27,31/01/2026,Victor,Medicamento,Antiparasitário interno,Ivermectina,,,
+0daed414,4cf4a51d,24/02/2026 13:32:21,24/02/2026,Victor,Castração,,,,,Castração Eletiva
+00ce8c07,a0143bc0,30/11/2025 16:51:39,30/11/2025,Aelton,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+67612840,75996da1,13/06/2026 17:07:01,13/06/2026,Aelton,Cirurgia,,,,,Amputação
+b744626a,75996da1,13/06/2026 10:18:53,13/06/2026,Aelton,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+106c0f78,75996da1,13/06/2026 14:31:15,13/06/2026,Aelton,Castração,,,,,Castração Eletiva
+d91bfca5,75996da1,13/06/2026 12:47:06,13/06/2026,Aelton,Cirurgia,,,,,Ortopedia
+31038ac4,96028f6d,07/01/2026 17:13:33,07/01/2026,Aelton,Cirurgia,,,,,Ortopedia
+f42f7aec,96028f6d,27/03/2026 14:54:12,27/03/2026,Aelton,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+7038546d,96028f6d,01/10/2025 17:25:30,01/10/2025,Aelton,Medicamento,Suplementos / Vitaminas,Cálcio,,,
+7089219d,ad380d2c,11/01/2026 15:53:14,11/01/2026,Victor,Medicamento,Suplementos / Vitaminas,Cálcio,,,
+f2fa1872,ad380d2c,03/04/2026 11:19:05,03/04/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+79249186,81856c7e,24/05/2026 16:33:05,24/05/2026,Victor,Cirurgia,,,,,Ortopedia
+2e45878a,682693c6,29/05/2026 11:47:17,29/05/2026,Victor,Medicamento,Anestésico / Sedativo,Cetamina,,,
+3975603d,80ab6b18,28/10/2025 16:43:52,28/10/2025,Michelly,Cirurgia,,,,,Amputação
+7baa5e88,63108878,20/04/2026 12:24:26,20/04/2026,Michelly,Cirurgia,,,,,Ortopedia
+94ccf3af,63108878,05/06/2026 16:59:54,05/06/2026,Michelly,Consulta Veterinária,,,,,
+aa53f17e,63108878,05/05/2026 14:25:09,05/05/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+feb9187f,63108878,23/04/2026 15:31:26,23/04/2026,Michelly,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+88c085ac,c5c93812,10/03/2026 11:59:35,10/03/2026,Victor,Cirurgia,,,,,Castração Emergencial
+750430b3,c5c93812,07/11/2025 18:15:13,07/11/2025,Victor,Consulta Veterinária,,,,,
+44fdaab4,c5c93812,20/12/2025 11:02:18,20/12/2025,Victor,Cirurgia,,,,,Castração Emergencial
+0a8afe46,45971ff7,01/05/2026 12:09:25,01/05/2026,Michelly,Consulta Veterinária,,,,,
+934ba884,45971ff7,21/05/2026 16:17:20,21/05/2026,Michelly,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+40ab5119,45971ff7,10/05/2026 18:11:16,10/05/2026,Michelly,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+fd7fbad6,45971ff7,22/05/2026 14:26:34,22/05/2026,Michelly,Castração,,,,,Castração Eletiva
+c11be719,7306855f,25/04/2026 15:35:11,25/04/2026,Victor,Consulta Veterinária,,,,,
+e75abf04,7306855f,06/05/2026 14:11:48,06/05/2026,Victor,Consulta Veterinária,,,,,
+43534b29,7306855f,01/02/2026 13:18:50,01/02/2026,Victor,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+80051a2d,42a4a959,22/04/2026 11:55:51,22/04/2026,Victor,Cirurgia,,,,,Ortopedia
+a0023864,42a4a959,08/05/2026 18:01:04,08/05/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+71669791,42a4a959,06/05/2026 15:25:57,06/05/2026,Victor,Consulta Veterinária,,,,,
+861409be,42a4a959,02/05/2026 16:51:14,02/05/2026,Victor,Medicamento,Antiparasitario externo,Bravecto Top,,,
+521c8614,725a1e08,01/02/2026 14:17:39,01/02/2026,Michelly,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+fda30e3e,725a1e08,29/08/2025 11:08:58,29/08/2025,Michelly,Vacina,,,Tétano,Soro Antitetânico,
+3facdce4,5624c07c,11/04/2026 11:09:53,11/04/2026,Michelly,Medicamento,Outro,Soro Fisiológico,,,
+f46883a2,5624c07c,12/01/2026 16:13:09,12/01/2026,Michelly,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+39ffe3a9,5624c07c,02/03/2026 10:12:15,02/03/2026,Michelly,Vacina,,,Tétano,Toxoide Tetânico,
+148d0975,5624c07c,11/04/2026 18:43:50,11/04/2026,Michelly,Castração,,,,,Castração Eletiva
+e78f87d5,ded69336,09/06/2026 09:58:41,09/06/2026,Bruno,Cirurgia,,,,,Ortopedia
+03d30fc3,5ffdf56b,17/04/2026 09:38:02,17/04/2026,Victor,Consulta Veterinária,,,,,
+8c85c38c,5ffdf56b,16/03/2026 15:00:11,16/03/2026,Victor,Castração,,,,,Castração Eletiva
+c358c362,5ffdf56b,16/02/2026 13:21:12,16/02/2026,Victor,Medicamento,Antiviral,Aciclovir,,,
+7c6a9f0b,acb8f8f4,22/02/2026 17:57:49,22/02/2026,Aelton,Consulta Veterinária,,,,,
+645ad583,acb8f8f4,23/03/2026 08:28:05,23/03/2026,Aelton,Castração,,,,,Castração Eletiva
+a655ff56,acb8f8f4,01/12/2025 14:11:05,01/12/2025,Aelton,Castração,,,,,Castração Eletiva
+93b00a00,acb8f8f4,18/02/2026 18:25:55,18/02/2026,Aelton,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+a5f74724,69367598,25/02/2026 13:27:03,25/02/2026,Victor,Consulta Veterinária,,,,,
+bcf3c664,cfbf78d7,16/04/2026 15:23:40,16/04/2026,Michelly,Consulta Veterinária,,,,,
+bc5d88f4,cfbf78d7,12/05/2026 12:07:36,12/05/2026,Michelly,Castração,,,,,Castração Eletiva
+04ddad29,28cf9691,28/05/2026 16:38:35,28/05/2026,Bruno,Castração,,,,,Castração Eletiva
+3bdad537,28cf9691,05/05/2026 17:15:32,05/05/2026,Bruno,Vacina,,,Brucelose,Vacina Brucelose,
+492bb810,28cf9691,26/04/2026 11:18:38,26/04/2026,Bruno,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+fcee2489,e0b42ca1,22/02/2026 10:39:17,22/02/2026,Bruno,Medicamento,Hormônio,Levotiroxina,,,
+d57c6ec3,1abefa84,07/06/2026 13:43:28,07/06/2026,Aelton,Medicamento,Antialérgico,Apoquel,,,
+62ef619f,1abefa84,14/06/2026 18:03:28,14/06/2026,Aelton,Castração,,,,,Castração Eletiva
+aeccd9cd,cc6ec772,14/06/2026 10:04:46,14/06/2026,Bruno,Castração,,,,,Castração Eletiva
+4c70d934,1a04e69a,01/03/2026 09:38:59,01/03/2026,Aelton,Castração,,,,,Castração Eletiva
+5a1b177f,1a04e69a,14/02/2026 14:02:41,14/02/2026,Aelton,Castração,,,,,Castração Eletiva
+538be358,f480ba6b,04/05/2026 08:14:46,04/05/2026,Victor,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+55cf0ded,f480ba6b,09/05/2026 14:58:25,09/05/2026,Victor,Castração,,,,,Castração Eletiva
+8a8c3326,f0242133,08/06/2026 13:35:34,08/06/2026,Victor,Vacina,,,Brucelose,Vacina Brucelose,
+2b205a6b,f0242133,22/05/2026 14:00:45,22/05/2026,Victor,Cirurgia,,,,,Amputação
+db1d1c13,f0242133,16/04/2026 13:32:05,16/04/2026,Victor,Castração,,,,,Castração Eletiva
+a559ca14,f0242133,14/06/2026 08:48:44,14/06/2026,Victor,Medicamento,Cardiológico,Enalapril,,,
+08f507df,928724e1,11/06/2026 11:55:58,11/06/2026,Victor,Medicamento,Antiviral,Aciclovir,,,
+5966bc7d,7ee37a35,26/05/2026 18:49:59,26/05/2026,Michelly,Medicamento,Antibiótico,Doxiciclina,,,
+48c4b431,7ee37a35,09/05/2026 11:46:28,09/05/2026,Michelly,Medicamento,Respiratório,Acetilcisteína,,,
+a22b591e,7ee37a35,16/05/2026 09:11:48,16/05/2026,Michelly,Vacina,,,Brucelose,Vacina Brucelose,
+c6dbaae5,bb25e752,12/05/2026 16:35:02,12/05/2026,Aelton,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+c4d5185b,bb25e752,15/05/2026 09:42:57,15/05/2026,Aelton,Consulta Veterinária,,,,,
+e75f54ab,35de37c1,02/05/2026 18:28:24,02/05/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+73911bd5,35de37c1,05/02/2026 08:33:14,05/02/2026,Victor,Medicamento,Hormônio,Insulina,,,
+b468f251,c10f3792,08/03/2026 14:31:47,08/03/2026,Bruno,Medicamento,Dermatológico,Pomada Cicatrizante,,,
+b17d5e3d,c10f3792,13/03/2026 10:20:11,13/03/2026,Bruno,Consulta Veterinária,,,,,
+c8118cfe,51cb99ed,23/03/2026 11:23:19,23/03/2026,Aelton,Consulta Veterinária,,,,,
+ac580e1c,51cb99ed,15/05/2026 10:41:06,15/05/2026,Aelton,Cirurgia,,,,,Ortopedia
+4327d9e6,51cb99ed,17/05/2026 10:39:22,17/05/2026,Aelton,Medicamento,Antialérgico,Apoquel,,,
+9456834a,51cb99ed,05/05/2026 10:45:28,05/05/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+33bc9987,4fa120c4,08/06/2026 14:09:04,08/06/2026,Bruno,Consulta Veterinária,,,,,
+953db4c0,33227f97,05/05/2026 09:53:25,05/05/2026,Bruno,Medicamento,Antiviral,Aciclovir,,,
+68b838c1,99d6ef34,16/08/2025 18:20:26,16/08/2025,Bruno,Medicamento,Antiparasitário interno,Simparic,,,
+afa1fee3,8040a6c3,13/04/2026 17:56:36,13/04/2026,Bruno,Vacina,,,Polivalente,V5 Felina,
+91669ecd,8040a6c3,07/05/2026 13:49:58,07/05/2026,Bruno,Cirurgia,,,,,Ortopedia
+3b50a2b6,8040a6c3,01/06/2026 08:27:22,01/06/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+b011dab6,8040a6c3,16/05/2026 18:38:49,16/05/2026,Bruno,Cirurgia,,,,,Amputação
+e003d899,ba8278d2,24/01/2026 09:21:32,24/01/2026,Bruno,Cirurgia,,,,,Castração Emergencial
+1103d2c2,ba8278d2,29/04/2026 18:53:27,29/04/2026,Bruno,Castração,,,,,Castração Eletiva
+5e1b0a78,ba8278d2,12/06/2026 18:23:18,12/06/2026,Bruno,Medicamento,Antiparasitario externo,Bravecto Top,,,
+c6e5b616,18c6022c,31/12/2025 11:36:30,31/12/2025,Victor,Medicamento,Ontológico,Limpador Auricular,,,
+0a25d84c,40bff7a5,08/04/2026 11:46:49,08/04/2026,Bruno,Medicamento,Hormônio,Insulina,,,
+3ac677cb,40bff7a5,12/02/2026 12:40:45,12/02/2026,Bruno,Cirurgia,,,,,Amputação
+f7c704f2,c543fea6,17/05/2026 08:29:16,17/05/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+d288b1c5,c543fea6,31/05/2026 08:52:05,31/05/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+7bc6b402,c543fea6,13/06/2026 18:26:38,13/06/2026,Michelly,Consulta Veterinária,,,,,
+43323ffe,1011c605,28/04/2026 15:34:28,28/04/2026,Bruno,Medicamento,Anestésico / Sedativo,Acepromazina,,,
+e637994b,1011c605,25/05/2026 12:54:42,25/05/2026,Bruno,Castração,,,,,Castração Eletiva
+113f6768,1011c605,11/05/2026 09:56:30,11/05/2026,Bruno,Consulta Veterinária,,,,,
+49f2b8cd,1011c605,22/05/2026 15:47:43,22/05/2026,Bruno,Medicamento,Ontológico,Gota Otológica,,,
+408e165d,3d97fe83,24/05/2026 13:30:37,24/05/2026,Michelly,Consulta Veterinária,,,,,
+29fbddf2,3d97fe83,22/05/2026 14:46:04,22/05/2026,Michelly,Vacina,,,Tétano,Toxoide Tetânico,
+ced49e33,4ffc0460,07/04/2026 13:10:42,07/04/2026,Michelly,Consulta Veterinária,,,,,
+8aa05c39,4ffc0460,09/06/2026 12:39:33,09/06/2026,Michelly,Vacina,,,Gastrointestinal,Vacina Giárdia,
+d62b483e,4ffc0460,29/03/2026 18:26:25,29/03/2026,Michelly,Consulta Veterinária,,,,,
+299ca844,4ffc0460,23/05/2026 08:05:46,23/05/2026,Michelly,Consulta Veterinária,,,,,
+b4bf5262,27f2ea09,30/05/2026 18:01:39,30/05/2026,Michelly,Medicamento,Oftálmico,Colírio Tobramicina,,,
+15bda2bd,27f2ea09,23/05/2026 10:25:12,23/05/2026,Michelly,Medicamento,Respiratório,Acetilcisteína,,,
+ccaff47d,27f2ea09,05/06/2026 15:33:01,05/06/2026,Michelly,Medicamento,Respiratório,Aminofilina,,,
+0ea5e05c,7474c3fb,14/11/2025 18:13:15,14/11/2025,Bruno,Consulta Veterinária,,,,,
+f757ef61,7474c3fb,07/10/2025 10:31:10,07/10/2025,Bruno,Medicamento,Anestésico / Sedativo,Cetamina,,,
+7e3da50e,7474c3fb,18/04/2026 09:38:52,18/04/2026,Bruno,Medicamento,Suplementos / Vitaminas,Cálcio,,,
+93d3919b,7474c3fb,24/10/2025 10:16:07,24/10/2025,Bruno,Vacina,,,Marek,Vacina Doença de Marek,
+3dced18b,dda1d0cf,19/05/2026 14:07:59,19/05/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+7e76d8c8,dda1d0cf,28/05/2026 15:48:11,28/05/2026,Victor,Consulta Veterinária,,,,,
+f5f7f00d,dda1d0cf,18/05/2026 09:50:16,18/05/2026,Victor,Medicamento,Anti-inflamatórios / Analgésico,Meloxicam,,,
+0779d143,de74793b,18/02/2026 14:15:24,18/02/2026,Victor,Vacina,,,Newcastle,Vacina Newcastle,
+c4fe0f93,de74793b,06/03/2026 09:58:02,06/03/2026,Victor,Consulta Veterinária,,,,,
+19ffa8d3,de74793b,06/06/2026 10:31:35,06/06/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+042d6351,1f603107,18/05/2026 16:43:28,18/05/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+1f3a38cb,1f603107,06/06/2026 12:52:45,06/06/2026,Bruno,Consulta Veterinária,,,,,
+d905d8bb,1f603107,06/05/2026 09:52:42,06/05/2026,Bruno,Vacina,,,Reprodutiva,Vacina Específica,
+004d00be,1f603107,28/04/2026 10:12:20,28/04/2026,Bruno,Cirurgia,,,,,Ortopedia
+4a591ba2,641b7d7c,28/02/2026 10:21:51,28/02/2026,Michelly,Castração,,,,,Castração Eletiva
+2a9b8e10,641b7d7c,18/10/2025 14:32:21,18/10/2025,Michelly,Vacina,,,Marek,Vacina Doença de Marek,
+0f6f4779,641b7d7c,08/03/2026 18:57:07,08/03/2026,Michelly,Cirurgia,,,,,Amputação
+b7411a08,accaf7f8,20/03/2026 10:52:38,20/03/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+2085e8a6,71f0f69c,07/04/2026 12:45:17,07/04/2026,Aelton,Vacina,,,Marek,Vacina Doença de Marek,
+9440110f,71f0f69c,04/09/2025 14:01:31,04/09/2025,Aelton,Medicamento,Anti-inflamatórios / Analgésico,Meloxicam,,,
+a71ea1d5,71f0f69c,15/05/2026 16:48:13,15/05/2026,Aelton,Medicamento,Antibiótico,Amoxicilina,,,
+9fdde225,71f0f69c,06/11/2025 12:30:48,06/11/2025,Aelton,Consulta Veterinária,,,,,
+f2449876,db55baf1,31/05/2026 11:19:56,31/05/2026,Victor,Medicamento,Ontológico,Gota Otológica,,,
+83ca5c57,db55baf1,09/04/2026 14:55:16,09/04/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+0686062b,db55baf1,30/04/2026 17:58:36,30/04/2026,Victor,Cirurgia,,,,,Ortopedia
+bb958d95,d905fae1,18/11/2025 11:06:21,18/11/2025,Bruno,Castração,,,,,Castração Eletiva
+0beb6a1d,d905fae1,08/12/2025 10:06:34,08/12/2025,Bruno,Castração,,,,,Castração Eletiva
+0811f8b2,49f49538,06/05/2026 18:16:23,06/05/2026,Victor,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+cbcdd8a2,49f49538,01/05/2026 17:27:06,01/05/2026,Victor,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+c151ea0e,2a158bd5,28/05/2026 16:08:16,28/05/2026,Aelton,Medicamento,Hormônio,Levotiroxina,,,
+6a0a506a,2a158bd5,06/05/2026 08:01:54,06/05/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+46bf3093,2a158bd5,30/05/2026 17:17:54,30/05/2026,Aelton,Consulta Veterinária,,,,,
+0c7588c9,2a158bd5,05/06/2026 16:40:35,05/06/2026,Aelton,Cirurgia,,,,,Amputação
+5918152c,86b15a9c,30/05/2026 17:27:18,30/05/2026,Victor,Consulta Veterinária,,,,,
+e8bf8b8a,0f90fbdd,19/03/2026 11:48:18,19/03/2026,Aelton,Cirurgia,,,,,Ortopedia
+3120f326,0f90fbdd,28/03/2026 11:25:04,28/03/2026,Aelton,Consulta Veterinária,,,,,
+b3e24d9e,0f90fbdd,27/01/2026 15:10:17,27/01/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+439746bd,0f90fbdd,26/03/2026 12:09:41,26/03/2026,Aelton,Vacina,,,Calicivirose,Vacina Calicivirose,
+d626e7a4,be548ce1,31/08/2025 09:51:21,31/08/2025,Bruno,Consulta Veterinária,,,,,
+46ed4f50,63dcf591,17/02/2026 13:42:56,17/02/2026,Michelly,Medicamento,Antiviral,Aciclovir,,,
+722b1e49,63dcf591,11/04/2026 11:57:00,11/04/2026,Michelly,Medicamento,Antiviral,Aciclovir,,,
+09845621,63dcf591,21/05/2026 17:16:50,21/05/2026,Michelly,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+7adc0508,63dcf591,21/05/2026 13:34:19,21/05/2026,Michelly,Castração,,,,,Castração Eletiva
+96c8b518,35d6860d,09/04/2026 17:44:20,09/04/2026,Victor,Consulta Veterinária,,,,,
+30b82f05,35d6860d,30/04/2026 17:26:36,30/04/2026,Victor,Medicamento,Respiratório,Acetilcisteína,,,
+b864f855,35d6860d,21/05/2026 15:27:26,21/05/2026,Victor,Castração,,,,,Castração Eletiva
+aebd13d2,35d6860d,15/02/2026 17:20:24,15/02/2026,Victor,Castração,,,,,Castração Eletiva
+9c306c1d,109d008e,05/01/2026 15:34:08,05/01/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+a7a2a90e,109d008e,16/04/2026 08:26:53,16/04/2026,Michelly,Medicamento,Gastrointestinal,Omeprazol,,,
+b54a2d81,4a9f3780,30/01/2026 09:25:57,30/01/2026,Aelton,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+6198aa40,4a9f3780,07/05/2026 09:53:49,07/05/2026,Aelton,Castração,,,,,Castração Eletiva
+52ae3a66,4a9f3780,26/12/2025 16:07:22,26/12/2025,Aelton,Consulta Veterinária,,,,,
+26f88bf3,4a9f3780,28/05/2026 16:44:02,28/05/2026,Aelton,Medicamento,Suplementos / Vitaminas,Cálcio,,,
+782cecaf,82804770,10/06/2026 12:43:52,10/06/2026,Michelly,Vacina,,,Gastrointestinal,Vacina Giárdia,
+5a11daeb,82804770,11/06/2026 09:39:04,11/06/2026,Michelly,Consulta Veterinária,,,,,
+18d86bef,82804770,12/06/2026 15:24:49,12/06/2026,Michelly,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+d5a86a97,82804770,12/06/2026 11:56:53,12/06/2026,Michelly,Castração,,,,,Castração Eletiva
+77a1d0c0,2079138f,07/06/2026 08:17:13,07/06/2026,Victor,Medicamento,Antifúngico,Itraconazol,,,
+b1127c70,2079138f,22/05/2026 15:23:05,22/05/2026,Victor,Cirurgia,,,,,Ortopedia
+7ae701da,ea829e0d,12/12/2025 16:45:51,12/12/2025,Michelly,Medicamento,Anestésico / Sedativo,Cetamina,,,
+c02ecf3c,6feb2790,24/05/2026 11:43:58,24/05/2026,Victor,Medicamento,Hormônio,Levotiroxina,,,
+a7dd8714,6feb2790,15/05/2026 08:44:53,15/05/2026,Victor,Castração,,,,,Castração Eletiva
+94974653,55845eec,20/05/2026 17:06:16,20/05/2026,Aelton,Medicamento,Dermatológico,Shampoo Clorexidina,,,
+63c92617,55845eec,02/04/2026 12:36:24,02/04/2026,Aelton,Castração,,,,,Castração Eletiva
+1912795d,55845eec,12/02/2026 16:59:50,12/02/2026,Aelton,Vacina,,,Marek,Vacina Doença de Marek,
+d38b8dcf,8d7a8f37,04/04/2026 17:40:41,04/04/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+75e1025c,8d7a8f37,07/06/2026 10:16:31,07/06/2026,Michelly,Consulta Veterinária,,,,,
+5c477d0c,8d7a8f37,05/05/2026 12:01:38,05/05/2026,Michelly,Consulta Veterinária,,,,,
+cc207ebb,8d7a8f37,10/04/2026 15:12:11,10/04/2026,Michelly,Cirurgia,,,,,Ortopedia
+db67b899,9e7fb6cb,06/08/2025 15:45:44,06/08/2025,Victor,Medicamento,Antibiótico,Enrofloxacina,,,
+aac12b9d,9e7fb6cb,25/07/2025 09:14:13,25/07/2025,Victor,Consulta Veterinária,,,,,
+f8521b62,e42c6a37,01/05/2026 14:18:22,01/05/2026,Bruno,Cirurgia,,,,,Amputação
+f06be446,e42c6a37,21/03/2026 14:54:10,21/03/2026,Bruno,Medicamento,Hormônio,Insulina,,,
+dc9634e5,e42c6a37,12/05/2026 10:14:12,12/05/2026,Bruno,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+528524af,3b8b7816,15/10/2025 11:52:54,15/10/2025,Victor,Vacina,,,Newcastle,Vacina Newcastle,
+abeb5600,2f3c3160,13/06/2026 10:55:47,13/06/2026,Michelly,Consulta Veterinária,,,,,
+b84ef410,2f3c3160,13/06/2026 12:00:46,13/06/2026,Michelly,Consulta Veterinária,,,,,
+9b2fbe5f,adea9219,10/01/2026 13:17:15,10/01/2026,Victor,Castração,,,,,Castração Eletiva
+8504b7e3,bf1b9330,05/09/2025 15:22:51,05/09/2025,Victor,Vacina,,,Gastrointestinal,Vacina Giárdia,
+de772139,bf1b9330,29/05/2026 13:31:36,29/05/2026,Victor,Cirurgia,,,,,Amputação
+74f74db0,bf1b9330,19/03/2026 15:46:34,19/03/2026,Victor,Cirurgia,,,,,Ortopedia
+5f4ae1c8,abb85dec,02/04/2026 17:40:08,02/04/2026,Bruno,Medicamento,Antiparasitario externo,Frontline,,,
+af859225,84530d27,15/05/2026 09:48:22,15/05/2026,Bruno,Cirurgia,,,,,Amputação
+8f4030ee,84530d27,07/01/2026 14:36:40,07/01/2026,Bruno,Castração,,,,,Castração Eletiva
+f47b455c,ac8e8689,27/08/2025 10:37:14,27/08/2025,Bruno,Consulta Veterinária,,,,,
+fd20fc75,ac8e8689,08/02/2026 18:26:49,08/02/2026,Bruno,Consulta Veterinária,,,,,
+1a1ea14d,ac8e8689,21/11/2025 15:43:15,21/11/2025,Bruno,Castração,,,,,Castração Eletiva
+268acc75,ac8e8689,04/11/2025 14:04:06,04/11/2025,Bruno,Medicamento,Hormônio,Insulina,,,
+87b34af1,71d871bc,22/01/2026 13:37:55,22/01/2026,Victor,Medicamento,Cardiológico,Pimobendan,,,
+62c57782,71d871bc,24/04/2026 17:26:12,24/04/2026,Victor,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+29722434,71d871bc,08/11/2025 16:02:01,08/11/2025,Victor,Cirurgia,,,,,Ortopedia
+5f8145dd,d042fc53,22/02/2026 10:36:34,22/02/2026,Michelly,Castração,,,,,Castração Eletiva
+cd31c1ea,d042fc53,24/05/2026 11:59:33,24/05/2026,Michelly,Medicamento,Antifúngico,Itraconazol,,,
+daf35b64,fae8b446,13/04/2026 08:13:56,13/04/2026,Aelton,Medicamento,Dermatológico,Pomada Cicatrizante,,,
+6da566c9,fae8b446,04/01/2026 18:07:51,04/01/2026,Aelton,Castração,,,,,Castração Eletiva
+99f1530e,fae8b446,20/11/2025 08:51:52,20/11/2025,Aelton,Vacina,,,Newcastle,Vacina Newcastle,
+7232452e,41f2c937,03/06/2026 13:34:38,03/06/2026,Aelton,Medicamento,Anestésico / Sedativo,Propofol,,,
+2b1ebea5,41f2c937,08/05/2026 18:11:13,08/05/2026,Aelton,Castração,,,,,Castração Eletiva
+cec0cc1c,41f2c937,08/05/2026 18:50:16,08/05/2026,Aelton,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+568bad7d,41f2c937,10/04/2026 16:02:15,10/04/2026,Aelton,Castração,,,,,Castração Eletiva
+0fc52f35,5836d133,02/01/2026 09:34:34,02/01/2026,Victor,Medicamento,Ontológico,Limpador Auricular,,,
+8d90fe28,5836d133,01/12/2025 12:04:04,01/12/2025,Victor,Cirurgia,,,,,Ortopedia
+0ab07fde,a720099c,08/03/2026 08:51:11,08/03/2026,Aelton,Consulta Veterinária,,,,,
+d8169dff,a720099c,13/12/2025 09:30:46,13/12/2025,Aelton,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+df28a5dc,a720099c,03/01/2026 08:24:34,03/01/2026,Aelton,Castração,,,,,Castração Eletiva
+9a9f8903,c3a7f519,26/04/2026 14:58:34,26/04/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+2f7f46dd,67f5404c,06/06/2026 13:08:44,06/06/2026,Victor,Cirurgia,,,,,Castração Emergencial
+a50ec978,67f5404c,11/06/2026 11:14:13,11/06/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+2f2a0fb8,912527ed,23/05/2026 18:44:06,23/05/2026,Victor,Consulta Veterinária,,,,,
+bb32053a,912527ed,28/05/2026 10:46:33,28/05/2026,Victor,Medicamento,Respiratório,Acetilcisteína,,,
+022b1c3a,912527ed,05/06/2026 18:46:50,05/06/2026,Victor,Medicamento,Respiratório,Acetilcisteína,,,
+a7bb094b,a4028482,31/01/2026 09:58:29,31/01/2026,Victor,Consulta Veterinária,,,,,
+1f6ab0ae,a4028482,07/04/2026 08:23:21,07/04/2026,Victor,Vacina,,,Calicivirose,Vacina Calicivirose,
+a5b17bb8,a4028482,27/10/2025 13:27:05,27/10/2025,Victor,Cirurgia,,,,,Amputação
+ee52a93b,96a716ed,11/05/2026 13:34:25,11/05/2026,Aelton,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+d2514e56,96a716ed,05/06/2026 12:07:57,05/06/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+547575f8,96a716ed,07/05/2026 08:30:12,07/05/2026,Aelton,Medicamento,Antifúngico,Itraconazol,,,
+d9680637,189e3b98,19/11/2025 15:35:53,19/11/2025,Victor,Cirurgia,,,,,Amputação
+91acf100,4a25dcf7,02/04/2026 13:40:25,02/04/2026,Bruno,Castração,,,,,Castração Eletiva
+9653fbf7,2759ab8d,21/10/2025 13:04:01,21/10/2025,Victor,Castração,,,,,Castração Eletiva
+0bd25273,1c152f84,17/11/2025 17:34:54,17/11/2025,Michelly,Consulta Veterinária,,,,,
+bc59b204,1c152f84,13/01/2026 14:22:23,13/01/2026,Michelly,Castração,,,,,Castração Eletiva
+25260d41,1c152f84,21/03/2026 11:26:24,21/03/2026,Michelly,Medicamento,Antialérgico,Apoquel,,,
+4d8803a3,1c152f84,07/08/2025 16:56:48,07/08/2025,Michelly,Cirurgia,,,,,Amputação
+fab5d3d8,28eaf750,21/05/2026 16:25:58,21/05/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+b869e4de,28eaf750,19/03/2026 14:16:58,19/03/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+f26c85bd,28eaf750,11/01/2026 10:35:24,11/01/2026,Victor,Cirurgia,,,,,Ortopedia
+5f5926d3,28eaf750,08/04/2026 16:38:12,08/04/2026,Victor,Medicamento,Dermatológico,Shampoo Clorexidina,,,
+28ea8bc5,193b6be0,27/10/2025 08:25:22,27/10/2025,Michelly,Castração,,,,,Castração Eletiva
+04717a5e,193b6be0,03/10/2025 11:46:01,03/10/2025,Michelly,Cirurgia,,,,,Amputação
+8e18248f,bf64d251,29/05/2026 13:37:29,29/05/2026,Michelly,Cirurgia,,,,,Amputação
+1042537b,bf64d251,14/05/2026 11:34:56,14/05/2026,Michelly,Consulta Veterinária,,,,,
+8a7b218c,bf64d251,20/11/2025 08:06:46,20/11/2025,Michelly,Cirurgia,,,,,Remoção de Nódulo
+1c92fb7f,bf64d251,22/03/2026 14:48:22,22/03/2026,Michelly,Vacina,,,Calicivirose,Vacina Calicivirose,
+d2d43d82,95c000b2,21/12/2025 10:58:52,21/12/2025,Michelly,Consulta Veterinária,,,,,
+928fb450,95c000b2,13/06/2026 12:07:58,13/06/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+87df9efa,95c000b2,08/03/2026 08:41:43,08/03/2026,Michelly,Medicamento,Antiparasitario externo,NexGard,,,
+663a9847,8cf2bc5e,11/06/2026 11:29:15,11/06/2026,Bruno,Castração,,,,,Castração Eletiva
+e532aeb8,8cf2bc5e,07/06/2026 12:57:42,07/06/2026,Bruno,Consulta Veterinária,,,,,
+39dda683,08a14194,10/03/2026 11:52:11,10/03/2026,Bruno,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+aca65371,08a14194,12/03/2026 13:43:18,12/03/2026,Bruno,Castração,,,,,Castração Eletiva
+d570baaf,08a14194,24/12/2025 14:43:01,24/12/2025,Bruno,Medicamento,Antiparasitario externo,NexGard,,,
+880613c3,86676f4c,17/04/2026 10:37:40,17/04/2026,Michelly,Consulta Veterinária,,,,,
+8c669e6a,86676f4c,02/06/2026 09:25:24,02/06/2026,Michelly,Consulta Veterinária,,,,,
+bc94e9d4,86676f4c,07/02/2026 12:45:29,07/02/2026,Michelly,Medicamento,Antibiótico,Amoxicilina,,,
+42201b9d,86676f4c,22/01/2026 14:48:59,22/01/2026,Michelly,Consulta Veterinária,,,,,
+5a467e64,1a7e6d36,23/03/2026 10:40:48,23/03/2026,Bruno,Medicamento,Oftálmico,Pomada Oftálmica,,,
+edeb2bde,1a7e6d36,04/06/2026 16:53:54,04/06/2026,Bruno,Vacina,,,Brucelose,Vacina Brucelose,
+9201fcd0,1a7e6d36,01/06/2026 17:17:41,01/06/2026,Bruno,Castração,,,,,Castração Eletiva
+df0d75ff,8c32181b,22/12/2025 16:58:38,22/12/2025,Aelton,Cirurgia,,,,,Remoção de Nódulo
+4a4fa647,8c32181b,21/02/2026 10:46:25,21/02/2026,Aelton,Castração,,,,,Castração Eletiva
+6f96e7a8,8c32181b,16/04/2026 09:04:46,16/04/2026,Aelton,Medicamento,Ontológico,Limpador Auricular,,,
+1a68efe8,1e561a1d,14/06/2026 17:37:56,14/06/2026,Bruno,Medicamento,Gastrointestinal,Omeprazol,,,
+88ff417d,1e561a1d,31/05/2026 12:42:28,31/05/2026,Bruno,Medicamento,Gastrointestinal,Ondansetrona,,,
+a0eac602,a1106499,25/02/2026 08:41:44,25/02/2026,Aelton,Castração,,,,,Castração Eletiva
+e70dcc16,99eb144d,14/05/2026 08:20:14,14/05/2026,Bruno,Cirurgia,,,,,Castração Emergencial
+32eb2412,99eb144d,01/05/2026 09:39:35,01/05/2026,Bruno,Medicamento,Anti-inflamatórios / Analgésico,Meloxicam,,,
+224c0f0b,47dd60f5,15/03/2026 10:05:26,15/03/2026,Aelton,Medicamento,Respiratório,Aminofilina,,,
+adf40405,5caad85d,13/06/2026 09:14:24,13/06/2026,Victor,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+1c4a14b6,1e85eefd,01/06/2026 16:13:30,01/06/2026,Victor,Castração,,,,,Castração Eletiva
+22e76e00,1e85eefd,18/05/2026 17:29:37,18/05/2026,Victor,Castração,,,,,Castração Eletiva
+db63a8d2,1e85eefd,20/04/2026 10:07:34,20/04/2026,Victor,Cirurgia,,,,,Castração Emergencial
+61c3568f,1e85eefd,26/05/2026 15:31:33,26/05/2026,Victor,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+63a20b70,33899d32,02/06/2026 14:07:17,02/06/2026,Bruno,Vacina,,,Polivalente,V4 Felina,
+98a54b4f,33899d32,19/04/2026 12:38:07,19/04/2026,Bruno,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+b9ae3ee9,33899d32,12/04/2026 12:15:23,12/04/2026,Bruno,Castração,,,,,Castração Eletiva
+3de6e634,33899d32,08/05/2026 16:18:21,08/05/2026,Bruno,Consulta Veterinária,,,,,
+095597cc,b3be6718,25/04/2026 12:55:54,25/04/2026,Bruno,Cirurgia,,,,,Ortopedia
+61d74ed8,e20cfee7,21/05/2026 16:01:33,21/05/2026,Michelly,Castração,,,,,Castração Eletiva
+6585aacb,e20cfee7,05/02/2026 08:33:42,05/02/2026,Michelly,Cirurgia,,,,,Ortopedia
+fa3a28c9,e20cfee7,11/05/2026 15:37:06,11/05/2026,Michelly,Castração,,,,,Castração Eletiva
+837837e3,e20cfee7,09/06/2026 12:07:03,09/06/2026,Michelly,Consulta Veterinária,,,,,
+fb3a0646,fa40cc7e,14/06/2026 08:19:14,14/06/2026,Bruno,Medicamento,Anestésico / Sedativo,Propofol,,,
+61462285,fa40cc7e,10/06/2026 16:45:23,10/06/2026,Bruno,Cirurgia,,,,,Amputação
+95bb8695,e24d7bfc,18/05/2026 09:12:27,18/05/2026,Michelly,Consulta Veterinária,,,,,
+20355889,bfe55326,30/12/2025 13:30:20,30/12/2025,Bruno,Consulta Veterinária,,,,,
+39862e58,b8355802,22/10/2025 16:03:49,22/10/2025,Michelly,Castração,,,,,Castração Eletiva
+4caa06fc,a3d1d6f8,21/05/2026 12:55:56,21/05/2026,Bruno,Castração,,,,,Castração Eletiva
+c78dd331,a3d1d6f8,29/05/2026 13:34:08,29/05/2026,Bruno,Medicamento,Gastrointestinal,Sucralfato,,,
+2c5143d2,0aef4f06,13/05/2026 13:51:40,13/05/2026,Victor,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+7a908e81,0aef4f06,22/04/2026 12:49:03,22/04/2026,Victor,Vacina,,,Calicivirose,Vacina Calicivirose,
+fec8c3fc,0aef4f06,24/05/2026 16:13:04,24/05/2026,Victor,Castração,,,,,Castração Eletiva
+4b9a3518,73bdd1e4,25/02/2026 10:06:15,25/02/2026,Michelly,Consulta Veterinária,,,,,
+ad54d534,73bdd1e4,15/12/2025 10:34:34,15/12/2025,Michelly,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+6ecf081c,8b7ae1fb,03/06/2026 14:47:10,03/06/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+c7fa1322,ca954cbe,06/10/2025 12:26:21,06/10/2025,Aelton,Medicamento,Outro,Soro Fisiológico,,,
+8b6fb535,ca954cbe,22/04/2026 18:32:40,22/04/2026,Aelton,Vacina,,,Marek,Vacina Doença de Marek,
+61b9dd83,ca954cbe,21/04/2026 13:42:13,21/04/2026,Aelton,Castração,,,,,Castração Eletiva
+4386ec93,44fe1995,27/02/2026 15:01:15,27/02/2026,Aelton,Castração,,,,,Castração Eletiva
+d82b3670,44fe1995,13/05/2026 18:58:42,13/05/2026,Aelton,Medicamento,Anti-inflamatórios / Analgésico,Meloxicam,,,
+880753f7,f0430013,14/06/2026 16:51:14,14/06/2026,Aelton,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+2c8862fd,f0430013,29/12/2025 11:41:55,29/12/2025,Aelton,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+525b8b56,f0430013,29/12/2025 14:47:09,29/12/2025,Aelton,Castração,,,,,Castração Eletiva
+8ca02058,69ca3bdc,14/11/2025 09:57:02,14/11/2025,Michelly,Cirurgia,,,,,Ortopedia
+30589053,2e76e4cb,13/11/2025 14:32:43,13/11/2025,Victor,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+753053a1,2e76e4cb,29/04/2026 14:22:32,29/04/2026,Victor,Castração,,,,,Castração Eletiva
+bad36002,8388928b,24/04/2026 10:34:47,24/04/2026,Michelly,Castração,,,,,Castração Eletiva
+59c23df0,8388928b,11/05/2026 18:26:21,11/05/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+4b7a205e,8388928b,14/05/2026 18:57:04,14/05/2026,Michelly,Medicamento,Cardiológico,Enalapril,,,
+f2090eca,8388928b,14/04/2026 09:01:06,14/04/2026,Michelly,Castração,,,,,Castração Eletiva
+23da5393,840ec739,26/02/2026 13:17:42,26/02/2026,Michelly,Medicamento,Oftálmico,Pomada Oftálmica,,,
+e707c658,840ec739,03/06/2026 12:47:54,03/06/2026,Michelly,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+f9891718,afb1fd7e,26/05/2026 10:03:42,26/05/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+94e50d81,afb1fd7e,21/05/2026 13:30:49,21/05/2026,Michelly,Medicamento,Antiparasitario externo,Bravecto Top,,,
+7840d708,afb1fd7e,30/04/2026 13:29:57,30/04/2026,Michelly,Vacina,,,Polivalente,V4 Felina,
+ce8dcfe4,afb1fd7e,16/04/2026 08:01:28,16/04/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+a54e7400,242227ff,16/12/2025 09:01:29,16/12/2025,Victor,Consulta Veterinária,,,,,
+18e1a8c1,242227ff,17/03/2026 13:52:39,17/03/2026,Victor,Consulta Veterinária,,,,,
+647c5492,242227ff,22/10/2025 13:32:49,22/10/2025,Victor,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+738aa23f,242227ff,27/12/2025 16:59:00,27/12/2025,Victor,Consulta Veterinária,,,,,
+52f370a2,bf1ec014,25/03/2026 15:39:35,25/03/2026,Aelton,Consulta Veterinária,,,,,
+f0f0a749,bf1ec014,26/09/2025 08:48:17,26/09/2025,Aelton,Medicamento,Ontológico,Gota Otológica,,,
+eeecae1e,bf1ec014,12/09/2025 13:13:22,12/09/2025,Aelton,Vacina,,,Marek,Vacina Doença de Marek,
+57c6a791,f39604cf,02/04/2026 18:18:19,02/04/2026,Victor,Medicamento,Antialérgico,Apoquel,,,
+74d188c8,f39604cf,09/04/2026 12:32:57,09/04/2026,Victor,Consulta Veterinária,,,,,
+2c692043,ca5adbe7,10/06/2026 13:24:20,10/06/2026,Aelton,Cirurgia,,,,,Ortopedia
+ff279733,ca5adbe7,14/06/2026 14:22:26,14/06/2026,Aelton,Vacina,,,Clostridial,Polivalente Clostridial,
+4035c7c9,2ae824b6,24/02/2026 17:14:45,24/02/2026,Michelly,Castração,,,,,Castração Eletiva
+1fb46d83,2ae824b6,13/05/2026 10:12:19,13/05/2026,Michelly,Cirurgia,,,,,Ortopedia
+310a347a,2ae824b6,11/06/2026 10:27:25,11/06/2026,Michelly,Castração,,,,,Castração Eletiva
+e9bf61ea,2ae824b6,29/05/2026 16:09:01,29/05/2026,Michelly,Castração,,,,,Castração Eletiva
+f1b560ea,ebd67fa6,16/10/2025 15:24:09,16/10/2025,Bruno,Consulta Veterinária,,,,,
+2ec2a539,54f60192,17/04/2026 10:35:54,17/04/2026,Aelton,Consulta Veterinária,,,,,
+981669ff,54f60192,15/01/2026 15:17:59,15/01/2026,Aelton,Castração,,,,,Castração Eletiva
+47b77213,54f60192,28/05/2026 18:23:37,28/05/2026,Aelton,Consulta Veterinária,,,,,
+b108300c,b4f5200e,23/09/2025 08:40:09,23/09/2025,Aelton,Medicamento,Respiratório,Aminofilina,,,
+87d18f52,b4f5200e,11/04/2026 10:09:24,11/04/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+aae0b901,b4f5200e,18/11/2025 08:22:03,18/11/2025,Aelton,Cirurgia,,,,,Ortopedia
+fe38418e,289906ba,21/05/2026 18:41:24,21/05/2026,Bruno,Medicamento,Ontológico,Gota Otológica,,,
+0b08cddf,289906ba,06/05/2026 15:49:44,06/05/2026,Bruno,Consulta Veterinária,,,,,
+4abde260,289906ba,31/03/2026 17:07:01,31/03/2026,Bruno,Castração,,,,,Castração Eletiva
+cff7079e,289906ba,11/12/2025 14:55:13,11/12/2025,Bruno,Consulta Veterinária,,,,,
+7569ea4a,9e85d659,12/05/2026 18:49:29,12/05/2026,Aelton,Consulta Veterinária,,,,,
+fa1e6ba6,9e85d659,30/04/2026 17:18:35,30/04/2026,Aelton,Castração,,,,,Castração Eletiva
+05e3cc33,9e85d659,04/04/2026 17:26:48,04/04/2026,Aelton,Cirurgia,,,,,Amputação
+ea7b587f,9e85d659,26/05/2026 09:55:12,26/05/2026,Aelton,Medicamento,Antialérgico,Loratadina,,,
+b100d35f,ffcd2265,31/01/2026 16:07:42,31/01/2026,Victor,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+472f20a2,ffcd2265,22/01/2026 08:16:15,22/01/2026,Victor,Castração,,,,,Castração Eletiva
+d3c33856,ffcd2265,24/03/2026 09:19:41,24/03/2026,Victor,Cirurgia,,,,,Castração Emergencial
+22ef8e92,aaae5bf9,25/02/2026 10:33:34,25/02/2026,Bruno,Vacina,,,Clostridial,Polivalente Clostridial,
+24f5cf06,aaae5bf9,08/11/2025 10:38:38,08/11/2025,Bruno,Cirurgia,,,,,Remoção de Nódulo
+0b20a5b3,aaae5bf9,24/08/2025 13:29:56,24/08/2025,Bruno,Consulta Veterinária,,,,,
+1b0628e2,f74a2580,09/03/2026 08:05:23,09/03/2026,Bruno,Cirurgia,,,,,Amputação
+873c2afc,f74a2580,02/03/2026 11:46:35,02/03/2026,Bruno,Medicamento,Ontológico,Gota Otológica,,,
+213de9b0,5e8eceb9,31/03/2026 08:48:03,31/03/2026,Bruno,Vacina,,,Reprodutiva,Vacina Específica,
+fad767a9,5e8eceb9,27/03/2026 09:09:43,27/03/2026,Bruno,Consulta Veterinária,,,,,
+d17565d0,1d541a68,20/03/2026 15:34:50,20/03/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+4259ec8e,1d541a68,02/03/2026 11:23:47,02/03/2026,Michelly,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+7f06f53c,1d541a68,27/02/2026 18:28:23,27/02/2026,Michelly,Vacina,,,Tétano,Soro Antitetânico,
+943c5e8b,89c0c2ae,19/04/2026 09:02:13,19/04/2026,Michelly,Medicamento,Antiparasitario externo,Frontline,,,
+4bbe38cc,d971800e,24/05/2026 10:29:25,24/05/2026,Aelton,Castração,,,,,Castração Eletiva
+3610364d,d971800e,09/06/2026 18:01:41,09/06/2026,Aelton,Medicamento,Hormônio,Levotiroxina,,,
+8ed9aff3,d971800e,22/05/2026 14:32:04,22/05/2026,Aelton,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+6acce96a,a37f5c5b,13/02/2026 12:42:25,13/02/2026,Victor,Vacina,,,Gastrointestinal,Vacina Giárdia,
+3784f850,a37f5c5b,25/04/2026 08:53:18,25/04/2026,Victor,Consulta Veterinária,,,,,
+22ce1108,a37f5c5b,08/05/2026 18:16:19,08/05/2026,Victor,Consulta Veterinária,,,,,
+1d4ea517,a37f5c5b,19/02/2026 11:46:44,19/02/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+7c604c66,201a6095,12/02/2026 17:25:00,12/02/2026,Bruno,Castração,,,,,Castração Eletiva
+782742c0,201a6095,18/04/2026 09:48:41,18/04/2026,Bruno,Consulta Veterinária,,,,,
+36e5596e,201a6095,09/02/2026 11:47:55,09/02/2026,Bruno,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+656ee6d3,201a6095,19/02/2026 14:23:20,19/02/2026,Bruno,Consulta Veterinária,,,,,
+f6de04ab,f940dbca,28/02/2026 18:38:57,28/02/2026,Aelton,Castração,,,,,Castração Eletiva
+f0d62f4f,9dc7b176,11/04/2026 17:07:04,11/04/2026,Victor,Consulta Veterinária,,,,,
+9f6170c1,9dc7b176,07/05/2026 16:50:09,07/05/2026,Victor,Cirurgia,,,,,Ortopedia
+e2467217,3f398e87,10/06/2026 09:05:11,10/06/2026,Victor,Consulta Veterinária,,,,,
+81cead31,3f398e87,10/05/2026 13:42:16,10/05/2026,Victor,Castração,,,,,Castração Eletiva
+af26ba39,167e87d3,06/06/2026 09:37:06,06/06/2026,Victor,Castração,,,,,Castração Eletiva
+dede6640,167e87d3,08/05/2026 09:20:02,08/05/2026,Victor,Medicamento,Respiratório,Acetilcisteína,,,
+c29cce54,167e87d3,30/05/2026 12:13:34,30/05/2026,Victor,Medicamento,Antiparasitário interno,Ivermectina,,,
+9fd7676a,167e87d3,11/06/2026 16:45:54,11/06/2026,Victor,Cirurgia,,,,,Ortopedia
+fe5517f0,59a24199,30/05/2026 18:09:36,30/05/2026,Michelly,Medicamento,Hormônio,Insulina,,,
+13d123f4,59a24199,16/03/2026 14:48:29,16/03/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+9b4d937b,59a24199,24/04/2026 14:31:25,24/04/2026,Michelly,Consulta Veterinária,,,,,
+91d33150,b6d3133d,01/06/2026 13:37:06,01/06/2026,Aelton,Castração,,,,,Castração Eletiva
+796aa11a,b6d3133d,21/04/2026 15:24:20,21/04/2026,Aelton,Castração,,,,,Castração Eletiva
+c2325abe,c40b750c,10/05/2026 16:40:41,10/05/2026,Victor,Medicamento,Suplementos / Vitaminas,Cálcio,,,
+b7749820,c40b750c,19/12/2025 08:01:47,19/12/2025,Victor,Castração,,,,,Castração Eletiva
+4583b410,d44a8e25,07/03/2026 10:24:02,07/03/2026,Aelton,Consulta Veterinária,,,,,
+30a2255a,d44a8e25,30/04/2026 18:21:19,30/04/2026,Aelton,Vacina,,,Influenza,Vacina Influenza Equina/Aviária,
+488b5a7c,d44a8e25,31/03/2026 13:10:59,31/03/2026,Aelton,Medicamento,Anestésico / Sedativo,Propofol,,,
+d237f174,d44a8e25,08/05/2026 12:58:30,08/05/2026,Aelton,Consulta Veterinária,,,,,
+c05ced41,a193ddb4,14/05/2026 12:39:49,14/05/2026,Michelly,Medicamento,Antiparasitário interno,Simparic,,,
+46881fd8,db987d2f,02/05/2026 13:01:59,02/05/2026,Aelton,Castração,,,,,Castração Eletiva
+29db37aa,db987d2f,12/05/2026 15:23:39,12/05/2026,Aelton,Castração,,,,,Castração Eletiva
+c57af3ef,a2e6c7ec,02/03/2026 08:28:43,02/03/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+1523d803,a2e6c7ec,07/03/2026 15:09:21,07/03/2026,Bruno,Consulta Veterinária,,,,,
+1ced54fc,a2e6c7ec,28/03/2026 13:34:08,28/03/2026,Bruno,Consulta Veterinária,,,,,
+a77bd5a8,5c06862b,25/09/2025 15:05:21,25/09/2025,Bruno,Cirurgia,,,,,Castração Emergencial
+5bbde0c2,bae15ee3,18/04/2026 09:09:55,18/04/2026,Bruno,Castração,,,,,Castração Eletiva
+56078b7e,bae15ee3,10/03/2026 12:32:25,10/03/2026,Bruno,Castração,,,,,Castração Eletiva
+9063b2c6,3175d2bc,06/06/2026 16:53:02,06/06/2026,Bruno,Consulta Veterinária,,,,,
+71a30554,3175d2bc,15/05/2026 12:17:29,15/05/2026,Bruno,Castração,,,,,Castração Eletiva
+6dcb293d,80236d39,29/01/2026 18:06:28,29/01/2026,Aelton,Vacina,,,Tétano,Toxoide Tetânico,
+a1077f3f,80236d39,23/01/2026 18:35:13,23/01/2026,Aelton,Consulta Veterinária,,,,,
+a7b12fb1,80236d39,05/11/2025 12:24:17,05/11/2025,Aelton,Medicamento,Outro,Soro Fisiológico,,,
+4256c757,8271b8d2,28/12/2025 08:47:18,28/12/2025,Michelly,Castração,,,,,Castração Eletiva
+f36f4841,8271b8d2,06/03/2026 09:16:57,06/03/2026,Michelly,Castração,,,,,Castração Eletiva
+51a4eb47,8271b8d2,13/04/2026 08:39:55,13/04/2026,Michelly,Castração,,,,,Castração Eletiva
+524ff137,8271b8d2,11/06/2026 12:00:41,11/06/2026,Michelly,Castração,,,,,Castração Eletiva
+6b0684d6,36b52d32,05/04/2026 09:08:10,05/04/2026,Michelly,Consulta Veterinária,,,,,
+fe94d6e3,36b52d32,28/01/2026 16:16:36,28/01/2026,Michelly,Medicamento,Antiparasitário interno,Simparic,,,
+3eb49992,2d14d026,23/05/2026 11:16:44,23/05/2026,Victor,Consulta Veterinária,,,,,
+39bb771e,2d14d026,17/01/2026 16:11:23,17/01/2026,Victor,Consulta Veterinária,,,,,
+c16ba84d,2d14d026,05/07/2025 17:38:50,05/07/2025,Victor,Consulta Veterinária,,,,,
+1da5be64,2d14d026,04/02/2026 10:33:02,04/02/2026,Victor,Castração,,,,,Castração Eletiva
+1bd0e23a,7af4fff3,12/04/2026 13:51:35,12/04/2026,Aelton,Consulta Veterinária,,,,,
+e66534c5,64b1e3de,07/03/2026 09:53:07,07/03/2026,Michelly,Cirurgia,,,,,Amputação
+793de944,64b1e3de,31/03/2026 15:46:59,31/03/2026,Michelly,Castração,,,,,Castração Eletiva
+5cbe7868,64b1e3de,23/04/2026 18:03:52,23/04/2026,Michelly,Medicamento,Antibiótico,Amoxicilina,,,
+142710f1,5a292d8c,29/03/2026 15:58:19,29/03/2026,Bruno,Medicamento,Outro,Glicose,,,
+93567bbc,5a292d8c,23/05/2026 11:29:45,23/05/2026,Bruno,Consulta Veterinária,,,,,
+81f479f2,5a292d8c,12/11/2025 11:57:52,12/11/2025,Bruno,Cirurgia,,,,,Ortopedia
+9174a4ae,5a292d8c,05/10/2025 17:20:39,05/10/2025,Bruno,Cirurgia,,,,,Castração Emergencial
+5fdc12a2,efc59054,10/06/2026 08:25:40,10/06/2026,Victor,Consulta Veterinária,,,,,
+0d26dddf,efc59054,13/06/2026 15:53:38,13/06/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+c443a13a,efc59054,19/12/2025 13:32:32,19/12/2025,Victor,Consulta Veterinária,,,,,
+87ef4385,efc59054,03/06/2026 10:48:19,03/06/2026,Victor,Consulta Veterinária,,,,,
+a0a5319b,ceeef7e1,20/02/2026 14:29:43,20/02/2026,Aelton,Cirurgia,,,,,Amputação
+53481921,ceeef7e1,24/01/2026 10:11:37,24/01/2026,Aelton,Consulta Veterinária,,,,,
+411eb47c,ceeef7e1,01/11/2025 08:55:23,01/11/2025,Aelton,Castração,,,,,Castração Eletiva
+37dd79c8,ceeef7e1,05/12/2025 13:01:23,05/12/2025,Aelton,Vacina,,,Clostridial,Polivalente Clostridial,
+a09f0935,ed5ce097,31/05/2026 13:15:48,31/05/2026,Victor,Medicamento,Cardiológico,Pimobendan,,,
+ed99553a,ed5ce097,23/05/2026 17:11:58,23/05/2026,Victor,Consulta Veterinária,,,,,
+620ee930,ed5ce097,09/05/2026 12:26:12,09/05/2026,Victor,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+5aad3426,13963be2,03/04/2026 13:18:41,03/04/2026,Michelly,Consulta Veterinária,,,,,
+92ad1a94,06d32fd1,29/05/2026 10:20:38,29/05/2026,Michelly,Castração,,,,,Castração Eletiva
+7ec24c80,97c95d1f,23/02/2026 12:00:08,23/02/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+da185e01,97c95d1f,01/04/2026 18:35:20,01/04/2026,Victor,Cirurgia,,,,,Amputação
+220d09cd,97c95d1f,08/10/2025 14:42:40,08/10/2025,Victor,Castração,,,,,Castração Eletiva
+66e8d1d4,97c95d1f,20/11/2025 15:58:11,20/11/2025,Victor,Vacina,,,Reprodutiva,Vacina Específica,
+b293193b,1effc669,17/07/2025 11:57:07,17/07/2025,Bruno,Cirurgia,,,,,Ortopedia
+d3b4c9e9,1effc669,11/11/2025 15:55:38,11/11/2025,Bruno,Castração,,,,,Castração Eletiva
+8414a5f2,1effc669,09/10/2025 10:18:04,09/10/2025,Bruno,Vacina,,,Polivalente,V4 Felina,
+3b2c0c76,61954160,19/09/2025 16:17:19,19/09/2025,Aelton,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+f307fff4,61954160,19/03/2026 12:12:47,19/03/2026,Aelton,Cirurgia,,,,,Ortopedia
+70534039,fc605922,28/05/2026 14:01:13,28/05/2026,Michelly,Castração,,,,,Castração Eletiva
+7d9d647f,6f574c84,04/03/2026 10:27:16,04/03/2026,Victor,Medicamento,Cardiológico,Enalapril,,,
+c1d0acf2,6f574c84,12/02/2026 15:14:25,12/02/2026,Victor,Castração,,,,,Castração Eletiva
+0872cd4b,6f574c84,11/05/2026 12:23:53,11/05/2026,Victor,Cirurgia,,,,,Ortopedia
+ce0a6161,fb2bc464,02/10/2025 10:12:18,02/10/2025,Michelly,Consulta Veterinária,,,,,
+3602a9e9,fb2bc464,08/05/2026 12:03:07,08/05/2026,Michelly,Medicamento,Anestésico / Sedativo,Propofol,,,
+e136f52a,fb2bc464,13/02/2026 09:54:29,13/02/2026,Michelly,Medicamento,Antialérgico,Loratadina,,,
+2713f01b,f335486a,26/04/2026 15:56:46,26/04/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+e6b3ba26,7c204f76,18/05/2026 11:08:47,18/05/2026,Victor,Medicamento,Dermatológico,Shampoo Clorexidina,,,
+2a4405bd,e7b62502,21/04/2026 17:32:23,21/04/2026,Michelly,Consulta Veterinária,,,,,
+4065cc37,b0f9325c,26/05/2026 08:12:28,26/05/2026,Aelton,Medicamento,Anti-inflamatórios / Analgésico,Prednisolona,,,
+75c001af,b0f9325c,02/06/2026 15:35:45,02/06/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+e7183c9d,b0f9325c,10/06/2026 10:03:00,10/06/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+99a4074a,b0f9325c,16/05/2026 17:34:26,16/05/2026,Aelton,Consulta Veterinária,,,,,
+831a62a1,de489efe,03/02/2026 18:15:45,03/02/2026,Bruno,Cirurgia,,,,,Amputação
+a11f6898,de489efe,14/01/2026 09:48:00,14/01/2026,Bruno,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+7fa7eda2,de489efe,21/01/2026 16:32:22,21/01/2026,Bruno,Cirurgia,,,,,Castração Emergencial
+aa30f1b9,de489efe,28/09/2025 09:50:02,28/09/2025,Bruno,Castração,,,,,Castração Eletiva
+b2883151,4cdf9de7,03/12/2025 17:27:52,03/12/2025,Bruno,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+d77a89e0,4cdf9de7,14/03/2026 16:09:02,14/03/2026,Bruno,Cirurgia,,,,,Amputação
+fabb721e,4cdf9de7,09/05/2026 09:53:48,09/05/2026,Bruno,Consulta Veterinária,,,,,
+f7d3427d,4cdf9de7,03/06/2026 10:52:39,03/06/2026,Bruno,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+a864f29c,362f43e7,04/06/2026 09:16:00,04/06/2026,Victor,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+abf21566,362f43e7,04/05/2026 11:35:22,04/05/2026,Victor,Medicamento,Hormônio,Levotiroxina,,,
+1d514302,362f43e7,02/05/2026 18:29:14,02/05/2026,Victor,Consulta Veterinária,,,,,
+47160ba6,362f43e7,23/04/2026 13:18:07,23/04/2026,Victor,Consulta Veterinária,,,,,
+a783032f,56c134d9,27/05/2026 11:23:53,27/05/2026,Bruno,Cirurgia,,,,,Amputação
+86ac4598,56c134d9,11/04/2026 14:30:21,11/04/2026,Bruno,Castração,,,,,Castração Eletiva
+19084088,a33939da,04/05/2026 11:35:15,04/05/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+a81ca556,2c075899,26/04/2026 08:48:51,26/04/2026,Aelton,Vacina,,,Brucelose,Vacina Brucelose,
+74f11440,2c075899,22/05/2026 13:26:58,22/05/2026,Aelton,Vacina,,,Gastrointestinal,Vacina Giárdia,
+b43c6435,0aea0837,27/05/2026 18:41:08,27/05/2026,Aelton,Cirurgia,,,,,Amputação
+e7f1cd4f,0aea0837,11/01/2026 18:21:56,11/01/2026,Aelton,Medicamento,Oftálmico,Pomada Oftálmica,,,
+576c1776,5e5772fb,03/02/2026 11:43:15,03/02/2026,Michelly,Castração,,,,,Castração Eletiva
+898af6de,5e5772fb,25/04/2026 08:00:42,25/04/2026,Michelly,Vacina,,,Newcastle,Vacina Newcastle,
+29dba099,6031b9ef,29/05/2026 17:39:28,29/05/2026,Aelton,Consulta Veterinária,,,,,
+f993e244,6031b9ef,04/04/2026 12:58:58,04/04/2026,Aelton,Castração,,,,,Castração Eletiva
+728aa457,8093be90,25/05/2026 12:55:42,25/05/2026,Michelly,Cirurgia,,,,,Amputação
+b898f72f,8093be90,06/03/2026 10:46:56,06/03/2026,Michelly,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+5553b53b,3b7d7b87,11/05/2026 13:47:59,11/05/2026,Bruno,Consulta Veterinária,,,,,
+f69e855c,3b7d7b87,30/05/2026 10:23:34,30/05/2026,Bruno,Vacina,,,Clostridial,Polivalente Clostridial,
+f7c30a92,a6cfc2d8,26/03/2026 09:35:44,26/03/2026,Aelton,Consulta Veterinária,,,,,
+9f11c910,a6cfc2d8,17/03/2026 15:57:26,17/03/2026,Aelton,Consulta Veterinária,,,,,
+9ab06d38,a6cfc2d8,12/04/2026 08:21:11,12/04/2026,Aelton,Consulta Veterinária,,,,,
+cc9cd149,4ba46847,02/08/2025 14:47:33,02/08/2025,Victor,Cirurgia,,,,,Amputação
+afb8ed3c,d2dcc92a,23/09/2025 18:24:54,23/09/2025,Michelly,Vacina,,,Gastrointestinal,Vacina Giárdia,
+eba94e11,e2ad32c8,14/06/2026 14:49:06,14/06/2026,Victor,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+87d809bb,e2ad32c8,12/06/2026 17:11:04,12/06/2026,Victor,Consulta Veterinária,,,,,
+4e2f9d3e,da116ad2,11/09/2025 17:03:58,11/09/2025,Aelton,Medicamento,Hormônio,Levotiroxina,,,
+6343bd77,524bc576,04/06/2026 12:23:48,04/06/2026,Victor,Cirurgia,,,,,Amputação
+4edf77a2,e52bd127,02/06/2026 13:43:12,02/06/2026,Michelly,Castração,,,,,Castração Eletiva
+0b6a8f8e,e52bd127,02/01/2026 17:15:03,02/01/2026,Michelly,Cirurgia,,,,,Ortopedia
+04deb5fc,726ecb2b,31/12/2025 10:37:13,31/12/2025,Victor,Cirurgia,,,,,Ortopedia
+d5fcfbfc,726ecb2b,08/02/2026 10:17:48,08/02/2026,Victor,Cirurgia,,,,,Ortopedia
+879f24e8,51124357,18/03/2026 10:42:43,18/03/2026,Michelly,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+165dfc5a,cd90efc4,22/11/2025 14:06:17,22/11/2025,Bruno,Castração,,,,,Castração Eletiva
+e171bcc3,a2e866b8,15/03/2026 16:21:51,15/03/2026,Aelton,Castração,,,,,Castração Eletiva
+63493ae4,a2e866b8,12/05/2026 17:18:47,12/05/2026,Aelton,Castração,,,,,Castração Eletiva
+8043f191,a2e866b8,10/05/2026 14:02:26,10/05/2026,Aelton,Vacina,,,Brucelose,Vacina Brucelose,
+82175418,a2e866b8,29/12/2025 18:10:25,29/12/2025,Aelton,Castração,,,,,Castração Eletiva
+b4fab504,cb174be7,03/05/2026 13:15:00,03/05/2026,Bruno,Medicamento,Hormônio,Insulina,,,
+9098bb3e,cb174be7,16/05/2026 16:09:50,16/05/2026,Bruno,Medicamento,Anestésico / Sedativo,Propofol,,,
+49553ccb,7cc4a999,29/07/2025 14:12:38,29/07/2025,Bruno,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+5c46e3d1,7cc4a999,15/01/2026 12:52:13,15/01/2026,Bruno,Cirurgia,,,,,Castração Emergencial
+ea16ab75,7cc4a999,20/05/2026 15:48:01,20/05/2026,Bruno,Cirurgia,,,,,Amputação
+7386eebe,7cc4a999,02/06/2026 15:48:16,02/06/2026,Bruno,Castração,,,,,Castração Eletiva
+92158255,dcc11231,08/12/2025 08:09:19,08/12/2025,Aelton,Cirurgia,,,,,Ortopedia
+2cc185f3,e24e8e3c,11/06/2026 15:07:22,11/06/2026,Michelly,Castração,,,,,Castração Eletiva
+2ff8bb1e,e24e8e3c,06/05/2026 13:20:56,06/05/2026,Michelly,Consulta Veterinária,,,,,
+b0e84927,e24e8e3c,14/05/2026 12:08:57,14/05/2026,Michelly,Consulta Veterinária,,,,,
+2a0bd269,e24e8e3c,29/05/2026 12:54:24,29/05/2026,Michelly,Consulta Veterinária,,,,,
+a194d7a3,6c7b0853,13/04/2026 10:44:38,13/04/2026,Aelton,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+569b9153,6c7b0853,14/08/2025 15:57:40,14/08/2025,Aelton,Cirurgia,,,,,Amputação
+25d37cfe,6c7b0853,02/12/2025 12:48:42,02/12/2025,Aelton,Vacina,,,Calicivirose,Vacina Calicivirose,
+bec5b30d,6c7b0853,04/02/2026 15:57:02,04/02/2026,Aelton,Medicamento,Antialérgico,Loratadina,,,
+7edc897d,80c357ae,29/05/2026 11:56:50,29/05/2026,Michelly,Cirurgia,,,,,Castração Emergencial
+23361adc,80c357ae,06/05/2026 17:00:16,06/05/2026,Michelly,Medicamento,Oftálmico,Pomada Oftálmica,,,
+29be56c2,1668b153,13/04/2026 13:40:24,13/04/2026,Michelly,Vacina,,,Brucelose,Vacina Brucelose,
+c0118eab,5dca6f67,14/12/2025 12:20:31,14/12/2025,Michelly,Castração,,,,,Castração Eletiva
+08ff8cc6,5dca6f67,30/05/2026 09:18:20,30/05/2026,Michelly,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+731ef883,c9f21add,04/05/2026 16:54:08,04/05/2026,Bruno,Vacina,,,Parvovirose,Vacina Parvovirose (Isolada),
+5c2694c4,c9f21add,27/04/2026 11:50:45,27/04/2026,Bruno,Castração,,,,,Castração Eletiva
+34b9ac4b,c9f21add,27/05/2026 09:24:46,27/05/2026,Bruno,Castração,,,,,Castração Eletiva
+8e274717,c9f21add,11/04/2026 12:28:14,11/04/2026,Bruno,Vacina,,,Gastrointestinal,Vacina Giárdia,
+f1819af4,5726be01,11/05/2026 16:21:29,11/05/2026,Aelton,Consulta Veterinária,,,,,
+0aa5c6f5,a3557539,12/05/2026 13:16:21,12/05/2026,Victor,Medicamento,Oftálmico,Pomada Oftálmica,,,
+1d4d6b39,afd4f680,22/02/2026 17:56:28,22/02/2026,Bruno,Castração,,,,,Castração Eletiva
+6e32db95,c0ff5688,06/12/2025 18:04:56,06/12/2025,Victor,Castração,,,,,Castração Eletiva
+354a811b,c0ff5688,08/04/2026 16:09:39,08/04/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+4a138783,c0ff5688,24/12/2025 17:07:04,24/12/2025,Victor,Castração,,,,,Castração Eletiva
+3b6af7b0,c0ff5688,08/02/2026 15:04:49,08/02/2026,Victor,Consulta Veterinária,,,,,
+4c0dcbfc,c3928330,30/09/2025 12:34:44,30/09/2025,Aelton,Consulta Veterinária,,,,,
+99aa022e,e6623b8b,04/11/2025 09:13:25,04/11/2025,Victor,Castração,,,,,Castração Eletiva
+81fd5d5c,e5b95d62,15/01/2026 10:57:20,15/01/2026,Bruno,Medicamento,Suplementos / Vitaminas,Vitamina B12,,,
+dfde2375,e5b95d62,26/02/2026 16:21:24,26/02/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+42746521,e5b95d62,20/11/2025 11:20:05,20/11/2025,Bruno,Castração,,,,,Castração Eletiva
+2422201c,686d6f91,10/05/2026 17:03:24,10/05/2026,Michelly,Medicamento,Outro,Soro Fisiológico,,,
+adc27115,686d6f91,30/04/2026 15:59:01,30/04/2026,Michelly,Vacina,,,Antirrábica,Vacina Antirrábica Padrão,
+e6323c5f,62b6246e,09/05/2026 11:08:55,09/05/2026,Aelton,Castração,,,,,Castração Eletiva
+5898b0ba,62b6246e,17/11/2025 16:20:44,17/11/2025,Aelton,Cirurgia,,,,,Remoção de Nódulo
+b64fd0fe,a0994b62,12/03/2026 17:12:00,12/03/2026,Victor,Medicamento,Gastrointestinal,Ondansetrona,,,
+797f5d11,a0994b62,24/04/2026 11:50:24,24/04/2026,Victor,Cirurgia,,,,,Castração Emergencial
+25b7845f,9f2d83d8,31/05/2026 12:54:00,31/05/2026,Bruno,Consulta Veterinária,,,,,
+24910551,e6cb3461,30/12/2025 17:02:51,30/12/2025,Victor,Consulta Veterinária,,,,,
+5220fe36,e6cb3461,15/02/2026 09:04:55,15/02/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+a899636a,8dc86196,06/02/2026 16:28:49,06/02/2026,Victor,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+67034633,8dc86196,04/03/2026 09:45:09,04/03/2026,Victor,Consulta Veterinária,,,,,
+9800a10c,8559774d,03/04/2026 15:40:08,03/04/2026,Bruno,Vacina,,,Rinotraqueíte,Vacina Rinotraqueíte,
+d45fea50,8559774d,29/03/2026 14:02:28,29/03/2026,Bruno,Cirurgia,,,,,Ortopedia
+4343dc4f,8559774d,27/01/2026 08:35:41,27/01/2026,Bruno,Vacina,,,Panleucopenia,Vacina Panleucopenia,
+2da244f0,8559774d,14/04/2026 15:43:55,14/04/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+9e820984,8e8fbbda,15/05/2026 10:44:09,15/05/2026,Michelly,Medicamento,Suplementos / Vitaminas,Vitamina B12,,,
+23cb7813,8e8fbbda,22/04/2026 11:38:22,22/04/2026,Michelly,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+52b85b0c,2ee32457,05/03/2026 11:50:52,05/03/2026,Aelton,Cirurgia,,,,,Amputação
+ca4ea602,2ee32457,14/03/2026 14:52:44,14/03/2026,Aelton,Medicamento,Outro,Soro Fisiológico,,,
+fe316ee6,5bd67dfd,01/05/2026 15:36:31,01/05/2026,Victor,Medicamento,Dermatológico,Shampoo Clorexidina,,,
+b87811e4,5bd67dfd,04/01/2026 09:27:21,04/01/2026,Victor,Vacina,,,Gastrointestinal,Vacina Giárdia,
+e955357a,5bd67dfd,07/01/2026 13:40:13,07/01/2026,Victor,Cirurgia,,,,,Amputação
+f7383d30,d5716804,01/06/2026 14:55:26,01/06/2026,Bruno,Medicamento,Antiparasitario externo,NexGard,,,
+633b6110,48723bb4,19/04/2026 15:00:31,19/04/2026,Victor,Cirurgia,,,,,Castração Emergencial
+920f045c,1329155b,13/05/2026 11:57:27,13/05/2026,Victor,Consulta Veterinária,,,,,
+c08ea0b4,1329155b,25/09/2025 11:58:08,25/09/2025,Victor,Castração,,,,,Castração Eletiva
+1a1c10e5,1329155b,17/10/2025 16:45:18,17/10/2025,Victor,Cirurgia,,,,,Remoção de Nódulo
+712025f2,992d6e23,20/03/2026 18:31:08,20/03/2026,Aelton,Castração,,,,,Castração Eletiva
+e767d963,992d6e23,05/09/2025 09:43:06,05/09/2025,Aelton,Cirurgia,,,,,Castração Emergencial
+adfdc3fb,992d6e23,07/04/2026 16:05:23,07/04/2026,Aelton,Medicamento,Hormônio,Insulina,,,
+dd173421,3e06f485,17/08/2025 09:10:10,17/08/2025,Aelton,Medicamento,Ontológico,Limpador Auricular,,,
+42536de1,3e06f485,26/04/2026 11:25:18,26/04/2026,Aelton,Castração,,,,,Castração Eletiva
+41dfef33,3e06f485,07/08/2025 11:27:02,07/08/2025,Aelton,Vacina,,,Tétano,Toxoide Tetânico,
+d49e9bb3,3e06f485,11/11/2025 09:04:54,11/11/2025,Aelton,Consulta Veterinária,,,,,
+c1bfd3be,ac531c21,24/05/2026 09:35:41,24/05/2026,Aelton,Castração,,,,,Castração Eletiva
+85799582,ac531c21,26/04/2026 09:34:29,26/04/2026,Aelton,Cirurgia,,,,,Ortopedia
+e970625f,d41197a5,24/03/2026 08:57:17,24/03/2026,Bruno,Medicamento,Cardiológico,Enalapril,,,
+aae3b6bd,d41197a5,01/12/2025 10:06:14,01/12/2025,Bruno,Cirurgia,,,,,Ortopedia
+6876f37d,d41197a5,27/12/2025 14:44:09,27/12/2025,Bruno,Cirurgia,,,,,Amputação
+0e526cf9,d41197a5,21/01/2026 15:09:46,21/01/2026,Bruno,Cirurgia,,,,,Ortopedia
+6dc73340,aedb5033,18/04/2026 10:18:38,18/04/2026,Victor,Castração,,,,,Castração Eletiva
+3f14b34a,aedb5033,11/01/2026 10:01:13,11/01/2026,Victor,Medicamento,Anestésico / Sedativo,Cetamina,,,
+2e00fa4f,aedb5033,17/09/2025 13:22:19,17/09/2025,Victor,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+c2575acd,6602187d,09/01/2026 18:10:00,09/01/2026,Victor,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+2a96cd18,6602187d,03/09/2025 08:26:15,03/09/2025,Victor,Cirurgia,,,,,Castração Emergencial
+82cb99e9,6602187d,14/01/2026 16:54:58,14/01/2026,Victor,Cirurgia,,,,,Ortopedia
+8b60e8fd,6602187d,04/06/2026 17:53:30,04/06/2026,Victor,Vacina,,,Clostridial,Polivalente Clostridial,
+f8b71763,a0b89453,10/06/2026 17:14:53,10/06/2026,Michelly,Consulta Veterinária,,,,,
+6e89ee4b,a0b89453,02/06/2026 08:52:22,02/06/2026,Michelly,Castração,,,,,Castração Eletiva
+ac6e9004,8bf1b522,28/05/2026 14:34:27,28/05/2026,Aelton,Cirurgia,,,,,Amputação
+0ce60913,8bf1b522,04/01/2026 08:21:56,04/01/2026,Aelton,Castração,,,,,Castração Eletiva
+ff4405bf,8bf1b522,27/12/2025 17:24:40,27/12/2025,Aelton,Vacina,,,Cinomose,Vacina Cinomose (Isolada),
+2bfc5ac3,8bf1b522,26/04/2026 15:16:49,26/04/2026,Aelton,Consulta Veterinária,,,,,
+e5e99e9e,39c0b0e6,18/01/2026 16:33:01,18/01/2026,Victor,Castração,,,,,Castração Eletiva
+8c993fa6,39c0b0e6,09/05/2026 09:35:44,09/05/2026,Victor,Vacina,,,Reprodutiva,Vacina Específica,
+be4c3598,39c0b0e6,31/07/2025 15:48:42,31/07/2025,Victor,Medicamento,Antiviral,Interferon,,,
+ebf11d30,a0d0f764,14/04/2026 14:35:28,14/04/2026,Aelton,Consulta Veterinária,,,,,
+f4e6c1ef,a0d0f764,19/04/2026 17:56:10,19/04/2026,Aelton,Castração,,,,,Castração Eletiva
+b9c345ed,a0d0f764,22/05/2026 11:01:39,22/05/2026,Aelton,Consulta Veterinária,,,,,
+016c58fe,a23297ad,09/04/2026 17:05:50,09/04/2026,Victor,Cirurgia,,,,,Amputação
+9ee7cd40,9e6f4c05,28/05/2026 09:38:13,28/05/2026,Bruno,Cirurgia,,,,,Remoção de Nódulo
+333be767,783699c7,08/04/2026 08:07:59,08/04/2026,Victor,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+f5877deb,783699c7,09/01/2026 18:46:37,09/01/2026,Victor,Vacina,,,Calicivirose,Vacina Calicivirose,
+716228de,165e22ff,08/02/2026 18:04:50,08/02/2026,Bruno,Castração,,,,,Castração Eletiva
+3d0c4d8a,934fe6f3,30/01/2026 10:21:43,30/01/2026,Michelly,Cirurgia,,,,,Remoção de Nódulo
+247c4e26,9c01351d,08/03/2026 09:07:46,08/03/2026,Michelly,Cirurgia,,,,,Amputação
+89094255,9c01351d,03/09/2025 09:54:34,03/09/2025,Michelly,Consulta Veterinária,,,,,
+e71e06ef,bd29e5ca,22/12/2025 10:57:13,22/12/2025,Victor,Medicamento,Antialérgico,Apoquel,,,
+81fa5ba2,bd29e5ca,22/12/2025 08:53:16,22/12/2025,Victor,Cirurgia,,,,,Castração Emergencial
+3343e315,bd29e5ca,15/01/2026 16:37:18,15/01/2026,Victor,Castração,,,,,Castração Eletiva
+9e5d4734,bd29e5ca,01/04/2026 12:39:01,01/04/2026,Victor,Consulta Veterinária,,,,,
+76cbfae4,a430d4fb,12/05/2026 14:54:54,12/05/2026,Victor,Castração,,,,,Castração Eletiva
+2ac35ea3,ae797aa4,05/04/2026 10:26:43,05/04/2026,Aelton,Cirurgia,,,,,Amputação
+560a9319,ae797aa4,24/03/2026 14:08:41,24/03/2026,Aelton,Vacina,,,Calicivirose,Vacina Calicivirose,
+c2a75093,ae797aa4,06/06/2026 12:11:21,06/06/2026,Aelton,Medicamento,Cardiológico,Pimobendan,,,
+292c1c6b,5af719e2,21/03/2026 11:03:01,21/03/2026,Aelton,Cirurgia,,,,,Ortopedia
+0927eabf,5af719e2,05/04/2026 17:06:32,05/04/2026,Aelton,Consulta Veterinária,,,,,
+fbe2e13c,5af719e2,03/05/2026 11:55:47,03/05/2026,Aelton,Cirurgia,,,,,Amputação
+e6300841,5af719e2,31/03/2026 11:08:01,31/03/2026,Aelton,Medicamento,Cardiológico,Enalapril,,,
+8203f402,35db501b,04/05/2026 13:13:58,04/05/2026,Michelly,Medicamento,Respiratório,Acetilcisteína,,,
+dff24506,35db501b,10/05/2026 12:55:33,10/05/2026,Michelly,Medicamento,Antibiótico,Doxiciclina,,,
+c0720a2e,35db501b,11/03/2026 08:07:43,11/03/2026,Michelly,Vacina,,,Newcastle,Vacina Newcastle,
+ae445599,766580fa,07/10/2025 13:13:01,07/10/2025,Bruno,Consulta Veterinária,,,,,
+41e08595,766580fa,14/01/2026 12:19:19,14/01/2026,Bruno,Consulta Veterinária,,,,,
+f332cc18,766580fa,22/10/2025 16:26:14,22/10/2025,Bruno,Vacina,,,Respiratória,Vacina Gripe Canina (Bordetella),
+06dbbc06,e8ff7c97,20/04/2026 08:20:59,20/04/2026,Aelton,Castração,,,,,Castração Eletiva
+ab5a9143,e8ff7c97,06/03/2026 12:29:40,06/03/2026,Aelton,Castração,,,,,Castração Eletiva
+d2473296,2ae3960e,06/03/2026 13:10:11,06/03/2026,Michelly,Medicamento,Antialérgico,Loratadina,,,
+73234a25,496e830f,14/06/2026 09:36:21,14/06/2026,Victor,Castração,,,,,Castração Eletiva
+bfc7f904,9c86871f,24/11/2025 09:29:34,24/11/2025,Aelton,Castração,,,,,Castração Eletiva
+08d3e4c3,9c86871f,02/12/2025 16:14:15,02/12/2025,Aelton,Cirurgia,,,,,Ortopedia
+08934b40,9c86871f,21/01/2026 08:54:32,21/01/2026,Aelton,Castração,,,,,Castração Eletiva
+52061bc4,9c86871f,22/03/2026 16:59:13,22/03/2026,Aelton,Cirurgia,,,,,Remoção de Nódulo
+d396f78a,785cc680,26/04/2026 12:43:57,26/04/2026,Victor,Vacina,,,Tétano,Soro Antitetânico,
+58cc34d5,67889971,28/08/2025 18:33:08,28/08/2025,Bruno,Medicamento,Respiratório,Acetilcisteína,,,
+efbf6b5e,d7f62257,25/05/2026 14:13:41,25/05/2026,Aelton,Castração,,,,,Castração Eletiva
+9c225c64,d7f62257,12/05/2026 13:34:48,12/05/2026,Aelton,Consulta Veterinária,,,,,
+2ac317eb,430f4174,31/05/2026 08:51:12,31/05/2026,Victor,Cirurgia,,,,,Remoção de Nódulo
+32007693,3e998313,08/06/2026 12:32:07,08/06/2026,Michelly,Castração,,,,,Castração Eletiva
+d869e6f9,3e998313,09/06/2026 14:00:31,09/06/2026,Michelly,Vacina,,,Marek,Vacina Doença de Marek,
+096c6744,3e998313,04/06/2026 17:58:30,04/06/2026,Michelly,Medicamento,Antifúngico,Cetoconazol,,,
+bb878ed7,d3533fea,03/05/2026 13:55:32,03/05/2026,Aelton,Cirurgia,,,,,Castração Emergencial
+82618094,d3533fea,02/04/2026 17:18:02,02/04/2026,Aelton,Consulta Veterinária,,,,,
+af4f7815,aade1d4b,21/04/2026 12:19:34,21/04/2026,Michelly,Vacina,,,Leptospirose,Vacina Leptospirose (Isolada),
+0dede370,aade1d4b,06/03/2026 17:19:59,06/03/2026,Michelly,Medicamento,Oftálmico,Colírio Tobramicina,,,
+faaea127,aade1d4b,11/06/2026 08:25:34,11/06/2026,Michelly,Cirurgia,,,,,Ortopedia
+dd1b2b60,aade1d4b,25/03/2026 08:34:27,25/03/2026,Michelly,Castração,,,,,Castração Eletiva
+83ad51c5,36cd7bdb,22/05/2026 09:37:30,22/05/2026,Bruno,Consulta Veterinária,,,,,
+8537174c,36cd7bdb,21/11/2025 08:33:26,21/11/2025,Bruno,Consulta Veterinária,,,,,
+e474021f,36cd7bdb,08/11/2025 13:12:04,08/11/2025,Bruno,Cirurgia,,,,,Remoção de Nódulo
+edd77eb9,36cd7bdb,16/05/2026 16:36:08,16/05/2026,Bruno,Vacina,,,Calicivirose,Vacina Calicivirose,

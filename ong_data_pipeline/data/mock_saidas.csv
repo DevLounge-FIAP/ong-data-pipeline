@@ -1,0 +1,201 @@
+﻿id_saida,id_animal,carimbo_ts,data_da_saida,motivo_da_saida,nome_do_adotante_tutor,telefone_de_contato,cidade_de_destino,bairro_de_destino,numero_do_imovel,tipo_do_imovel
+ec341bbb,62b6246e,20/01/2026 14:02:10,20/01/2026,Adoção Definitiva,José Pedro da Mata,+55 (085) 99017-6691,Passo Fundo,Baleia,1,Sobrado
+9ebb6ed9,75996da1,13/06/2026 11:13:36,13/06/2026,Lar Temporário,Alexandre Rodrigues,+55 (089) 95488-7827,Passo Fundo,Itatiaia,11,Apartamento
+d683292d,1c15cd7d,05/12/2025 16:24:30,05/12/2025,Óbito,,,,,,
+7aaff4a9,b071be18,31/01/2026 16:34:49,31/01/2026,Transferência,Ravy Gomes,+55 (50) 9 2645 6002,Passo Fundo,Vitoria Da Conquista,89,Sobrado
+f033d02b,74150122,12/01/2026 11:15:32,12/01/2026,Transferência,Pedro Henrique Sales,+55 (65) 96788-6463,Passo Fundo,Boa Esperança,877,Sobrado
+144d7284,40acdf9a,03/02/2026 18:51:55,03/02/2026,Lar Temporário,Sophie Casa Grande,+55 39 9 6960 2409,Passo Fundo,Aarão Reis,4,Apartamento
+98fd109b,9f1c0e6f,05/06/2026 16:46:35,05/06/2026,Transferência,Maysa Dias,+55 17 9 5421 5220,Passo Fundo,Conjunto Paulo Vi,806,Sobrado
+7abf4f55,e6cb3461,09/03/2026 15:55:02,09/03/2026,Lar Temporário,Lucas Gabriel Freitas,+55 41 9 9761 6178,Passo Fundo,Santa Amelia,97,Apartamento
+c830232b,8e8fbbda,07/04/2026 12:50:57,07/04/2026,Adoção Definitiva,Dra. Brenda Porto,+55 15 91617-5042,Passo Fundo,Inconfidência,24,Kitnet
+3880c493,ea829e0d,20/07/2025 14:37:59,20/07/2025,Lar Temporário,Igor Cavalcanti,+55 (86) 93071-0855,Passo Fundo,Providencia,7,Apartamento
+dcea6e9d,c5c93812,26/05/2026 13:37:51,26/05/2026,Fuga,,,,,,
+f459bd05,9e78eef2,31/03/2026 08:05:03,31/03/2026,Adoção Definitiva,Paulo Cassiano,+55 (30) 92589-8668,Passo Fundo,Vila Nova Cachoeirinha 1ª Seção,18,Kitnet
+6ff5ae38,de74793b,10/03/2026 09:28:08,10/03/2026,Fuga,,,,,,
+a8e269fe,32f4346f,05/05/2026 17:14:43,05/05/2026,Óbito,,,,,,
+74068fbd,db987d2f,19/05/2026 15:59:39,19/05/2026,Óbito,,,,,,
+da397e53,49f49538,23/05/2026 09:27:05,23/05/2026,Lar Temporário,Nicolas Cavalcanti,+55 03 95845 4245,Passo Fundo,Vila Aeroporto,92,Kitnet
+2c1eaf93,8271b8d2,19/12/2025 11:41:46,19/12/2025,Fuga,,,,,,
+964d1d44,ec17259b,28/01/2026 11:18:15,28/01/2026,Lar Temporário,Srta. Pietra Machado,+55 10 9 3265-9726,Passo Fundo,Engenho Nogueira,8,Kitnet
+8b5bdb8f,7cc4a999,27/05/2026 15:22:48,27/05/2026,Adoção Definitiva,Eduarda Nascimento,+55 41 9 0954 8655,Passo Fundo,Cdi Jatoba,86,Sobrado
+04d864da,67889971,22/01/2026 18:24:26,22/01/2026,Lar Temporário,Rafael Pacheco,+55 62 9 4340 8322,Passo Fundo,Cônego Pinheiro 2ª Seção,9,Kitnet
+7e96d9e7,1847be9a,10/04/2026 14:39:43,10/04/2026,Lar Temporário,Aurora Pimenta,+55 (66) 99130-6230,Passo Fundo,Santa Cecilia,17,Casa
+0273be81,c3928330,03/02/2026 17:35:55,03/02/2026,Lar Temporário,João Pedro Azevedo,+55 08 95450-1790,Passo Fundo,Vila Dos Anjos,66,Apartamento
+41a7ba3c,11e45768,30/11/2025 15:37:29,30/11/2025,Óbito,,,,,,
+3d38be9a,4cf4a51d,28/05/2026 16:53:05,28/05/2026,Adoção Definitiva,Maria Julia Freitas,+55 (042) 97946 6722,Passo Fundo,Sport Club,10,Sobrado
+0854e86f,59a24199,05/06/2026 17:02:39,05/06/2026,Transferência,Daniel Cirino,+55 (059) 97737 3859,Passo Fundo,Jardim Leblon,6,Apartamento
+01f50351,8c266363,14/06/2026 09:48:34,14/06/2026,Óbito,,,,,,
+f4f484f9,bf1ec014,10/09/2025 08:46:46,10/09/2025,Transferência,Sophie Santos,+55 52 9 7216 8668,Passo Fundo,Leticia,68,Kitnet
+8b8c17e3,64642d73,20/02/2026 11:02:42,20/02/2026,Transferência,Camila da Conceição,+55 19 9 0979-6934,Passo Fundo,Vila Maria,708,Sobrado
+ffb126bd,7af4fff3,19/04/2026 11:15:26,19/04/2026,Adoção Definitiva,Arthur Pereira,+55 (098) 97929 5280,Passo Fundo,Vista Alegre,12,Sobrado
+83b7f2cf,0f5f9747,29/01/2026 17:16:29,29/01/2026,Transferência,Henry Gabriel da Paz,+55 (033) 90431-8874,Passo Fundo,Flavio Marques Lisboa,4,Kitnet
+d4bf788e,9f105079,02/03/2026 09:31:04,02/03/2026,Transferência,Noah Abreu,+55 (005) 97071-9053,Passo Fundo,Apolonia,95,Sobrado
+ce934345,d9f466f2,03/03/2026 17:37:00,03/03/2026,Lar Temporário,Samuel Novais,+55 (57) 94977-8536,Passo Fundo,Horto Florestal,902,Sobrado
+0dd9bed7,5836d133,05/04/2026 13:01:22,05/04/2026,Fuga,,,,,,
+876ea9af,242227ff,01/11/2025 17:05:02,01/11/2025,Lar Temporário,Juan da Luz,+55 (018) 95550 5349,Passo Fundo,Palmeiras,64,Kitnet
+68edad00,36a148dc,08/05/2026 11:13:55,08/05/2026,Adoção Definitiva,Bruno Alves,+55 06 91613 7658,Passo Fundo,São Jorge 2ª Seção,48,Apartamento
+c7edbd9a,109d008e,06/06/2026 12:05:15,06/06/2026,Óbito,,,,,,
+13a260d2,5d2d72c5,12/03/2026 11:36:31,12/03/2026,Adoção Definitiva,Marcela Moraes,+55 (041) 98323 9168,Passo Fundo,Santa Terezinha,15,Kitnet
+f392f87a,358475e5,07/02/2026 16:21:13,07/02/2026,Óbito,,,,,,
+1d96d9a4,18008b77,30/04/2026 09:25:01,30/04/2026,Transferência,Melissa Fernandes,+55 (01) 9 0918-5400,Passo Fundo,Salgado Filho,870,Apartamento
+c50757e9,bf2c1143,30/12/2025 17:26:02,30/12/2025,Lar Temporário,Dom Pinto,+55 27 96361-6992,Passo Fundo,Vila Real 1ª Seção,25,Kitnet
+1065e483,8c4b2bbe,05/05/2026 18:38:20,05/05/2026,Transferência,Sra. Ana Ribeiro,+55 (11) 93477-9110,Passo Fundo,Aguas Claras,518,Casa
+c498b555,35d4d299,22/05/2026 13:05:35,22/05/2026,Lar Temporário,Helena Pinto,+55 40 9 1000-0493,Passo Fundo,Vila Maloca,144,Kitnet
+ee0ee9d0,60bdc9fb,02/04/2026 14:24:22,02/04/2026,Óbito,,,,,,
+f0db9657,4a9f3780,13/12/2025 15:37:10,13/12/2025,Transferência,Vinicius da Cunha,+55 45 9 2798-3490,Passo Fundo,Campo Alegre,49,Casa
+cf4ee592,e2ad32c8,07/06/2026 18:49:30,07/06/2026,Lar Temporário,Ana Julia Almeida,+55 (49) 9 1856 6636,Passo Fundo,Ermelinda,698,Kitnet
+6e6bb4ca,81856c7e,12/02/2026 18:52:59,12/02/2026,Adoção Definitiva,Luna Cirino,+55 (04) 9 2491-5223,Passo Fundo,Serra,5,Apartamento
+0ab52778,962e7fbe,28/03/2026 09:33:40,28/03/2026,Fuga,,,,,,
+294db57c,189e3b98,02/06/2026 14:11:27,02/06/2026,Transferência,Ana Vitória Pimenta,+55 92 9 8441 9508,Passo Fundo,Conjunto Califórnia Ii,9,Kitnet
+d8e9b2b1,d9997ae0,06/04/2026 09:51:38,06/04/2026,Fuga,,,,,,
+e723a907,2df89e16,28/04/2026 08:09:41,28/04/2026,Lar Temporário,Vitor Gabriel Pereira,+55 (89) 9 9495-7955,Passo Fundo,Aarão Reis,67,Kitnet
+7ac2d3cd,0aef4f06,29/05/2026 11:48:10,29/05/2026,Óbito,,,,,,
+3e6eb9e5,3e06f485,01/05/2026 10:33:54,01/05/2026,Transferência,Eduarda Moreira,+55 54 96906-2359,Passo Fundo,Castanheira,23,Kitnet
+8fdd724d,4db64208,15/05/2026 14:01:37,15/05/2026,Fuga,,,,,,
+80537cec,8cf2bc5e,19/05/2026 17:26:19,19/05/2026,Adoção Definitiva,Theodoro Dias,+55 04 94190-5574,Passo Fundo,Monte Azul,55,Apartamento
+50a24139,abb85dec,14/03/2026 09:33:47,14/03/2026,Transferência,Lara Rodrigues,+55 (85) 98229-6121,Passo Fundo,Conjunto Califórnia I,7,Casa
+1142a403,acb8f8f4,10/11/2025 09:16:03,10/11/2025,Lar Temporário,Ana Vitória Cavalcanti,+55 41 98492 8669,Passo Fundo,Pilar,89,Kitnet
+5ba8155a,cd483302,26/04/2026 09:50:43,26/04/2026,Óbito,,,,,,
+590c49f2,a1106499,27/12/2025 15:22:57,27/12/2025,Fuga,,,,,,
+1ac3fb33,1e561a1d,12/06/2026 14:01:24,12/06/2026,Óbito,,,,,,
+abb998da,d8f966be,19/05/2026 12:12:44,19/05/2026,Lar Temporário,Luigi da Costa,+55 81 9 4610 5933,Passo Fundo,Caiçara - Adelaide,18,Casa
+799bfc99,1329155b,22/04/2026 09:21:42,22/04/2026,Fuga,,,,,,
+da9b4388,d881fc63,13/04/2026 08:32:46,13/04/2026,Transferência,Dra. Liz Aparecida,+55 61 91142-0965,Passo Fundo,Nossa Senhora Do Rosário,3,Kitnet
+c3521e92,362f43e7,11/05/2026 14:33:36,11/05/2026,Fuga,,,,,,
+290c2dd7,5bc8d90b,30/01/2026 16:33:10,30/01/2026,Adoção Definitiva,Maria Fernanda da Mata,+55 04 97537 8221,Passo Fundo,Santa Efigênia,3,Sobrado
+3fc8f74a,5071bee8,27/05/2026 14:02:12,27/05/2026,Fuga,,,,,,
+9340dbac,726ecb2b,14/05/2026 13:11:59,14/05/2026,Transferência,Marcos Vinicius Nascimento,+55 97 9 5843-9176,Passo Fundo,Vila Calafate,52,Sobrado
+16c4c76a,35d6860d,19/01/2026 16:19:02,19/01/2026,Transferência,Lucca Borges,+55 (055) 90808 3381,Passo Fundo,Sport Club,98,Sobrado
+6bf77621,51124357,15/05/2026 09:44:39,15/05/2026,Transferência,Igor Oliveira,+55 26 93120 5803,Passo Fundo,Vera Cruz,45,Apartamento
+22248b38,f90a5bef,12/04/2026 14:30:22,12/04/2026,Transferência,Dra. Melina Sá,+55 (93) 98977 5939,Passo Fundo,Havaí,8,Casa
+86676bf9,a3d1d6f8,17/05/2026 12:41:02,17/05/2026,Transferência,Isabella Andrade,+55 37 91627-1379,Passo Fundo,Lagoinha,35,Apartamento
+1a0bc944,cea5bb3a,19/09/2025 18:02:25,19/09/2025,Adoção Definitiva,Dante da Luz,+55 (56) 96073-5786,Passo Fundo,Alta Tensão 1ª Seção,57,Kitnet
+882e74fb,7306855f,28/01/2026 11:59:04,28/01/2026,Óbito,,,,,,
+3b3d759c,cf277149,06/06/2026 13:24:18,06/06/2026,Transferência,Ana Cassiano,+55 (67) 90169 3630,Passo Fundo,Jardim Vitoria,19,Kitnet
+cd184dd4,ce663963,01/06/2026 11:24:24,01/06/2026,Adoção Definitiva,Dr. Ryan Oliveira,+55 (26) 9 5292 3593,Passo Fundo,Vila Cemig,11,Kitnet
+eac6e6fe,54e348c0,05/01/2026 12:46:20,05/01/2026,Fuga,,,,,,
+ca0769b7,35de37c1,13/10/2025 12:46:10,13/10/2025,Transferência,Bianca Cavalcante,+55 (000) 97793 2550,Passo Fundo,Beija Flor,1,Sobrado
+5d8d8b69,2a33ac31,04/10/2025 17:26:02,04/10/2025,Óbito,,,,,,
+36207ce3,6460fe94,28/04/2026 17:19:26,28/04/2026,Transferência,Liz Aparecida,+55 66 9 2945 8837,Passo Fundo,Buraco Quente,64,Casa
+ce38b2f9,1effc669,09/03/2026 18:57:54,09/03/2026,Óbito,,,,,,
+a37c0bdc,68fa6a7b,02/05/2026 16:40:23,02/05/2026,Adoção Definitiva,Ísis Fonseca,+55 72 94398-9388,Passo Fundo,São José,21,Sobrado
+e6f3556e,8547cad2,18/02/2026 15:05:51,18/02/2026,Adoção Definitiva,Rafael Leão,+55 (074) 91131-5930,Passo Fundo,Maria Virgínia,2,Casa
+53cfa8de,a33939da,28/05/2026 08:33:56,28/05/2026,Fuga,,,,,,
+34c1b032,5b8b9ba3,01/05/2026 17:46:30,01/05/2026,Adoção Definitiva,Olivia Viana,+55 (09) 9 4712-1678,Passo Fundo,Renascença,2,Casa
+20205a7f,e24d7bfc,26/05/2026 10:03:27,26/05/2026,Lar Temporário,Benicio Souza,+55 (25) 93856 8482,Passo Fundo,Santana Do Cafezal,54,Casa
+d4e9665f,830a6aee,07/05/2026 14:04:23,07/05/2026,Fuga,,,,,,
+1bad1fea,2f3c3160,14/06/2026 14:22:09,14/06/2026,Fuga,,,,,,
+11562cbf,3053a93c,02/04/2026 17:27:44,02/04/2026,Óbito,,,,,,
+40fe92cd,2d14d026,07/02/2026 18:58:18,07/02/2026,Adoção Definitiva,Levi Azevedo,+55 (45) 96503 7760,Passo Fundo,Camponesa 1ª Seção,93,Kitnet
+bd69ea7d,c10f3792,12/04/2026 10:22:30,12/04/2026,Adoção Definitiva,Sr. Cauã Montenegro,+55 25 99331 9387,Passo Fundo,Estoril,52,Casa
+ac1b8ace,2c075899,18/05/2026 18:13:21,18/05/2026,Lar Temporário,Maria Flor da Paz,+55 (030) 93356 3616,Passo Fundo,Ambrosina,4,Apartamento
+9c6f13d7,e24e8e3c,06/05/2026 15:13:38,06/05/2026,Óbito,,,,,,
+711cb906,9c86871f,05/02/2026 14:51:19,05/02/2026,Fuga,,,,,,
+3e258485,289906ba,04/04/2026 13:18:22,04/04/2026,Transferência,Sr. Mateus Correia,+55 (50) 92202-6645,Passo Fundo,Maria Goretti,23,Apartamento
+13d37992,c543fea6,23/05/2026 09:25:47,23/05/2026,Fuga,,,,,,
+07d9886a,1d839d19,10/06/2026 17:59:53,10/06/2026,Transferência,Maria Cecília Fonseca,+55 (73) 9 5966 0226,Passo Fundo,São Benedito,38,Apartamento
+51821d8b,45971ff7,01/03/2026 15:15:39,01/03/2026,Adoção Definitiva,Cauã Pires,+55 (76) 9 6326-4445,Passo Fundo,Funcionários,136,Sobrado
+ce8d2de3,7c27a993,07/04/2026 16:24:35,07/04/2026,Adoção Definitiva,Dr. Luiz Henrique da Rosa,+55 (073) 94710-6041,Passo Fundo,São Francisco,659,Kitnet
+0fd14849,e9954710,26/11/2025 14:50:57,26/11/2025,Óbito,,,,,,
+68aa84a8,706f5b5b,17/12/2025 11:01:03,17/12/2025,Adoção Definitiva,João Guilherme Jesus,+55 (053) 95103 6731,Passo Fundo,Dom Bosco,15,Casa
+ddf313ba,431902ee,14/04/2026 16:12:55,14/04/2026,Transferência,Josué Porto,+55 (96) 91391-4421,Passo Fundo,Ipiranga,38,Kitnet
+f91fca88,0da59074,18/02/2026 10:41:02,18/02/2026,Lar Temporário,Vitória Silva,+55 29 92583 3242,Passo Fundo,Vila São João Batista,88,Sobrado
+1c872b0e,bb25e752,26/02/2026 15:56:45,26/02/2026,Fuga,,,,,,
+a5db7368,1840a74b,12/03/2026 10:32:23,12/03/2026,Lar Temporário,Luana Souza,+55 53 9 1718 7274,Passo Fundo,Granja Werneck,16,Kitnet
+db56ae1e,dd5dd34c,06/03/2026 18:15:43,06/03/2026,Fuga,,,,,,
+dc694ef6,6031b9ef,04/04/2026 09:18:23,04/04/2026,Fuga,,,,,,
+d655d726,e768812d,18/05/2026 13:31:25,18/05/2026,Transferência,Helena Moura,+55 (088) 93660 0757,Passo Fundo,Boa União 1ª Seção,81,Apartamento
+2b023426,193b6be0,14/01/2026 12:22:20,14/01/2026,Adoção Definitiva,Bárbara Gomes,+55 (46) 99341-3019,Passo Fundo,Gutierrez,90,Kitnet
+debc3fcf,48c8de07,04/01/2026 17:41:30,04/01/2026,Óbito,,,,,,
+bfe9531f,d042fc53,16/01/2026 18:11:44,16/01/2026,Fuga,,,,,,
+05a60396,9c01351d,14/09/2025 13:26:43,14/09/2025,Óbito,,,,,,
+207cc902,65788c3b,05/03/2026 15:27:50,05/03/2026,Óbito,,,,,,
+2e1d7a48,ed5ce097,29/05/2026 18:54:22,29/05/2026,Fuga,,,,,,
+cae18a31,430f4174,31/03/2026 16:49:35,31/03/2026,Adoção Definitiva,Sr. Henrique Araújo,+55 78 9 5822-9172,Passo Fundo,Guarani,83,Kitnet
+30e404cd,137c0a5d,27/07/2025 10:20:52,27/07/2025,Óbito,,,,,,
+3ef470c2,69367598,27/09/2025 15:19:49,27/09/2025,Lar Temporário,Gael Henrique Cirino,+55 (37) 96370 1159,Passo Fundo,São Vicente,234,Sobrado
+ad6315f0,262352d4,19/05/2026 08:19:27,19/05/2026,Fuga,,,,,,
+95e2b673,018945a3,27/02/2026 14:26:01,27/02/2026,Transferência,Asafe Cardoso,+55 58 91474 0167,Passo Fundo,São Gonçalo,219,Apartamento
+58e02372,a26b2dfd,22/02/2026 08:27:55,22/02/2026,Óbito,,,,,,
+ff3d27a9,bf1b9330,24/11/2025 14:48:36,24/11/2025,Adoção Definitiva,Dr. José Pedro Ferreira,+55 (026) 91942-0260,Passo Fundo,João Alfredo,251,Sobrado
+14c71663,e7227a43,14/06/2026 11:50:37,14/06/2026,Adoção Definitiva,Sr. Murilo Casa Grande,+55 (43) 97895-7899,Passo Fundo,Vila Novo São Lucas,89,Sobrado
+e8794773,d28457b7,16/05/2026 10:59:02,16/05/2026,Transferência,Ana Luiza Guerra,+55 94 98581 8386,Passo Fundo,Cruzeiro,420,Sobrado
+5ee43035,8388928b,28/04/2026 12:56:32,28/04/2026,Fuga,,,,,,
+703df436,63108878,14/04/2026 17:32:18,14/04/2026,Óbito,,,,,,
+1c1572c6,a2e866b8,03/05/2026 14:52:37,03/05/2026,Transferência,Apollo Duarte,+55 (14) 9 0496-7172,Passo Fundo,Conjunto Serra Verde,411,Apartamento
+1480f122,d1353c05,01/06/2026 11:16:32,01/06/2026,Adoção Definitiva,Théo Moraes,+55 14 9 5622-2338,Passo Fundo,Nova Gameleira,92,Casa
+94c76045,b2880b70,22/03/2026 09:03:57,22/03/2026,Óbito,,,,,,
+e281de48,555ee0e3,14/05/2026 18:41:48,14/05/2026,Adoção Definitiva,Cecilia Farias,+55 (40) 9 9786-9134,Passo Fundo,Piraja,8,Apartamento
+32fd5985,7c535851,17/05/2026 16:34:49,17/05/2026,Transferência,Dra. Sabrina Pereira,+55 (077) 94188-0165,Passo Fundo,Pompéia,3,Casa
+82174d54,b6d3133d,25/04/2026 15:15:20,25/04/2026,Transferência,Dr. Rhavi Cavalcanti,+55 19 9 1366-4601,Passo Fundo,Alto Caiçaras,21,Kitnet
+43069b7f,c877de16,12/06/2026 12:23:55,12/06/2026,Fuga,,,,,,
+1ea56514,8040a6c3,02/06/2026 13:26:42,02/06/2026,Fuga,,,,,,
+df39a36a,06d32fd1,09/03/2026 18:55:26,09/03/2026,Lar Temporário,Antony Cavalcante,+55 09 92593 7477,Passo Fundo,Vila São Paulo,652,Sobrado
+0b576b56,13963be2,14/05/2026 08:39:24,14/05/2026,Fuga,,,,,,
+932b4ca4,8d3e587a,24/04/2026 11:25:37,24/04/2026,Lar Temporário,Sra. Olivia Silva,+55 02 9 3242 1950,Passo Fundo,Vila Independencia 2ª Seção,7,Sobrado
+aabb55d9,8093be90,19/04/2026 15:47:58,19/04/2026,Adoção Definitiva,Maria Helena Abreu,+55 (40) 91965 1821,Passo Fundo,Vila Madre Gertrudes 3ª Seção,92,Casa
+7ff8f450,c3a7f519,15/03/2026 13:48:20,15/03/2026,Lar Temporário,Daniel Pimenta,+55 (004) 97278-3538,Passo Fundo,Olhos D'água,29,Sobrado
+a92e65b4,61c77649,22/12/2025 14:02:20,22/12/2025,Lar Temporário,Sr. Théo Sá,+55 41 91537 0283,Passo Fundo,Mineirão,502,Sobrado
+f105e61e,c40b750c,27/12/2025 11:51:08,27/12/2025,Fuga,,,,,,
+d98e1b92,acb0109b,12/04/2026 10:18:08,12/04/2026,Lar Temporário,Ísis Oliveira,+55 (014) 92396 6733,Passo Fundo,Cabana Do Pai Tomás,460,Casa
+06c342c8,934fe6f3,26/03/2026 16:52:23,26/03/2026,Fuga,,,,,,
+adfffb91,1e85eefd,02/05/2026 13:50:55,02/05/2026,Transferência,Alana Duarte,+55 58 9 6313 5523,Passo Fundo,Vila Pilar,7,Apartamento
+dfdeec30,b3be6718,06/06/2026 16:02:45,06/06/2026,Óbito,,,,,,
+860e2482,d44a8e25,02/05/2026 14:05:41,02/05/2026,Adoção Definitiva,Sr. Diogo da Rocha,+55 50 95165 8373,Passo Fundo,Paulo Vi,42,Apartamento
+d92e3e87,9f2d83d8,22/05/2026 09:59:10,22/05/2026,Óbito,,,,,,
+9e29c69e,be9ea905,19/02/2026 12:36:43,19/02/2026,Lar Temporário,Cauã Nogueira,+55 (39) 9 3822-0869,Passo Fundo,Vila Das Oliveiras,64,Sobrado
+06e9ae20,4ba46847,28/03/2026 17:07:18,28/03/2026,Adoção Definitiva,Agatha Gonçalves,+55 (77) 9 5036 2548,Passo Fundo,Santo Agostinho,660,Apartamento
+9efd6f30,89c0c2ae,09/06/2026 10:51:50,09/06/2026,Transferência,Ian Camargo,+55 (09) 9 3267 1133,Passo Fundo,Camponesa 1ª Seção,92,Apartamento
+1d75156b,a8ac996f,11/02/2026 10:34:34,11/02/2026,Transferência,Ana Viana,+55 (21) 9 8243 1005,Passo Fundo,Pilar,23,Sobrado
+1d315194,accaf7f8,18/03/2026 10:58:12,18/03/2026,Transferência,Benício Sá,+55 08 9 5861 6095,Passo Fundo,Independência,67,Casa
+713b9417,aade1d4b,27/05/2026 18:25:09,27/05/2026,Fuga,,,,,,
+cd8804e1,785cc680,09/02/2026 16:06:16,09/02/2026,Lar Temporário,Sra. Clara Nascimento,+55 (81) 97330 8269,Passo Fundo,Marieta 2ª Seção,84,Casa
+ce80d0b7,9758cd7a,20/05/2026 09:47:42,20/05/2026,Lar Temporário,Luna Viana,+55 78 91500 4720,Passo Fundo,Jonas Veiga,231,Apartamento
+b53c6ebd,39c0b0e6,02/10/2025 12:44:01,02/10/2025,Óbito,,,,,,
+c4d46e00,7d60527d,22/11/2025 12:02:59,22/11/2025,Lar Temporário,Ian Vasconcelos,+55 (30) 92897 0130,Passo Fundo,Jatobá,73,Sobrado
+6955b63b,55845eec,29/04/2026 16:17:12,29/04/2026,Adoção Definitiva,Alexandre da Paz,+55 06 9 2730 5985,Passo Fundo,Tupi A,66,Kitnet
+2fcff537,e3081f3e,17/05/2026 10:56:43,17/05/2026,Adoção Definitiva,Ester Guerra,+55 25 90034 8874,Passo Fundo,Minas Brasil,82,Apartamento
+d7b34428,7678a2bd,03/06/2026 10:19:58,03/06/2026,Lar Temporário,Mariana Sampaio,+55 (095) 98196 6784,Passo Fundo,Vila Jardim Leblon,98,Sobrado
+57bf2fbc,0d71e9dc,14/06/2026 13:28:07,14/06/2026,Lar Temporário,Igor Sales,+55 (054) 93315 5824,Passo Fundo,Camargos,463,Casa
+95f02f51,b9e2bf51,11/05/2026 08:17:47,11/05/2026,Transferência,Kaique Cunha,+55 (11) 97966 4953,Passo Fundo,Castanheira,3,Kitnet
+10e30cb8,8d7a8f37,21/04/2026 10:51:41,21/04/2026,Lar Temporário,Dante Cardoso,+55 (64) 9 4764-9539,Passo Fundo,Santo Antônio,3,Sobrado
+0b9963b0,2b26df51,09/10/2025 12:13:26,09/10/2025,Fuga,,,,,,
+9557c09e,2721e9b8,09/06/2026 10:38:57,09/06/2026,Óbito,,,,,,
+ecb6f46b,9ae8d3d1,09/06/2026 13:53:27,09/06/2026,Lar Temporário,Benício da Conceição,+55 56 9 2188 4579,Passo Fundo,Mariano De Abreu,613,Apartamento
+95a6e7d2,36cd7bdb,06/12/2025 11:12:29,06/12/2025,Óbito,,,,,,
+4d6d1de8,6154d875,09/05/2026 13:22:17,09/05/2026,Óbito,,,,,,
+0ecfcc82,97c95d1f,03/11/2025 15:43:09,03/11/2025,Fuga,,,,,,
+118b2059,82804770,12/06/2026 12:45:03,12/06/2026,Óbito,,,,,,
+112c7352,8bc5e5bf,27/05/2026 12:25:05,27/05/2026,Adoção Definitiva,Antonella Silva,+55 (63) 9 3909 2020,Passo Fundo,Alto Vera Cruz,70,Kitnet
+a66c3bee,1786245e,17/12/2025 18:29:46,17/12/2025,Óbito,,,,,,
+bcf196a0,29c69cc1,17/05/2026 15:58:55,17/05/2026,Óbito,,,,,,
+7fb1cd62,6c83fe64,29/04/2026 11:17:45,29/04/2026,Transferência,Isabel da Mata,+55 (007) 91008-8660,Passo Fundo,Embaúbas,39,Casa
+e2d2c62d,3afd04ed,26/03/2026 15:15:19,26/03/2026,Adoção Definitiva,Gael Henrique Freitas,+55 82 9 9083 1037,Passo Fundo,Novo Santa Cecilia,321,Casa
+b3144777,e42c6a37,04/03/2026 10:11:02,04/03/2026,Fuga,,,,,,
+72c3ac3e,e0b42ca1,09/10/2025 11:07:17,09/10/2025,Transferência,Juliana Moraes,+55 (23) 9 8277-2067,Passo Fundo,Santa Cruz,29,Casa
+72fc77b2,e06304c2,11/06/2026 18:54:27,11/06/2026,Transferência,Giovanna Oliveira,+55 (052) 96050-6300,Passo Fundo,Vila Suzana Primeira Seção,5,Kitnet
+521e83db,a4028482,19/08/2025 13:35:04,19/08/2025,Óbito,,,,,,
+86793194,affaf22d,23/01/2026 18:43:46,23/01/2026,Fuga,,,,,,
+4c398ae0,36b52d32,13/01/2026 17:15:47,13/01/2026,Fuga,,,,,,
+9a0ba0f1,efc59054,02/12/2025 13:50:27,02/12/2025,Lar Temporário,Maria Luísa Rezende,+55 96 96767-7245,Passo Fundo,Vila São Gabriel Jacui,36,Kitnet
+0edffc0c,cc6ec772,13/06/2026 10:07:32,13/06/2026,Transferência,Maria Cunha,+55 54 93304-3553,Passo Fundo,Inconfidência,19,Sobrado
+3ff84a70,40bff7a5,15/01/2026 18:05:21,15/01/2026,Óbito,,,,,,
+d4130e45,916cd34e,11/05/2026 14:44:25,11/05/2026,Fuga,,,,,,
+c7adf731,08a14194,04/10/2025 14:23:28,04/10/2025,Óbito,,,,,,
+81bb53af,7ee37a35,26/05/2026 18:37:23,26/05/2026,Lar Temporário,Yuri da Costa,+55 (050) 93947 0075,Passo Fundo,Vila Bandeirantes,49,Sobrado
+9f3ccbdd,83afe5f1,03/05/2026 09:10:15,03/05/2026,Óbito,,,,,,
+97d64ebb,02d7ebc7,27/11/2025 18:35:13,27/11/2025,Óbito,,,,,,
+3863ccd4,ceeef7e1,04/10/2025 17:36:07,04/10/2025,Adoção Definitiva,Carolina Azevedo,+55 (013) 97796 4431,Passo Fundo,Fazendinha,59,Casa
+cd7fab95,1c152f84,04/03/2026 09:18:04,04/03/2026,Lar Temporário,Apollo Ferreira,+55 37 91741 5435,Passo Fundo,Boa União 1ª Seção,14,Sobrado
+25b7a035,2a158bd5,18/05/2026 15:03:58,18/05/2026,Óbito,,,,,,
+78be674f,afd4f680,02/02/2026 14:42:31,02/02/2026,Lar Temporário,Marina Dias,+55 (33) 90219-4027,Passo Fundo,São Marcos,55,Apartamento
+3b944a5b,41f2c937,05/03/2026 12:40:29,05/03/2026,Óbito,,,,,,
+0c72392b,6c7b0853,22/04/2026 10:54:02,22/04/2026,Adoção Definitiva,Dr. Felipe Machado,+55 (17) 97313-1904,Passo Fundo,Vila Paris,447,Casa
+5cbb3826,ad380d2c,08/10/2025 11:46:28,08/10/2025,Adoção Definitiva,Renan da Luz,+55 78 9 0220-4842,Passo Fundo,Vila Boa Vista,26,Sobrado
+952bdac8,12055324,05/05/2026 18:07:26,05/05/2026,Transferência,Aurora das Neves,+55 (057) 95139 6499,Passo Fundo,Araguaia,49,Apartamento
+84abf29f,bda38bc6,06/09/2025 09:44:40,06/09/2025,Adoção Definitiva,Marina Rodrigues,+55 (04) 9 5741-1777,Passo Fundo,Casa Branca,5,Kitnet
+af08760b,d7d1332d,03/05/2026 15:15:43,03/05/2026,Lar Temporário,Ravi Lucca Macedo,+55 89 99703-9969,Passo Fundo,Cruzeiro,85,Apartamento
+3be09770,36d7a08f,25/01/2026 18:35:51,25/01/2026,Lar Temporário,Pedro Pinto,+55 (13) 93805 3971,Passo Fundo,Coqueiros,82,Casa
+98417b1b,4aecdbac,01/06/2026 09:47:51,01/06/2026,Adoção Definitiva,Dr. Vitor Gabriel Moreira,+55 (83) 9 5729-2992,Passo Fundo,Confisco,61,Sobrado
+343ba37c,4cba8730,01/05/2026 17:08:14,01/05/2026,Óbito,,,,,,
+2b47a30e,9a1697cc,06/06/2026 10:27:02,06/06/2026,Transferência,Ana Júlia Fonseca,+55 04 9 6291 2057,Passo Fundo,Delta,16,Apartamento
